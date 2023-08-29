@@ -51,7 +51,7 @@ const Review = () => {
                           width={250}
                         /> */}
                         <img
-                          src="/LandingPageAssets/Images/profile.png"
+                          src="/profile.png"
                           alt="My Image"
                           className={`img-fluid ${styles.img}`}
                           width={250}
@@ -95,7 +95,7 @@ const Review = () => {
                         width={250}
                       /> */}
                       <img
-                        src="/LandingPageAssets/Images/profile.png"
+                        src="/profile.png"
                         alt="My Image"
                         className={`img-fluid ${styles.img}`}
                         width={250}

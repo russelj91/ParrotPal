@@ -39,7 +39,7 @@ const Footer = () => {
                     height={28}
                   ></Image> */}
                   <img
-                    src="/landingPageAssets/Images/Facebook.svg"
+                    src="/Facebook.svg"
                     alt="Facebook Icon"
                     className={styles.socIcons}
                     width={28}
@@ -71,7 +71,7 @@ const Footer = () => {
                     height={30}
                   ></Image> */}
                   <img
-                    src="/landingPageAssets/Images/Twitter.svg"
+                    src="/Twitter.svg"
                     alt="Twitter Icon"
                     className={styles.socIcons}
                     width={30}
@@ -87,7 +87,7 @@ const Footer = () => {
                     height={30}
                   ></Image> */}
                   <img
-                    src="/landingPageAssets/Images/Youtube.svg"
+                    src="/Youtube.svg"
                     alt="Youtube Icon"
                     className={styles.socIcons}
                     width={30}
@@ -97,7 +97,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
+          <div className="col-md"></div>
           <div className="col-md pt-5">
             <ul className="list-unstyled">
               <li>

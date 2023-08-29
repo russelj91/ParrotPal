@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "next/image";
-
-import Food1 from "public/landing Page Assets/Images/Image 23.png";
-import icon1 from "public/landing Page Assets/Icons/Icon 1.png";
-import icon2 from "public/landing Page Assets/Icons/Icon 2.png";
-import icon3 from "public/landing Page Assets/Icons/Icon 3.png";
-import icon4 from "public/landing Page Assets/Icons/Icon 4.png";
-import check from "public/landing Page Assets/Icons/Icon 2.png";
 import styles from "./page.module.css";
 
 const Benefits = () => {
+  const Food1URL = "/landing Page Assets/Images/Image 23.png";
+  const icon1URL = "/landing Page Assets/Icons/Icon 1.png";
+  const icon2URL = "/landing Page Assets/Icons/Icon 2.png";
+  const icon3URL = "/landing Page Assets/Icons/Icon 3.png";
+  const icon4URL = "/landing Page Assets/Icons/Icon 4.png";
+  const checkURL = "/landing Page Assets/Icons/Icon 2.png";
   return (
     <section className={styles.benefitsBg}>
       <div className="container py-5">
@@ -24,19 +23,22 @@ const Benefits = () => {
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
             <Image
-              src={Food1}
+              src={Food1URL}
               alt="home"
               className={`img-fluid ${styles.img}`}
+              width={550}
+              height={550}
             />
           </div>
           <div className="col-md">
             <div className="row align-items-center">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon1}
-                  alt="icon1"
-                  className={styles.img1}
+                  src={icon1URL}
+                  alt="home"
+                  className={`img-fluid ${styles.img}`}
                   width={60}
+                  height={60} // Provide the height
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -58,11 +60,11 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon2}
-                  alt="focus"
-                  className={styles.img1}
-                  w
+                  src={icon2URL}
+                  alt="home"
+                  className={`img-fluid ${styles.img}`}
                   width={60}
+                  height={60} // Provide the height
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -82,11 +84,11 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon3}
-                  alt="inspiration"
-                  className={styles.img1}
-                  w
+                  src={icon3URL}
+                  alt="home"
+                  className={`img-fluid ${styles.img}`}
                   width={60}
+                  height={60} // Provide the height
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -107,10 +109,11 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon4}
-                  alt="meal plans"
-                  className={styles.img1}
+                  src={icon4URL}
+                  alt="home"
+                  className={`img-fluid ${styles.img}`}
                   width={60}
+                  height={60} // Provide the height
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -131,10 +134,11 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={check}
-                  alt="chef"
-                  className={styles.img2}
+                  src={checkURL}
+                  alt="home"
+                  className={`img-fluid ${styles.img}`}
                   width={60}
+                  height={60} // Provide the height
                 />
               </div>
               <div className="col-9 col-md-10">

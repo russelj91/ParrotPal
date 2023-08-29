@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import icon6 from "public/landing Page Assets/Icons/Icon 6.png";
-import icon7 from "public/landing Page Assets/Icons/Icon 7.png";
-import icon8 from "public/landing Page Assets/Icons/Icon 8.png";
-import icon9 from "public/landing Page Assets/Icons/Icon 9.png";
-import icon10 from "public/landing Page Assets/Icons/Icon 10.png";
-import analytics from "public/landing Page Assets/Images/Analytics Image.png";
 import styles from "./page.module.css";
 
 const Tracking = () => {
+  const icon6URL = "/landing Page Assets/Icons/Icon 6.png";
+  const icon7URL = "/landing Page Assets/Icons/Icon 7.png";
+  const icon8URL = "/landing Page Assets/Icons/Icon 8.png";
+  const icon9URL = "/landing Page Assets/Icons/Icon 9.png";
+  const icon10URL = "/landing Page Assets/Icons/Icon 10.png";
+  const analyticsURL = "/landing Page Assets/Images/Analytics Image.png";
   return (
     <section className={styles.tracking}>
       <div className="container py-5">
@@ -17,10 +17,11 @@ const Tracking = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon6}
+                  src={icon6URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
+                  height={60} // Add height property
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -40,10 +41,11 @@ const Tracking = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon7}
+                  src={icon7URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
+                  height={60} // Add height property
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -63,10 +65,11 @@ const Tracking = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon8}
+                  src={icon8URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
+                  height={60} // Add height property
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -87,10 +90,11 @@ const Tracking = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon9}
+                  src={icon9URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
+                  height={60} // Add height property
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -111,10 +115,11 @@ const Tracking = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={icon10}
+                  src={icon10URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
+                  height={60} // Add height property
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -134,10 +139,12 @@ const Tracking = () => {
           </div>
           <div className="col-md order-1 order-md-2">
             <Image
-              src={analytics}
+              src={analyticsURL}
               alt="home"
               className={`img-fluid ${styles.img}`}
-            ></Image>
+              width={550}
+              height={550}
+            />
           </div>
         </div>
       </div>

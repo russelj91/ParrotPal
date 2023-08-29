@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
-import Focus from "public/landing Page Assets/Icons/Focus on What Matters.png";
-import faster from "public/landing Page Assets/Icons/speed.png";
-import up from "public/landing Page Assets/Icons/Personalised Check-ins.png";
 
 const About = () => {
+  const focusImageURL = "/landing Page Assets/Icons/focus.png";
+  const fasterImageURL = "/landing Page Assets/Icons/speed.png";
+  const upImageURL = "/landing Page Assets/Icons/Personalised Check-ins.png";
+
   return (
     <section className={`py-5 ${styles.aboutSection}`}>
       <div className="container py-5">
@@ -20,10 +21,11 @@ const About = () => {
               >
                 <div className={styles.circleBackground}>
                   <Image
-                    src={Focus}
+                    src={focusImageURL}
                     alt="focus"
                     className={styles.img}
                     width={80}
+                    height={80} // Provide the height
                   />
                 </div>
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>
@@ -44,10 +46,11 @@ const About = () => {
               >
                 <div className={styles.circleBackground}>
                   <Image
-                    src={faster}
+                    src={fasterImageURL}
                     alt="focus"
                     className={styles.img}
                     width={80}
+                    height={80} // Provide the height
                   />
                 </div>
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>
@@ -73,10 +76,11 @@ const About = () => {
               >
                 <div className={styles.circleBackground}>
                   <Image
-                    src={up}
+                    src={upImageURL}
                     alt="focus"
                     className={styles.img}
                     width={80}
+                    height={80} // Provide the height
                   />
                 </div>
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>

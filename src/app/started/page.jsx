@@ -23,11 +23,11 @@ const Started = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/landingPageAssets/Icons/one.png"
-                  alt="One Icon"
+                  src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                  alt="My Image"
                   className="img-fluid"
-                  width={70}
-                  height={70}
+                  width={550}
+                  height={550}
                 />
               </div>
               <div className="col-9 col-md-10">

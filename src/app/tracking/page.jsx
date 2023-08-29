@@ -142,7 +142,7 @@ const Tracking = () => {
           <div className="col-md order-1 order-md-2">
             <img
               src="/landingPageAssets/Images/Analytics.png"
-              alt="My Image"
+              alt="Analytics"
               className="img-fluid"
               width={550}
               height={550}

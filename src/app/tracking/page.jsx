@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Tracking = () => {
-  const icon6URL = "/landingPageAssets/Icons/Icon6.png";
   const icon7URL = "/landingPageAssets/Icons/Icon7.png";
   const icon8URL = "/landingPageAssets/Icons/Icon8.png";
   const icon9URL = "/landingPageAssets/Icons/Icon9.png";
@@ -47,7 +46,7 @@ const Tracking = () => {
                   height={60} 
                 /> */}
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon7.png"
                   alt="Analytics"
                   className="img-fluid"
                   width={60}
@@ -78,7 +77,7 @@ const Tracking = () => {
                   height={60} 
                 /> */}
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon8.png"
                   alt="Analytics"
                   className="img-fluid"
                   width={60}
@@ -110,7 +109,7 @@ const Tracking = () => {
                   height={60} 
                 /> */}
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon9.png"
                   alt="Analytics"
                   className="img-fluid"
                   width={60}
@@ -143,7 +142,7 @@ const Tracking = () => {
                   height={60}
                 /> */}
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon10.png"
                   alt="Analytics"
                   className="img-fluid"
                   width={60}

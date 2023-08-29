@@ -16,13 +16,6 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  {/* <Image
-                    src={focusImageURL}
-                    alt="focus"
-                    className={styles.img}
-                    width={80}
-                    height={80}
-                  /> */}
                   <img
                     src="/LandingPageAssets/Images/focus.png"
                     alt="My Image"
@@ -42,19 +35,13 @@ const About = () => {
               </div>
             </div>
           </div>
+          {/* Repeat the above structure for the other cards */}
           <div className="col-md-3 mb-4 mx-5">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  {/* <Image
-                    src={fasterImageURL}
-                    alt="mfp"
-                    className={styles.img}
-                    width={80}
-                    height={80}
-                  /> */}
                   <img
                     src="/LandingPageAssets/Images/speed.png"
                     alt="My Image"
@@ -85,13 +72,6 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  {/* <Image
-                    src={upImageURL}
-                    alt="check ins"
-                    className={styles.img}
-                    width={80}
-                    height={80}
-                  /> */}
                   <img
                     src="/LandingPageAssets/Images/PersonalisedCheckIns.png"
                     alt="My Image"
@@ -103,10 +83,13 @@ const About = () => {
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>
                   Personalized Check-ins
                 </h5>
-                <p className={`card-text text-light pb-5 ${styles.content}`}>
+                <p className={`card-text text-light pb-3 ${styles.content}`}>
                   Stay on track. Simple weekly check-ins to tweak
                   <br />
                   your target to
+                  <br />
+                  <br />
+                  It&apos;s like talking or voice noting your best friend on
                   <br />
                   keep those pounds dropping!
                 </p>

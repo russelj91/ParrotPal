@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 const Footer = () => {
   return (
-    <section className={`py-5 ${styles.footerBg}`}>
+    <section className={`py-3 ${styles.footerBg}`}>
       <div className="container text-center">
         <div className="row text-center">
           <div className="col-md text-center">
@@ -29,15 +29,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-md">
-                <a href="">
-                  {/* <Image
-                    src={fb}
-                    alt="Facebook Logo"
-                    className={styles.socIcons}
-                    width={28}
-                    height={28}
-                  ></Image> */}
+              <div className="col-md d-flex justify-content-center justify-content-md-start">
+                <a href="#" className="mx-2 mx-md-3">
                   <img
                     src="/Facebook.svg"
                     alt="Facebook Icon"
@@ -46,14 +39,7 @@ const Footer = () => {
                     height={28}
                   />
                 </a>
-                <a href="#">
-                  {/* <Image
-                    src={insta}
-                    alt="Facebook Logo"
-                    className={styles.socIcons}
-                    width={28}
-                    height={28}
-                  ></Image> */}
+                <a href="#" className="mx-2 mx-md-3">
                   <img
                     src="/Instagram.svg"
                     alt="Instagram Icon"
@@ -62,14 +48,7 @@ const Footer = () => {
                     height={28}
                   />
                 </a>
-                <a href="#">
-                  {/* <Image
-                    src={tweet}
-                    alt="Facebook Logo"
-                    className={styles.socIcons}
-                    width={30}
-                    height={30}
-                  ></Image> */}
+                <a href="#" className="mx-2 mx-md-3">
                   <img
                     src="/Twitter.svg"
                     alt="Twitter Icon"
@@ -78,14 +57,7 @@ const Footer = () => {
                     height={30}
                   />
                 </a>
-                <a href="#">
-                  {/* <Image
-                    src={tube}
-                    alt="Facebook Logo"
-                    className={styles.socIcons}
-                    width={30}
-                    height={30}
-                  ></Image> */}
+                <a href="#" className="mx-2 mx-md-3">
                   <img
                     src="/Youtube.svg"
                     alt="Youtube Icon"
@@ -99,26 +71,30 @@ const Footer = () => {
           </div>
           <div className="col-md"></div>
           <div className="col-md pt-5">
-            <ul className="list-unstyled">
+            <ul
+              className={`list-unstyled text-lg-start text-center ${styles.customList}`}
+            >
               <li>
                 <a href="#" className={`fw-bold ${styles.list}`}>
                   About
                 </a>
               </li>
               <li className="py-3">
-                <a href="#" className={` ${styles.list}`}>
+                <a href="#" className={`${styles.list}`}>
                   How to get started
                 </a>
               </li>
               <li>
-                <a href="#" className={` ${styles.list}`}>
+                <a href="#" className={`${styles.list}`}>
                   Testimonial
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-md text-center pt-5">
-            <ul className="list-unstyled">
+            <ul
+              className={`list-unstyled text-lg-start text-center ${styles.customList}`}
+            >
               <li>
                 <a href="#" className={`fw-bold ${styles.list}`}>
                   Support
@@ -137,7 +113,9 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md text-center pt-5">
-            <ul className="list-unstyled">
+            <ul
+              className={`list-unstyled text-lg-start text-center ${styles.customList}`}
+            >
               <li>
                 <a href="#" className={`fw-bold ${styles.list}`}>
                   Legal

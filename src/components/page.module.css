@@ -41,9 +41,6 @@
     color:#d7ebb6
   }
 
-  .socIcons{
-    margin-left: 30px;
-  }
 
   .socIcons:hover{
     opacity: 0.5;
@@ -108,3 +105,9 @@
   }
 }
 
+
+@media (max-width: 767px) {
+  .text-start {
+    text-align: center;
+  }
+}

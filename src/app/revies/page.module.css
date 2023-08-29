@@ -1,13 +1,12 @@
 .reviewBg {
   background-image: url("/ellipsebg.png");
   background-color: #3e3c5f;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  margin: 0 auto;
-  overflow: hidden;
-}
 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ 
 
 
 .title{

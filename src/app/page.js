@@ -80,8 +80,8 @@ export default function Home() {
                 height={550}
               /> */}
               <img
-                src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
-                alt="My Image"
+                src="/LandingPageAssets/Images/phoneHero.png"
+                alt="Phone Hero "
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
                 height={550}
@@ -95,8 +95,8 @@ export default function Home() {
                 height={550}
               /> */}
               <img
-                src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
-                alt="My Image"
+                src="/LandingPageAssets/Images/phone1Hero.png"
+                alt="Phone 1"
                 className={`img-fluid ${styles.img} d-block d-md-none`}
                 width={550}
                 height={550}
@@ -113,7 +113,7 @@ export default function Home() {
             height={550}
           /> */}
           <img
-            src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+            src="/LandingPageAssets/Images/arc.png"
             alt="My Image"
             className={`img-fluid ${styles.imgArc} `}
             width={1950}

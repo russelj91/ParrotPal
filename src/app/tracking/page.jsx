@@ -143,7 +143,7 @@ const Tracking = () => {
             <img
               src="/landingPageAssets/Images/Analytics.png"
               alt="My Image"
-              className={`img-fluid ${styles.img}`}
+              className="img-fluid"
               width={550}
               height={550}
             />

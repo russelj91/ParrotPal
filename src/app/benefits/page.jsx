@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Benefits = () => {
-  const Food1URL = "/landingPageAssets/Images/Image23.png";
   const icon1URL = "/landingPageAssets/Icons/Icon1.png";
   const icon2URL = "/landingPageAssets/Icons/Icon2.png";
   const icon3URL = "/landingPageAssets/Icons/Icon3.png";
@@ -22,9 +21,16 @@ const Benefits = () => {
         </div>
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
-            <Image
+            {/* <Image
               src={Food1URL}
               alt="home"
+              className={`img-fluid ${styles.img}`}
+              width={550}
+              height={550}
+            /> */}
+            <img
+              src="/landingPageAssets/Images/Image23.png"
+              alt="Benefits"
               className={`img-fluid ${styles.img}`}
               width={550}
               height={550}

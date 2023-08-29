@@ -3,10 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Tracking = () => {
-  const icon7URL = "/landingPageAssets/Icons/Icon7.png";
-  const icon8URL = "/landingPageAssets/Icons/Icon8.png";
-  const icon9URL = "/landingPageAssets/Icons/Icon9.png";
-  const icon10URL = "/landingPageAssets/Icons/Icon10.png";
   return (
     <section className={styles.tracking}>
       <div className="container py-5">
@@ -142,7 +138,7 @@ const Tracking = () => {
             <img
               src="/LandingPageAssets/Images/Analytics.png"
               alt="Analytics"
-              className="img-fluid"
+              className="img-fluid mb-5"
               width={550}
               height={550}
             />

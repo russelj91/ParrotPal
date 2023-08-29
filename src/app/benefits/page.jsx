@@ -19,7 +19,7 @@ const Benefits = () => {
             <img
               src="/LandingPageAssets/Images/Image23.png"
               alt="Analytics"
-              className={`img-fluid ${styles.img}`}
+              className={`img-fluid mb-5 ${styles.img}`}
               width={550}
               height={550}
             />
@@ -38,7 +38,7 @@ const Benefits = () => {
               <div className="col-9 col-md-10">
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
-                    <h6 className={`mb-3 ${styles.title1}`}>
+                    <h6 className={`my-3 ${styles.title1}`}>
                       Swift and Simple
                     </h6>
                     <p className={styles.content}>

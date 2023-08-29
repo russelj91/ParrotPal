@@ -8,13 +8,6 @@ const Review = () => {
       <div className="container">
         <div className="row py-5 my-5">
           <div className="col-md">
-            {/* <Image
-              src={quote}
-              alt="Quotation mark"
-              className={`img-fluid pb-5 ${styles.img1}`}
-              width={60}
-              height={60}
-            /> */}
             <img
               src="/LandingPageAssets/Images/quote.png"
               alt="Quotation Mark"
@@ -43,13 +36,6 @@ const Review = () => {
                       <div
                         className={`d-flex flex-column align-items-center ${styles.imgContainer}`}
                       >
-                        {/* <Image
-                          src={Client}
-                          alt="client"
-                          className={`img-fluid ${styles.img}`}
-                          height={250}
-                          width={250}
-                        /> */}
                         <img
                           src="/LandingPageAssets/Images/Profile.png"
                           alt="Client Profile"
@@ -87,13 +73,6 @@ const Review = () => {
                 <div className="carousel-item">
                   <div className="row">
                     <div className="col-md-7">
-                      {/* <Image
-                        src={Client}
-                        alt="client"
-                        className={`img-fluid ${styles.img}`}
-                        height={250}
-                        width={250}
-                      /> */}
                       <img
                         src="/LandingPageAssets/Images/Profile.png"
                         alt="Client Profile"
@@ -126,7 +105,6 @@ const Review = () => {
                     </div>
                   </div>
                 </div>
-                {/* Add more carousel items as needed */}
               </div>
               <button
                 className="carousel-control-prev"

@@ -10,21 +10,14 @@ const Navbar = () => {
       >
         <div className="container">
           <a className="navbar-brand" href="#">
-            {/* <Image
-              src={Logo}
+            <img
+              src="/LandingPageAssets/Images/ParrotPalLogo.png"
               alt="ParrotPal Logo"
-              className={styles.img1}
+              className={`img-fluid text-center ${styles.img1}`}
               width={65}
               height={50}
-            /> */}
+            />
           </a>
-          <img
-            src="/LandingPageAssets/Images/ParrotPalLogo.png"
-            alt="ParrotPal Logo"
-            className={`img-fluid ${styles.img1}`}
-            width={65}
-            height={50}
-          />
           <button
             className="navbar-toggler"
             type="button"
@@ -36,7 +29,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          {/* End of Navbar toggler button */}
+
           <div
             className={`collapse navbar-collapse ${styles.navbarCollapse}`}
             id="navbarSupportedContent"

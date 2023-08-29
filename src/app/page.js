@@ -48,8 +48,8 @@ export default function Home() {
                           height={30}
                         /> */}
                         <img
-                          src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
-                          alt="My Image"
+                          src="/LandingPageAssets/Images/apple.png"
+                          alt="Apple Icon"
                           className={`img-fluid ${styles.img}`}
                           width={30}
                           height={30}
@@ -115,7 +115,7 @@ export default function Home() {
           <img
             src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
             alt="My Image"
-            className={`img-fluid ${styles.img} d-block d-md-none`}
+            className={`img-fluid ${styles.imgArc} `}
             width={1950}
             height={550}
           />

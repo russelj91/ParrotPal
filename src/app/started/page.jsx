@@ -24,10 +24,10 @@ const Started = () => {
               <div className="col-3 col-md-2 text-center">
                 <img
                   src="/landingPageAssets/Icons/one.png"
-                  alt="My Image"
+                  alt="One Icon"
                   className="img-fluid"
-                  width={60}
-                  height={60}
+                  width={70}
+                  height={70}
                 />
               </div>
               <div className="col-9 col-md-10">

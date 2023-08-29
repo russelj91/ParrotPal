@@ -84,7 +84,7 @@ export default function Home() {
                 height={550}
               /> */}
               <img
-                src="/landingPageAssets/Images/phone1Hero.png"
+                src="/landingPageAssets/Images/phoneHero.png"
                 alt="Phone"
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}

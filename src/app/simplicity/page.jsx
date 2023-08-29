@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Simplicity = () => {
-  const meal = "/landingPageAssets/Images/meal.png";
   return (
     <section className={`py-5 ${styles.simpBg}`}>
       <div className={`container py-5 ${styles.simp}`}>
@@ -23,9 +22,9 @@ const Simplicity = () => {
             </button>
           </div>
           <div className={styles.imageContainer}>
-            <Image
-              src={meal}
-              alt="home"
+            <img
+              src="/landingPageAssets/Images/meal.png"
+              alt="My Image"
               className={`img-fluid ${styles.img}`}
               width={550}
               height={550}

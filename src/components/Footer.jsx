@@ -16,9 +16,16 @@ const Footer = () => {
             <div className="row pb-5">
               <div className="col-md pt-5">
                 <a href="#">
-                  <Image
+                  {/* <Image
                     src={Logo}
                     alt="ParrotPal Logo"
+                    className={styles.img1}
+                    width={150}
+                    height={30}
+                  /> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="ParrotPalLogo"
                     className={styles.img1}
                     width={150}
                     height={30}
@@ -29,40 +36,68 @@ const Footer = () => {
             <div className="row">
               <div className="col-md">
                 <a href="">
-                  <Image
+                  {/* <Image
                     src={fb}
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={28}
                     height={28}
-                  ></Image>
+                  ></Image> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="Facebook Icon"
+                    className={styles.socIcons}
+                    width={28}
+                    height={28}
+                  />
                 </a>
                 <a href="#">
-                  <Image
+                  {/* <Image
                     src={insta}
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={28}
                     height={28}
-                  ></Image>
+                  ></Image> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="Instagram Icon"
+                    className={styles.socIcons}
+                    width={28}
+                    height={28}
+                  />
                 </a>
                 <a href="#">
-                  <Image
+                  {/* <Image
                     src={tweet}
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={30}
                     height={30}
-                  ></Image>
+                  ></Image> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="Twitter Icon"
+                    className={styles.socIcons}
+                    width={30}
+                    height={30}
+                  />
                 </a>
                 <a href="#">
-                  <Image
+                  {/* <Image
                     src={tube}
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={30}
                     height={30}
-                  ></Image>
+                  ></Image> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="Youtube Icon"
+                    className={styles.socIcons}
+                    width={30}
+                    height={30}
+                  />
                 </a>
               </div>
             </div>

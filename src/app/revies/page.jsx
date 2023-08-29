@@ -16,8 +16,8 @@ const Review = () => {
               height={60}
             /> */}
             <img
-              src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
-              alt="My Image"
+              src="/LandingPageAssets/Images/quote.png"
+              alt="Quotation Mark"
               className={`img-fluid pb-5 ${styles.img1}`}
               width={60}
               height={60}
@@ -51,7 +51,7 @@ const Review = () => {
                           width={250}
                         /> */}
                         <img
-                          src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                          src="/LandingPageAssets/Images/profile.png"
                           alt="My Image"
                           className={`img-fluid ${styles.img}`}
                           width={250}
@@ -95,7 +95,7 @@ const Review = () => {
                         width={250}
                       /> */}
                       <img
-                        src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                        src="/LandingPageAssets/Images/profile.png"
                         alt="My Image"
                         className={`img-fluid ${styles.img}`}
                         width={250}

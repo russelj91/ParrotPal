@@ -21,9 +21,9 @@ const Footer = () => {
                   <img
                     src="/LandingPageAssets/Images/ParrotPalLogo.png"
                     alt="ParrotPal Logo"
-                    className={styles.img1}
-                    width={150}
-                    height={30}
+                    className={`img-fluid ${styles.img1}`}
+                    width={65}
+                    height={50}
                   />
                 </a>
               </div>

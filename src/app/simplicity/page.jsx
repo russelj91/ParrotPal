@@ -13,11 +13,11 @@ const Simplicity = () => {
               Empowering Simplicity
             </h2>
             <p className="fw-bold text-light">
-              All the features you need, nothing you don't. Say
+              All the features you need, nothing you don&apos;t. Say
               <br /> good goodbye to information overload.
             </p>
             <button
-              className={`btn btn-light  py-2 px-5 rounded-pill fw-bold ${styles.button}`}
+              className={`btn btn-light py-2 px-5 rounded-pill fw-bold ${styles.button}`}
             >
               Start free 3 days trial
             </button>

@@ -9,6 +9,7 @@ const Benefits = () => {
   const icon3URL = "/landing Page Assets/Icons/Icon 3.png";
   const icon4URL = "/landing Page Assets/Icons/Icon 4.png";
   const checkURL = "/landing Page Assets/Icons/Icon 2.png";
+
   return (
     <section className={styles.benefitsBg}>
       <div className="container py-5">
@@ -35,10 +36,10 @@ const Benefits = () => {
               <div className="col-3 col-md-2 text-center">
                 <Image
                   src={icon1URL}
-                  alt="home"
+                  alt="icon1"
                   className={`img-fluid ${styles.img}`}
                   width={60}
-                  height={60} // Provide the height
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -48,9 +49,9 @@ const Benefits = () => {
                       Swift and Simple
                     </h6>
                     <p className={styles.content}>
-                      Log your food 260% faster than other leading apps. It's
-                      like talking or voice noting your best friend on WhatsApp.
-                      That easy!
+                      Log your food 260% faster than other leading apps.
+                      It&apos;s like talking or voice noting your best friend on
+                      WhatsApp. That easy!
                     </p>
                   </div>
                 </div>
@@ -61,10 +62,10 @@ const Benefits = () => {
               <div className="col-3 col-md-2 text-center">
                 <Image
                   src={icon2URL}
-                  alt="home"
+                  alt="icon2"
                   className={`img-fluid ${styles.img}`}
                   width={60}
-                  height={60} // Provide the height
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -85,10 +86,10 @@ const Benefits = () => {
               <div className="col-3 col-md-2 text-center">
                 <Image
                   src={icon3URL}
-                  alt="home"
+                  alt="icon3"
                   className={`img-fluid ${styles.img}`}
                   width={60}
-                  height={60} // Provide the height
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -99,8 +100,8 @@ const Benefits = () => {
                     </h6>
                     <p className={styles.content}>
                       Wondering what to eat? Let our bespoke meal plans guide
-                      you, and you'll get your custom plan and food ideas in
-                      seconds.
+                      you, and you&apos;ll get your custom plan and food ideas
+                      in seconds.
                     </p>
                   </div>
                 </div>
@@ -110,10 +111,10 @@ const Benefits = () => {
               <div className="col-3 col-md-2 text-center">
                 <Image
                   src={icon4URL}
-                  alt="home"
+                  alt="icon4"
                   className={`img-fluid ${styles.img}`}
                   width={60}
-                  height={60} // Provide the height
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -135,10 +136,10 @@ const Benefits = () => {
               <div className="col-3 col-md-2 text-center">
                 <Image
                   src={checkURL}
-                  alt="home"
+                  alt="icon2"
                   className={`img-fluid ${styles.img}`}
                   width={60}
-                  height={60} // Provide the height
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">

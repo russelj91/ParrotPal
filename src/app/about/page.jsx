@@ -25,7 +25,7 @@ const About = () => {
                     alt="focus"
                     className={styles.img}
                     width={80}
-                    height={80} // Provide the height
+                    height={80}
                   />
                 </div>
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>
@@ -34,7 +34,7 @@ const About = () => {
                 <p className={`card-text text-light pb-5 ${styles.content}`}>
                   Chat or voice note your food, like texting a friend.
                   <br />
-                  Focus on the big 3 of fat loss: calories, protein steps.
+                  Focus on the big 3 of fat loss: calories, protein, steps.
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ const About = () => {
                     alt="focus"
                     className={styles.img}
                     width={80}
-                    height={80} // Provide the height
+                    height={80}
                   />
                 </div>
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>
@@ -59,10 +59,10 @@ const About = () => {
                 <p className={`card-text text-light pb-3 ${styles.content}`}>
                   Log your food 260% faster than other leading apps!
                   <br />
-                  (And its way more fun)
+                  (And it&apos;s way more fun)
                   <br />
                   <br />
-                  It's like talking or voice noting your best friend on
+                  It&apos;s like talking or voice noting your best friend on
                   <br />
                   WhatsApp. That easy!
                 </p>
@@ -80,18 +80,18 @@ const About = () => {
                     alt="focus"
                     className={styles.img}
                     width={80}
-                    height={80} // Provide the height
+                    height={80}
                   />
                 </div>
                 <h5 className={`card-title py-4 ${styles.cardTitle}`}>
-                  Personalised Check-ins
+                  Personalized Check-ins
                 </h5>
                 <p className={`card-text text-light pb-5 ${styles.content}`}>
-                  Stay on track. Simple weekly check-ins to
+                  Stay on track. Simple weekly check-ins to tweak
                   <br />
-                  tweak your target to
+                  your target to
                   <br />
-                  keep those pounds.
+                  keep those pounds dropping!
                 </p>
               </div>
             </div>

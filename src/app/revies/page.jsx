@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Client from "public/landing Page Assets/Images/Profile.png";
-import quote from "public/landing Page Assets/Icons/quote.png";
-
 import styles from "./page.module.css";
 
 const Review = () => {
+  const Client = "/landing Page Assets/Images/Profile.png";
+  const quote = "/landing Page Assets/Icons/quote.png";
   return (
     <section className={`py-5 ${styles.reviewBg}`}>
       <div className="container">
@@ -16,6 +15,7 @@ const Review = () => {
               alt="Quotation mark"
               className={`img-fluid pb-5 ${styles.img1}`}
               width={60}
+              height={60}
             />
             <h2 className="fw-bold display-5 text-light">
               What our users
@@ -40,8 +40,10 @@ const Review = () => {
                       >
                         <Image
                           src={Client}
-                          alt="home"
+                          alt="client"
                           className={`img-fluid ${styles.img}`}
+                          height={250}
+                          width={250}
                         />
                       </div>
                     </div>
@@ -56,7 +58,7 @@ const Review = () => {
                     <div className="col pt-5 px-5">
                       <p className={`text-light ${styles.paragraph}`}>
                         As a busy professional, ParrotPal has been a lifesaver.
-                        The app's
+                        The app&apos;s
                         <br />
                         personalized meal plans and live coaching keep me on
                         track even on the
@@ -70,13 +72,15 @@ const Review = () => {
                   </div>
                 </div>
 
-                <div className="carousel-item active">
+                <div className="carousel-item">
                   <div className="row">
                     <div className="col-md-7">
                       <Image
                         src={Client}
-                        alt="home"
+                        alt="client"
                         className={`img-fluid ${styles.img}`}
+                        height={250}
+                        width={250}
                       />
                     </div>
                     <div className="col-md">
@@ -90,7 +94,7 @@ const Review = () => {
                     <div className="col pt-5 px-5">
                       <p className={`text-light ${styles.paragraph}`}>
                         As a busy professional, ParrotPal has been a lifesaver.
-                        The app's
+                        The app&apos;s
                         <br />
                         personalized meal plans and live coaching keep me on
                         track even on the

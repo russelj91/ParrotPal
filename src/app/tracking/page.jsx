@@ -101,8 +101,9 @@ const Tracking = () => {
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
                     <h6 className={`mb-3 ${styles.title1}`}>
-                      Stuck on What to Eat?
+                      Stuck on What to Eat?&apos;
                     </h6>
+
                     <p className={styles.content}>
                       Got some calories and protein left, but no idea what to
                       eat to hit your goals? Generate 8 food ideas to hit your
@@ -125,12 +126,14 @@ const Tracking = () => {
               <div className="col-9 col-md-10">
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
-                    <h6 className={`mb-3 ${styles.title1}`}>Eating Out?</h6>
+                    <h6 className={`mb-3 ${styles.title1}`}>
+                      Eating Out?&apos;
+                    </h6>
                     <p className={styles.content}>
                       Most people stop tracking when they eat out and take weeks
                       to get back into it. Just type it out or voice note
-                      ParrotPal what you've eaten from the menu, and it will be
-                      logged instantly. It works like magic!
+                      ParrotPal what you&rsquo;ve eaten from the menu, and it
+                      will be logged instantly. It works like magic!
                     </p>
                   </div>
                 </div>

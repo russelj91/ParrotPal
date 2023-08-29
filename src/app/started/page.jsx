@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 import how from "public/landing Page Assets/Images/Image How to Get Started.png";
 import one from "public/landing Page Assets/Icons/one.png";
 import two from "public/landing Page Assets/Icons/two.png";
@@ -64,9 +63,9 @@ const Started = () => {
                     </h6>
                     <p className={styles.content}>
                       Eat out or enjoy home-cooked meal - just speak, type or
-                      scan. No second-quessing, just accurate, easy tracking.
+                      scan. No second-guessing, just accurate, easy tracking.
                       Leveraging data from various restaurants, ParrotPal offers
-                      the best average to minimize erros.
+                      the best average to minimize errors.
                     </p>
                   </div>
                 </div>
@@ -88,7 +87,7 @@ const Started = () => {
                     <p className={styles.content}>
                       Get a broader view of your habits with weekly summaries.
                       As your metabolism changes, ParrotPal adapts, ensuring
-                      you're always on the right track for fat loss.
+                      you&apos;re always on the right track for fat loss.
                     </p>
                   </div>
                 </div>

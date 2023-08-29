@@ -8,12 +8,13 @@ import Started from "./started/page";
 import Simplicity from "./simplicity/page";
 import Faq from "./faq/page";
 import Review from "./revies/page";
-import Phone from "public/landing Page Assets/Images/phone hero.png";
-import arc from "public/landing Page Assets/Images/newarc.png";
-import Phone1 from "public/landing Page Assets/Images/phone1 hero.png";
-import apple from "public/landing Page Assets/Icons/apple.png";
 
 export default function Home() {
+  const phoneImgUrl = "/landing Page Assets/Images/phone hero.png";
+  const arcImgUrl = "/landing Page Assets/Images/newarc.png";
+  const phone1ImageUrl = "/landing Page Assets/Images/phone1 hero.png";
+  const appleImgUrl = "/landing Page Assets/Icons/apple.png";
+
   return (
     <div>
       <section className={styles.hero}>
@@ -44,7 +45,13 @@ export default function Home() {
                   <div className={styles.buttonContent}>
                     <div className={styles.imageAndText}>
                       <div className={styles.imageContainer}>
-                        <Image src={apple} alt="apple" width={30} />
+                        <Image
+                          src={appleImgUrl}
+                          alt="focus"
+                          className={styles.img}
+                          width={30}
+                          height={30}
+                        />
                       </div>
                       <div className={styles.textContainer}>
                         <span className={styles.download}>
@@ -64,23 +71,29 @@ export default function Home() {
             </div>
             <div className="col-md text-end">
               <Image
-                src={Phone}
+                src={phoneImgUrl}
                 alt="home"
                 className={`img-fluid ${styles.img} d-none d-md-block`}
+                width={550}
+                height={550}
               />
               <Image
-                src={Phone1}
+                src={phone1ImageUrl}
                 alt="home"
                 className={`img-fluid ${styles.img} d-block d-md-none`}
+                width={550}
+                height={550}
               />
             </div>
           </div>
         </div>
         <div className={styles.arc}>
           <Image
-            src={arc}
+            src={arcImgUrl}
             alt="home"
             className={`img-fluid ${styles.imgArc} `}
+            width={1950}
+            height={550}
           />
         </div>
       </section>

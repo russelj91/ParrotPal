@@ -15,12 +15,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        {/* Remove the synchronous script */}
+        {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script> */}
       </head>
       <body>
         <Navbar />
         {children}
         <Footer />
+        {/* Load Bootstrap asynchronously */}
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"
+          async
+        ></script>
       </body>
     </html>
   );

@@ -10,8 +10,8 @@ import Faq from "./faq/page";
 import Review from "./revies/page";
 
 export default function Home() {
-  const phoneImgUrl = "/landingPageAssets/Images/phoneHero.png";
   const arcImgUrl = "/landingPageAssets/Images/newarc.png";
+  const phone1ImageUrl = "/landingPageAssets/Images/phone1Hero.png";
   const appleImgUrl = "/landingPageAssets/Icons/apple.png";
 
   return (
@@ -69,17 +69,18 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md text-end">
-              <Image
-                src={phoneImgUrl}
-                alt="Phone Image"
+              <img
+                src="/landingPageAssets/Images/phoneHero.png"
+                alt="My Image"
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
                 height={550}
               />
-              <img
-                src="/landingPageAssets/Images/phone1Hero.png"
-                alt="My Image"
-                className="img-fluid"
+
+              <Image
+                src={phone1ImageUrl}
+                alt="Phone Image"
+                className={`img-fluid ${styles.img} d-block d-md-none`}
                 width={550}
                 height={550}
               />

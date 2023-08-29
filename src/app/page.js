@@ -116,7 +116,7 @@ export default function Home() {
             src="/LandingPageAssets/Images/arc.png"
             alt="My Image"
             className={`img-fluid ${styles.imgArc} `}
-            width={1950}
+            width={2500}
             height={550}
           />
         </div>

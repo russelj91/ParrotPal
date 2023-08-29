@@ -15,17 +15,10 @@ const Tracking = () => {
           <div className="col-md-6 order-2 order-md-1">
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                {/* <Image
-                  src={icon6URL}
-                  alt="check"
-                  className={styles.img1}
-                  width={60}
-                  height={60} 
-                /> */}
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/landingPageAssets/Images/Icon6.png"
                   alt="Analytics"
-                  className="img-fluid"
+                  className={styles.img1}
                   width={60}
                   height={60}
                 />

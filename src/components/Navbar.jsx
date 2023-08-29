@@ -3,8 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Navbar = () => {
-  const Logo = "/ParrotpalIcon&Logo/ParrotPalLogo.png";
-
   return (
     <div>
       <nav
@@ -12,15 +10,21 @@ const Navbar = () => {
       >
         <div className="container">
           <a className="navbar-brand" href="#">
-            <Image
+            {/* <Image
               src={Logo}
               alt="ParrotPal Logo"
               className={styles.img1}
               width={65}
               height={50}
-            />
+            /> */}
           </a>
-          {/* Add the Navbar toggler button */}
+          <img
+            src="/ParrotpalIcon&Logo/ParrotPalLogo.png"
+            alt="My Image"
+            className="img-fluid"
+            width={65}
+            height={50}
+          />
           <button
             className="navbar-toggler"
             type="button"

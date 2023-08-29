@@ -55,7 +55,7 @@ const Footer = () => {
                     height={28}
                   ></Image> */}
                   <img
-                    src="/landingPageAssets/Images/Instagram.svg"
+                    src="/Instagram.svg"
                     alt="Instagram Icon"
                     className={styles.socIcons}
                     width={28}

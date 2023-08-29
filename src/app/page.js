@@ -48,9 +48,9 @@ export default function Home() {
                           height={30}
                         /> */}
                         <img
-                          src="/landingPageAssets/Images/apple.png"
-                          alt="Apple Icon"
-                          className={styles.img}
+                          src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                          alt="My Image"
+                          className={`img-fluid ${styles.img}`}
                           width={30}
                           height={30}
                         />

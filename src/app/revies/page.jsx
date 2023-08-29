@@ -54,7 +54,7 @@ const Review = () => {
                           src="/LandingPageAssets/Images/profile.png"
                           alt="My Image"
                           className={`img-fluid ${styles.img}`}
-                          width={250}
+                          width={251}
                           height={250}
                         />
                       </div>

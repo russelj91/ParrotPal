@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
-import Logo from "public/landing Page Assets/logo/Footer Logo.png";
-import fb from "public/landing Page Assets/Icons/Sosmed Icons/Facebook.svg";
-import insta from "public/landing Page Assets/Icons/Sosmed Icons/Instagram.svg";
-import tweet from "public/landing Page Assets/Icons/Sosmed Icons/Twitter.svg";
-import tube from "public/landing Page Assets/Icons/Sosmed Icons/Youtube.svg";
 
 const Footer = () => {
+  const Logo = "/landingPageAssets/logo/FooterLogo.png";
+  const fb = "/landingPageAssets/Icons/SosmedIcons/Facebook.svg";
+  const insta = "/landingPageAssets/Icons/SosmedIcons/Instagram.svg";
+  const tweet = "/landingPageAssets/Icons/SosmedIcons/Twitter.svg";
+  const tube = "/landingPageAssets/Icons/SosmedIcons/Youtube.svg";
   return (
     <section className={`py-5 ${styles.footerBg}`}>
       <div className="container text-center">
@@ -21,6 +21,7 @@ const Footer = () => {
                     alt="ParrotPal Logo"
                     className={styles.img1}
                     width={150}
+                    height={30}
                   />
                 </a>
               </div>
@@ -33,6 +34,7 @@ const Footer = () => {
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={28}
+                    height={28}
                   ></Image>
                 </a>
                 <a href="#">
@@ -41,6 +43,7 @@ const Footer = () => {
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={28}
+                    height={28}
                   ></Image>
                 </a>
                 <a href="#">
@@ -49,6 +52,7 @@ const Footer = () => {
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={30}
+                    height={30}
                   ></Image>
                 </a>
                 <a href="#">
@@ -57,12 +61,13 @@ const Footer = () => {
                     alt="Facebook Logo"
                     className={styles.socIcons}
                     width={30}
+                    height={30}
                   ></Image>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md"></div>
+
           <div className="col-md pt-5">
             <ul className="list-unstyled">
               <li>

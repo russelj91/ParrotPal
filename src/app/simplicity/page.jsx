@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import meal from "public/landing Page Assets/Images/meal.png";
 import styles from "./page.module.css";
 
 const Simplicity = () => {
+  const meal = "/landingPageAssets/Images/meal.png";
   return (
     <section className={`py-5 ${styles.simpBg}`}>
       <div className={`container py-5 ${styles.simp}`}>
@@ -27,7 +27,9 @@ const Simplicity = () => {
               src={meal}
               alt="home"
               className={`img-fluid ${styles.img}`}
-            ></Image>
+              width={550}
+              height={550}
+            />
           </div>
         </div>
       </div>

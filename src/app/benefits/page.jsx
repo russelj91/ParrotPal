@@ -3,12 +3,12 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Benefits = () => {
-  const Food1URL = "/landing Page Assets/Images/Image 23.png";
-  const icon1URL = "/landing Page Assets/Icons/Icon 1.png";
-  const icon2URL = "/landing Page Assets/Icons/Icon 2.png";
-  const icon3URL = "/landing Page Assets/Icons/Icon 3.png";
-  const icon4URL = "/landing Page Assets/Icons/Icon 4.png";
-  const checkURL = "/landing Page Assets/Icons/Icon 2.png";
+  const Food1URL = "/landingPageAssets/Images/Image23.png";
+  const icon1URL = "/landingPageAssets/Icons/Icon1.png";
+  const icon2URL = "/landingPageAssets/Icons/Icon2.png";
+  const icon3URL = "/landingPageAssets/Icons/Icon3.png";
+  const icon4URL = "/landingPageAssets/Icons/Icon4.png";
+  const checkURL = "/landingPageAssets/Icons/Icon .png";
 
   return (
     <section className={styles.benefitsBg}>
@@ -135,7 +135,7 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <Image
-                  src={checkURL}
+                  src={icon2URL}
                   alt="icon2"
                   className={`img-fluid ${styles.img}`}
                   width={60}

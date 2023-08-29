@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "public/Parrotpal Icon & Logo/ParrotPal Logo.png";
-
 import styles from "./page.module.css";
 
 const Navbar = () => {
+  const Logo = "/ParrotpalIcon&Logo/ParrotPalLogo.png";
+
   return (
     <div>
       <nav
@@ -16,7 +16,8 @@ const Navbar = () => {
               src={Logo}
               alt="ParrotPal Logo"
               className={styles.img1}
-              width={80}
+              width={65}
+              height={50}
             />
           </a>
           {/* Add the Navbar toggler button */}

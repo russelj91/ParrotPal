@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import how from "public/landing Page Assets/Images/Image How to Get Started.png";
-import one from "public/landing Page Assets/Icons/one.png";
-import two from "public/landing Page Assets/Icons/two.png";
-import three from "public/landing Page Assets/Icons/three.png";
-import four from "public/landing Page Assets/Icons/four.png";
+
 import styles from "./page.module.css";
 
 const Started = () => {
+  const how = "/landingPageAssets/Images/ImageHowToGetStarted.png";
+  const one = "/landingPageAssets/Icons/one.png";
+  const two = "/landingPageAssets/Icons/two.png";
+  const three = "/landingPageAssets/Icons/three.png";
+  const four = "/landingPageAssets/Icons/four.png";
   return (
     <section className={styles.start}>
       <div className="container">
@@ -20,7 +21,9 @@ const Started = () => {
               src={how}
               alt="home"
               className={`img-fluid ${styles.img}`}
-            ></Image>
+              width={550}
+              height={550}
+            />
           </div>
           <div className="col-md">
             <div className="row align-items-center py-3">
@@ -30,6 +33,7 @@ const Started = () => {
                   alt="icon1"
                   className={styles.img1}
                   width={70}
+                  height={70}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -53,6 +57,7 @@ const Started = () => {
                   alt="icon1"
                   className={styles.img1}
                   width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -78,6 +83,7 @@ const Started = () => {
                   alt="icon1"
                   className={styles.img1}
                   width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -100,6 +106,7 @@ const Started = () => {
                   alt="icon1"
                   className={styles.img1}
                   width={65}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">

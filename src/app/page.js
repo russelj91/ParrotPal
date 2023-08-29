@@ -10,10 +10,10 @@ import Faq from "./faq/page";
 import Review from "./revies/page";
 
 export default function Home() {
-  const phoneImgUrl = "/landing Page Assets/Images/phone hero.png";
-  const arcImgUrl = "/landing Page Assets/Images/newarc.png";
-  const phone1ImageUrl = "/landing Page Assets/Images/phone1 hero.png";
-  const appleImgUrl = "/landing Page Assets/Icons/apple.png";
+  const phoneImgUrl = "/landingPageAssets/Images/phoneHero.png";
+  const arcImgUrl = "/landingPageAssets/Images/newarc.png";
+  const phone1ImageUrl = "/landingPageAssets/Images/phone1Hero.png";
+  const appleImgUrl = "/landingPageAssets/Icons/apple.png";
 
   return (
     <div>

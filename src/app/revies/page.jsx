@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Review = () => {
-  const Client = "/landing Page Assets/Images/Profile.png";
-  const quote = "/landing Page Assets/Icons/quote.png";
+  const Client = "/landingPageAssets/Images/Profile.png";
+  const quote = "/landingPageAssets/Icons/quote.png";
   return (
     <section className={`py-5 ${styles.reviewBg}`}>
       <div className="container">

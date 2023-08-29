@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Started = () => {
-  const how = "/landingPageAssets/Images/ImageHowToGetStarted.png";
   const one = "/landingPageAssets/Icons/one.png";
   const two = "/landingPageAssets/Icons/two.png";
   const three = "/landingPageAssets/Icons/three.png";
@@ -17,10 +16,10 @@ const Started = () => {
             How to get started
           </h2>
           <div className="col-md">
-            <Image
-              src={how}
-              alt="home"
-              className={`img-fluid ${styles.img}`}
+            <img
+              src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+              alt="My Image"
+              className="img-fluid"
               width={550}
               height={550}
             />
@@ -33,7 +32,7 @@ const Started = () => {
                   alt="icon1"
                   className={styles.img1}
                   width={70}
-                  height={70}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">

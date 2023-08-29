@@ -47,7 +47,7 @@ const About = () => {
                 <div className={styles.circleBackground}>
                   <Image
                     src={fasterImageURL}
-                    alt="focus"
+                    alt="mfp"
                     className={styles.img}
                     width={80}
                     height={80}
@@ -77,7 +77,7 @@ const About = () => {
                 <div className={styles.circleBackground}>
                   <Image
                     src={upImageURL}
-                    alt="focus"
+                    alt="check ins"
                     className={styles.img}
                     width={80}
                     height={80}

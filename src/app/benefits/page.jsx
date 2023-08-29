@@ -8,7 +8,6 @@ const Benefits = () => {
   const icon2URL = "/landingPageAssets/Icons/Icon2.png";
   const icon3URL = "/landingPageAssets/Icons/Icon3.png";
   const icon4URL = "/landingPageAssets/Icons/Icon4.png";
-  const checkURL = "/landingPageAssets/Icons/Icon .png";
 
   return (
     <section className={styles.benefitsBg}>

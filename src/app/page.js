@@ -47,7 +47,7 @@ export default function Home() {
                       <div className={styles.imageContainer}>
                         <Image
                           src={appleImgUrl}
-                          alt="focus"
+                          alt="Apple Icon"
                           className={styles.img}
                           width={30}
                           height={30}
@@ -72,14 +72,14 @@ export default function Home() {
             <div className="col-md text-end">
               <Image
                 src={phoneImgUrl}
-                alt="home"
+                alt="Phone Image"
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
                 height={550}
               />
               <Image
                 src={phone1ImageUrl}
-                alt="home"
+                alt="Phone Image"
                 className={`img-fluid ${styles.img} d-block d-md-none`}
                 width={550}
                 height={550}
@@ -90,7 +90,7 @@ export default function Home() {
         <div className={styles.arc}>
           <Image
             src={arcImgUrl}
-            alt="home"
+            alt="arc"
             className={`img-fluid ${styles.imgArc} `}
             width={1950}
             height={550}

@@ -1,0 +1,59 @@
+.reviewBg {
+  background-image: url('/Landing%20Page%20Assets/Images/ellipsebg.png');
+  background-color: #3e3c5f;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+
+.title{
+  color: #d7ebb6
+}
+
+.person{
+  margin-top: 80px;
+}
+
+.person, .personTitle{
+  color: #fff;
+}
+
+.paragraph{
+  font-size: 15px;
+}
+.personTitle{
+  font-size: 18px;
+}
+.reviewCol {
+  position: relative;
+  background: linear-gradient(to right, #63609e, #595694);
+  border: none;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+ 
+}
+
+.reviewContent {
+  text-align: left;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .img {
+    margin-top: 0; 
+  }
+}
+
+

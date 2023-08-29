@@ -1,0 +1,22 @@
+.tracking{
+  background-color: #3e3c5f;
+}
+
+
+.content{
+    font-size: 13px;
+    color: rgba(247, 240, 240, 0.349);
+}
+
+.title1{
+  color: #fff;
+}
+
+.img{
+  width: 520px;
+}
+  
+.contentWrapper {
+    padding-left: 15px; 
+  }
+  

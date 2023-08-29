@@ -1,0 +1,110 @@
+.navbar{
+    background-color: #7977ac;
+}
+
+.archor{
+  color: #fff;
+  font-weight: 500;
+}
+
+.archor:hover{
+  color: #d7ebb6;
+  background-color: #3e3c5f;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+  
+}
+
+
+.downloadButton{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(4, 105, 4);
+}
+
+.downloadButton:hover{
+  background-color: #3e3c5f;
+  color: #d7ebb6;
+  transition: all 0.5s ease-out;
+}
+
+.footerBg {
+    background-color: #373650;
+  }
+
+  .list{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .list:hover{
+    color:#d7ebb6
+  }
+
+  .socIcons{
+    margin-left: 30px;
+  }
+
+  .socIcons:hover{
+    opacity: 0.5;
+  }
+
+  .navbarCollapse {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #7977ac;
+}
+
+.dropLink{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .navbarCollapse {
+        position: unset;
+        top: unset;
+        left: unset;
+        z-index: unset;
+        width: unset;
+        background-color: unset;
+    }
+}
+
+/* Apply specific styles to the dropdown on small screens */
+@media (max-width: 767px) {
+  .navbarCollapse {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #7977ac;
+    /* Add the desired height */
+    height: 520px; /* Adjust the height value as needed */
+  }
+}
+
+/* Reset the styles on larger screens */
+@media (min-width: 992px) {
+  .navbarCollapse {
+    position: unset;
+    top: unset;
+    left: unset;
+    z-index: unset;
+    width: unset;
+    background-color: unset;
+    /* Reset the height to its default value */
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullWidthButton {
+    width: 90%;
+  }
+}
+

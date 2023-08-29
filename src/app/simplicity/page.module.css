@@ -1,0 +1,182 @@
+.title {
+  color: #d7ebb6;
+  font-weight: 500;
+}
+
+.simpBg {
+  background-color: #3e3c5f;
+}
+
+.simp {
+  background-image: url("/Landing%20Page%20Assets/Images/hero%20bg.png");
+  background-color: #615e9b;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin: 0 auto;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.content{
+  margin-left: 50px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+
+.imageContainer {
+  position: relative;
+
+
+}
+
+.img {
+  position: absolute;
+  width: 400px;
+  bottom: -50px;
+  margin-left: 300px;
+}
+
+
+.button{
+  color: rgb(3, 143, 3);
+}
+
+.button:hover{
+  color: #d7ebb6;
+  background-color: #3e3c5f;
+  transition: all 0.5s ease-out;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.content {
+  margin-left: 50px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  width: 400px;
+  bottom: -50px;
+  margin-left: 300px;
+}
+
+@media (max-width: 767px) {
+  .gridContainer {
+    grid-template-columns: 1fr; 
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  .img {
+    position: static; 
+    width: 100%;
+    margin: 0 auto; 
+    max-width: 400px; 
+  }
+}
+
+@media (max-width: 1196px) and (max-height: 640px) {
+  .img {
+    position: absolute;
+    width: 300px;
+    bottom: -50px;
+    margin-left: 200px;
+  } 
+}
+@media (max-width: 774px) {
+  .img {
+    position: absolute;
+    width: 300px;
+    bottom: -50px;
+    margin-left: 80px;
+  }
+  
+  .content{
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .simp {
+    background-image: url("/Landing%20Page%20Assets/Images/hero%20bg.png");
+    background-color: #615e9b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0 auto;
+    height: 520px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+.img {
+  position: absolute;
+  width: 300px;
+  bottom: -90px;
+  margin-left: 80px;
+}
+
+.content{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+
+@media (max-width: 766px) {
+  .img {
+    position: absolute;
+    width: 300px;
+    bottom: -50px;
+    margin-left: 250px;
+  }
+  
+  .content{
+    padding-left: 20%;
+    padding-right: 30px;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .img {
+    position: absolute;
+    width: 300px;
+    bottom: -70px;
+    margin-left: 20px;
+  }
+  
+  .content{
+    padding-left: 20%;
+    padding-right: 30px;
+
+  }
+}
+
+
+
+
+
+

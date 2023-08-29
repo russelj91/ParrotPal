@@ -52,7 +52,7 @@ export default function Home() {
                           height={30}
                         /> */}
                         <img
-                          src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                          src="/landingPageAssets/Icons/apple.png"
                           alt="Apple Icon"
                           className={styles.img}
                           width={30}
@@ -84,7 +84,7 @@ export default function Home() {
                 height={550}
               /> */}
               <img
-                src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                src="/landingPageAssets/Images/phone1Hero.png"
                 alt="Phone"
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
@@ -99,7 +99,7 @@ export default function Home() {
                 height={550}
               /> */}
               <img
-                src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                src="/landingPageAssets/Images/phone1Hero.png"
                 alt="Phone"
                 className={`img-fluid ${styles.img} d-block d-md-none`}
                 width={550}
@@ -117,10 +117,10 @@ export default function Home() {
             height={550}
           /> */}
           <img
-            src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+            src="/landingPageAssets/Images/newarc.png"
             alt="Arc"
             className={`img-fluid ${styles.imgArc} `}
-            width={550}
+            width={1950}
             height={550}
           />
         </div>

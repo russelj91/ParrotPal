@@ -25,7 +25,7 @@ const Simplicity = () => {
             <img
               src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
               alt="My Image"
-              className="img-fluid"
+              className={`img-fluid ${styles.img}`}
               width={550}
               height={550}
             />

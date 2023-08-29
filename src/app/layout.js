@@ -1,12 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
-import "./globals.css"; // Make sure this comes after Bootstrap
+import "./globals.css";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-// If "inter" is a font, apply it to a specific element using CSS classes or inline styles
 
 export const metadata = {
   title: "ParrolPal",

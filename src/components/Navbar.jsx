@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Logo from "public/Parrotpal Icon & Logo/ParrotPal Logo.png";
 
-import styles from "./page.module.css"; // Import the CSS module with a reference name
+import styles from "./page.module.css";
 
 const Navbar = () => {
   return (

@@ -4,10 +4,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Started = () => {
-  const one = "/landingPageAssets/Icons/one.png";
-  const two = "/landingPageAssets/Icons/two.png";
-  const three = "/landingPageAssets/Icons/three.png";
-  const four = "/landingPageAssets/Icons/four.png";
   return (
     <section className={styles.start}>
       <div className="container">
@@ -27,10 +23,10 @@ const Started = () => {
           <div className="col-md">
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={one}
-                  alt="icon1"
-                  className={styles.img1}
+                <img
+                  src="/landingPageAssets/Icons/one.png"
+                  alt="My Image"
+                  className="img-fluid"
                   width={70}
                   height={60}
                 />
@@ -51,10 +47,10 @@ const Started = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={two}
-                  alt="icon1"
-                  className={styles.img1}
+                <img
+                  src="/landingPageAssets/Icons/two.png"
+                  alt="My Image"
+                  className="img-fluid"
                   width={60}
                   height={60}
                 />
@@ -77,10 +73,10 @@ const Started = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={three}
-                  alt="icon1"
-                  className={styles.img1}
+                <img
+                  src="/landingPageAssets/Icons/three.png"
+                  alt="My Image"
+                  className="img-fluid"
                   width={60}
                   height={60}
                 />
@@ -100,11 +96,11 @@ const Started = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={four}
-                  alt="icon1"
-                  className={styles.img1}
-                  width={65}
+                <img
+                  src="/landingPageAssets/Icons/four.png"
+                  alt="My Image"
+                  className="img-fluid"
+                  width={60}
                   height={60}
                 />
               </div>

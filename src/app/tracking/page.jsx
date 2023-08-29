@@ -8,7 +8,6 @@ const Tracking = () => {
   const icon8URL = "/landingPageAssets/Icons/Icon8.png";
   const icon9URL = "/landingPageAssets/Icons/Icon9.png";
   const icon10URL = "/landingPageAssets/Icons/Icon10.png";
-  const analyticsURL = "/landingPageAssets/Images/AnalyticsImage.png";
   return (
     <section className={styles.tracking}>
       <div className="container py-5">
@@ -141,9 +140,9 @@ const Tracking = () => {
             </div>
           </div>
           <div className="col-md order-1 order-md-2">
-            <Image
-              src={analyticsURL}
-              alt="home"
+            <img
+              src="/landingPageAssets/Images/AnalyticsImage.png"
+              alt="My Image"
               className={`img-fluid ${styles.img}`}
               width={550}
               height={550}

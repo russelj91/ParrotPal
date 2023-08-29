@@ -5,13 +5,14 @@
 
 
 .hero {
-  background-image: url("/Landing%20Page%20Assets/Images/.herobg.png");
-   background-color: #615e9b;
-   background-size: cover;
-   background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+  background-image: url("/heroBg.png");
+  background-color: rgba(97, 94, 155, 1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
+
 
 .download{
   font-size: 10px;

@@ -3,10 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const About = () => {
-  const focusImageURL = "/landingPageAssets/Icons/focus.png";
-  const fasterImageURL = "/landingPageAssets/Icons/speed.png";
-  const upImageURL = "/landingPageAssets/Icons/PersonalisedCheckIns.png";
-
   return (
     <section className={`py-5 ${styles.aboutSection}`}>
       <div className="container py-5">

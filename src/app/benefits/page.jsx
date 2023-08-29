@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Benefits = () => {
+  const Food1URL = "/landingPageAssets/Images/Image23.png";
   const icon1URL = "/landingPageAssets/Icons/Icon1.png";
   const icon2URL = "/landingPageAssets/Icons/Icon2.png";
   const icon3URL = "/landingPageAssets/Icons/Icon3.png";
@@ -29,8 +30,8 @@ const Benefits = () => {
               height={550}
             /> */}
             <img
-              src="/landingPageAssets/Images/Image23.png"
-              alt="Benefits"
+              src="/LandingPageAssets/Images/Analytics.png"
+              alt="Analytics"
               className={`img-fluid ${styles.img}`}
               width={550}
               height={550}
@@ -39,9 +40,9 @@ const Benefits = () => {
           <div className="col-md">
             <div className="row align-items-center">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={icon1URL}
-                  alt="icon1"
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
                   height={60}
@@ -65,9 +66,9 @@ const Benefits = () => {
 
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={icon2URL}
-                  alt="icon2"
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
                   height={60}
@@ -89,9 +90,9 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={icon3URL}
-                  alt="icon3"
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
                   height={60}
@@ -114,9 +115,9 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={icon4URL}
-                  alt="icon4"
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
                   height={60}
@@ -139,9 +140,9 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <Image
-                  src={icon2URL}
-                  alt="icon2"
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
                   height={60}

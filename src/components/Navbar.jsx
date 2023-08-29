@@ -19,7 +19,7 @@ const Navbar = () => {
             /> */}
           </a>
           <img
-            src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+            src="/LandingPageAssets/Images/ParrotPalLogo.png"
             alt="ParrotPal Logo"
             className={`img-fluid ${styles.img1}`}
             width={65}

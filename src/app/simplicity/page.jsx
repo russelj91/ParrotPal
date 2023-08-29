@@ -23,9 +23,9 @@ const Simplicity = () => {
           </div>
           <div className={styles.imageContainer}>
             <img
-              src="/landingPageAssets/Images/meal.png"
+              src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
               alt="My Image"
-              className={`img-fluid ${styles.img}`}
+              className="img-fluid"
               width={550}
               height={550}
             />

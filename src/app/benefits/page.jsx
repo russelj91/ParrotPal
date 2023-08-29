@@ -3,12 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Benefits = () => {
-  const Food1URL = "/landingPageAssets/Images/Image23.png";
-  const icon1URL = "/landingPageAssets/Icons/Icon1.png";
-  const icon2URL = "/landingPageAssets/Icons/Icon2.png";
-  const icon3URL = "/landingPageAssets/Icons/Icon3.png";
-  const icon4URL = "/landingPageAssets/Icons/Icon4.png";
-
   return (
     <section className={styles.benefitsBg}>
       <div className="container py-5">
@@ -22,15 +16,8 @@ const Benefits = () => {
         </div>
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
-            {/* <Image
-              src={Food1URL}
-              alt="home"
-              className={`img-fluid ${styles.img}`}
-              width={550}
-              height={550}
-            /> */}
             <img
-              src="/LandingPageAssets/Images/Analytics.png"
+              src="/LandingPageAssets/Images/Image23.png"
               alt="Analytics"
               className={`img-fluid ${styles.img}`}
               width={550}
@@ -41,7 +28,7 @@ const Benefits = () => {
             <div className="row align-items-center">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon1.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
@@ -67,7 +54,7 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon2.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
@@ -91,7 +78,7 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon3.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
@@ -116,7 +103,7 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon4.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
@@ -141,7 +128,7 @@ const Benefits = () => {
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/LandingPageAssets/Images/Analytics.png"
+                  src="/LandingPageAssets/Images/Icon5.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}

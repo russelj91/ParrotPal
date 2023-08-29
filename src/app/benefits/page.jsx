@@ -27,13 +27,13 @@ const Benefits = () => {
           <div className="col-md">
             <div className="row align-items-center">
               <div className="col-3 col-md-2 text-center">
-                <img
+                {/* <img
                   src="/LandingPageAssets/Images/Icon1.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
                   width={60}
                   height={60}
-                />
+                /> */}
               </div>
               <div className="col-9 col-md-10">
                 <div className="row">

@@ -10,10 +10,6 @@ import Faq from "./faq/page";
 import Review from "./revies/page";
 
 export default function Home() {
-  const arcImgUrl = "/landingPageAssets/Images/newarc.png";
-  const phone1ImageUrl = "/landingPageAssets/Images/phone1Hero.png";
-  const appleImgUrl = "/landingPageAssets/Icons/apple.png";
-
   return (
     <div>
       <section className={styles.hero}>
@@ -52,7 +48,7 @@ export default function Home() {
                           height={30}
                         /> */}
                         <img
-                          src="/landingPageAssets/Icons/apple.png"
+                          src="/landingPageAssets/Images/apple.png"
                           alt="Apple Icon"
                           className={styles.img}
                           width={30}

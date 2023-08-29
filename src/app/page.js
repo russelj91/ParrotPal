@@ -117,7 +117,7 @@ export default function Home() {
             alt="My Image"
             className={`img-fluid ${styles.imgArc} `}
             width={2500}
-            height={550}
+            height={350}
           />
         </div>
       </section>

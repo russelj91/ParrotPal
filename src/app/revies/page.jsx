@@ -16,7 +16,7 @@ const Review = () => {
               height={60}
             /> */}
             <img
-              src="/landingPageAssets/Icons/quote.png"
+              src="/landingPageAssets/Images/quote.png"
               alt="My Image"
               className={`img-fluid pb-5 ${styles.img1}`}
               width={60}

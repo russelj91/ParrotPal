@@ -12,7 +12,6 @@ import Review from "./revies/page";
 export default function Home() {
   const phoneImgUrl = "/landingPageAssets/Images/phoneHero.png";
   const arcImgUrl = "/landingPageAssets/Images/newarc.png";
-  const phone1ImageUrl = "/landingPageAssets/Images/phone1Hero.png";
   const appleImgUrl = "/landingPageAssets/Icons/apple.png";
 
   return (
@@ -77,10 +76,10 @@ export default function Home() {
                 width={550}
                 height={550}
               />
-              <Image
-                src={phone1ImageUrl}
-                alt="Phone Image"
-                className={`img-fluid ${styles.img} d-block d-md-none`}
+              <img
+                src="/landingPageAssets/Images/phone1Hero.png"
+                alt="My Image"
+                className="img-fluid"
                 width={550}
                 height={550}
               />

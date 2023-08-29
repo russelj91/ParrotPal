@@ -19,8 +19,8 @@ const Footer = () => {
                     height={30}
                   /> */}
                   <img
-                    src="/landingPageAssets/logo/FooterLogo.png"
-                    alt="ParrotPalLogo"
+                    src="/LandingPageAssets/Images/ParrotPalLogo.png"
+                    alt="ParrotPal Logo"
                     className={styles.img1}
                     width={150}
                     height={30}

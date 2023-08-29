@@ -15,12 +15,19 @@ const Tracking = () => {
           <div className="col-md-6 order-2 order-md-1">
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
+                {/* <Image
                   src={icon6URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
-                  height={60} // Add height property
+                  height={60} 
+                /> */}
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
+                  className="img-fluid"
+                  width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -39,12 +46,19 @@ const Tracking = () => {
 
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
+                {/* <Image
                   src={icon7URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
-                  height={60} // Add height property
+                  height={60} 
+                /> */}
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
+                  className="img-fluid"
+                  width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -63,12 +77,19 @@ const Tracking = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
+                {/* <Image
                   src={icon8URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
-                  height={60} // Add height property
+                  height={60} 
+                /> */}
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
+                  className="img-fluid"
+                  width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -88,12 +109,19 @@ const Tracking = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
+                {/* <Image
                   src={icon9URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
-                  height={60} // Add height property
+                  height={60} 
+                /> */}
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
+                  className="img-fluid"
+                  width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -114,12 +142,19 @@ const Tracking = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <Image
+                {/* <Image
                   src={icon10URL}
                   alt="check"
                   className={styles.img1}
                   width={60}
-                  height={60} // Add height property
+                  height={60}
+                /> */}
+                <img
+                  src="/LandingPageAssets/Images/Analytics.png"
+                  alt="Analytics"
+                  className="img-fluid"
+                  width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">

@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 const About = () => {
   return (
-    <section className={`py-5 ${styles.aboutSection}`}>
+    <section className={` ${styles.aboutSection}`}>
       <div className="container py-5">
         <div className="row text-center d-flex align-items-center justify-content-center">
           <h2 className="fw-bold display-5 py-3 text-light" id="about">

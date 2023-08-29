@@ -5,7 +5,7 @@
 
 
 .hero {
-  background-image: url('/LandingPage/Assets/Images/herobg.png');
+  background-image: url("/Landing%20Page%20Assets/Images/hero%20bg.png");
    background-color: #615e9b;
    background-size: cover;
    background-repeat: no-repeat;
@@ -67,23 +67,3 @@
 }
 
 
-
-.customShape {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.customShape svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 133px;
-}
-
-.custom-shape-divider-top-1687544942 .shapeFill {
-  fill: #FFFFFF;
-}

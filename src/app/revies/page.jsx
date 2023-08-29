@@ -10,9 +10,16 @@ const Review = () => {
       <div className="container">
         <div className="row py-5 my-5">
           <div className="col-md">
-            <Image
+            {/* <Image
               src={quote}
               alt="Quotation mark"
+              className={`img-fluid pb-5 ${styles.img1}`}
+              width={60}
+              height={60}
+            /> */}
+            <img
+              src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+              alt="My Image"
               className={`img-fluid pb-5 ${styles.img1}`}
               width={60}
               height={60}
@@ -38,12 +45,19 @@ const Review = () => {
                       <div
                         className={`d-flex flex-column align-items-center ${styles.imgContainer}`}
                       >
-                        <Image
+                        {/* <Image
                           src={Client}
                           alt="client"
                           className={`img-fluid ${styles.img}`}
                           height={250}
                           width={250}
+                        /> */}
+                        <img
+                          src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                          alt="My Image"
+                          className={`img-fluid ${styles.img}`}
+                          width={250}
+                          height={250}
                         />
                       </div>
                     </div>
@@ -75,12 +89,19 @@ const Review = () => {
                 <div className="carousel-item">
                   <div className="row">
                     <div className="col-md-7">
-                      <Image
+                      {/* <Image
                         src={Client}
                         alt="client"
                         className={`img-fluid ${styles.img}`}
                         height={250}
                         width={250}
+                      /> */}
+                      <img
+                        src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                        alt="My Image"
+                        className={`img-fluid ${styles.img}`}
+                        width={250}
+                        height={250}
                       />
                     </div>
                     <div className="col-md">

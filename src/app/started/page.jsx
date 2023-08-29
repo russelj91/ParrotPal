@@ -26,8 +26,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/one.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={550}
-                  height={550}
+                  width={70}
+                  height={70}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -47,7 +47,7 @@ const Started = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/landingPageAssets/Icons/two.png"
+                  src="/LandingPageAssets/Images/two.png"
                   alt="My Image"
                   className="img-fluid"
                   width={60}
@@ -73,7 +73,7 @@ const Started = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/landingPageAssets/Icons/three.png"
+                  src="/LandingPageAssets/Images/three.png"
                   alt="My Image"
                   className="img-fluid"
                   width={60}
@@ -96,7 +96,7 @@ const Started = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/landingPageAssets/Icons/four.png"
+                  src="/LandingPageAssets/Images/four.png"
                   alt="My Image"
                   className="img-fluid"
                   width={60}

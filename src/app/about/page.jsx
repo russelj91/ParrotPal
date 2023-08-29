@@ -28,7 +28,7 @@ const About = () => {
                     height={80}
                   /> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/LandingPageAssets/Images/focus.png"
                     alt="My Image"
                     className={`img-fluid ${styles.img}`}
                     width={80}
@@ -60,7 +60,7 @@ const About = () => {
                     height={80}
                   /> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/LandingPageAssets/Images/speed.png"
                     alt="My Image"
                     className={`img-fluid ${styles.img}`}
                     width={80}
@@ -97,7 +97,7 @@ const About = () => {
                     height={80}
                   /> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/LandingPageAssets/Images/PersonalisedCheckIns.png"
                     alt="My Image"
                     className={`img-fluid ${styles.img}`}
                     width={80}

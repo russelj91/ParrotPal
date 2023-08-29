@@ -15,7 +15,9 @@ export default function Home() {
         <div className="container">
           <div className="row  pt-5  ">
             <div className="col-md">
-              <h1 className="display-4 fw-bold mt-5 text-start text-light">
+              <h1
+                className={`display-4  mt-5 text-start text-light ${styles.title2}`}
+              >
                 <span className={styles.title1}>Revolutionising </span>
                 <br />
                 Fat Loss & Food
@@ -34,18 +36,11 @@ export default function Home() {
                   <br /> you ate, and we handle the rest.
                 </p>
                 <button
-                  className={`btn btn-light rounded-pill px-5 ${styles.button}`}
+                  className={`btn btn-light rounded-pill px-4 ${styles.button}`}
                 >
                   <div className={styles.buttonContent}>
                     <div className={styles.imageAndText}>
                       <div className={styles.imageContainer}>
-                        {/* <Image
-                          src={appleImgUrl}
-                          alt="Apple Icon"
-                          className={styles.img}
-                          width={30}
-                          height={30}
-                        /> */}
                         <img
                           src="/LandingPageAssets/Images/apple.png"
                           alt="Apple Icon"
@@ -71,13 +66,6 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md text-end">
-              {/* <img
-                src="/landingPageAssets/Images/phoneHero.png"
-                alt="Phone"
-                className={`img-fluid ${styles.img} d-none d-md-block`}
-                width={550}
-                height={550}
-              /> */}
               <img
                 src="/LandingPageAssets/Images/phoneHero.png"
                 alt="Phone Hero "
@@ -85,14 +73,6 @@ export default function Home() {
                 width={550}
                 height={550}
               />
-
-              {/* <Image
-                src={phone1ImageUrl}
-                alt="Phone Image"
-                className={`img-fluid ${styles.img} d-block d-md-none`}
-                width={550}
-                height={550}
-              /> */}
               <img
                 src="/LandingPageAssets/Images/phone1Hero.png"
                 alt="Phone 1"
@@ -104,13 +84,6 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.arc}>
-          {/* <Image
-            src={arcImgUrl}
-            alt="arc"
-            className={`img-fluid ${styles.imgArc} `}
-            width={1950}
-            height={550}
-          /> */}
           <img
             src="/LandingPageAssets/Images/arc1.png"
             alt="My Image"

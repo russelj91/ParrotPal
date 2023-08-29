@@ -22,7 +22,7 @@ export default function Home() {
           <div className="row  pt-5  ">
             <div className="col-md">
               <h1 className="display-4 fw-bold mt-5 text-start text-light">
-                <span className={styles.title1}>Revolutionising</span>
+                <span className={styles.title1}>Revolutionising </span>
                 <br />
                 Fat Loss & Food
                 <br />

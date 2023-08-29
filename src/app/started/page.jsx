@@ -23,7 +23,7 @@ const Started = () => {
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
                 <img
-                  src="/landingPageAssets/Icons/one.png"
+                  src="/LandingPageAssets/Images/one.png"
                   alt="My Image"
                   className="img-fluid"
                   width={550}

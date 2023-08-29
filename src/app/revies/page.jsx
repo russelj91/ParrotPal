@@ -3,8 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Review = () => {
-  const Client = "/landingPageAssets/Images/Profile.png";
-  const quote = "/landingPageAssets/Icons/quote.png";
   return (
     <section className={`py-5 ${styles.reviewBg}`}>
       <div className="container">
@@ -18,7 +16,7 @@ const Review = () => {
               height={60}
             /> */}
             <img
-              src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+              src="/landingPageAssets/Icons/quote.png"
               alt="My Image"
               className={`img-fluid pb-5 ${styles.img1}`}
               width={60}
@@ -53,7 +51,7 @@ const Review = () => {
                           width={250}
                         /> */}
                         <img
-                          src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                          src="/landingPageAssets/Images/Profile.png"
                           alt="My Image"
                           className={`img-fluid ${styles.img}`}
                           width={250}
@@ -97,7 +95,7 @@ const Review = () => {
                         width={250}
                       /> */}
                       <img
-                        src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                        src="/landingPageAssets/Images/Profile.png"
                         alt="My Image"
                         className={`img-fluid ${styles.img}`}
                         width={250}

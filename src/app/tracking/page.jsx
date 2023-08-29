@@ -3,12 +3,12 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Tracking = () => {
-  const icon6URL = "/landing Page Assets/Icons/Icon 6.png";
-  const icon7URL = "/landing Page Assets/Icons/Icon 7.png";
-  const icon8URL = "/landing Page Assets/Icons/Icon 8.png";
-  const icon9URL = "/landing Page Assets/Icons/Icon 9.png";
-  const icon10URL = "/landing Page Assets/Icons/Icon 10.png";
-  const analyticsURL = "/landing Page Assets/Images/Analytics Image.png";
+  const icon6URL = "/landingPageAssets/Icons/Icon6.png";
+  const icon7URL = "/landingPageAssets/Icons/Icon7.png";
+  const icon8URL = "/landingPageAssets/Icons/Icon8.png";
+  const icon9URL = "/landingPageAssets/Icons/Icon9.png";
+  const icon10URL = "/landingPageAssets/Icons/Icon10.png";
+  const analyticsURL = "/landingPageAssets/Images/AnalyticsImage.png";
   return (
     <section className={styles.tracking}>
       <div className="container py-5">

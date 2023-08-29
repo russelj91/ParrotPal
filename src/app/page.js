@@ -71,7 +71,7 @@ export default function Home() {
             <div className="col-md text-end">
               <img
                 src="/landingPageAssets/Images/phoneHero.png"
-                alt="My Image"
+                alt="Phone"
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
                 height={550}

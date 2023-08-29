@@ -3,11 +3,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 const Footer = () => {
-  const Logo = "/landingPageAssets/logo/FooterLogo.png";
-  const fb = "/landingPageAssets/Icons/SosmedIcons/Facebook.svg";
-  const insta = "/landingPageAssets/Icons/SosmedIcons/Instagram.svg";
-  const tweet = "/landingPageAssets/Icons/SosmedIcons/Twitter.svg";
-  const tube = "/landingPageAssets/Icons/SosmedIcons/Youtube.svg";
   return (
     <section className={`py-5 ${styles.footerBg}`}>
       <div className="container text-center">
@@ -24,7 +19,7 @@ const Footer = () => {
                     height={30}
                   /> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/landingPageAssets/logo/FooterLogo.png"
                     alt="ParrotPalLogo"
                     className={styles.img1}
                     width={150}
@@ -44,7 +39,7 @@ const Footer = () => {
                     height={28}
                   ></Image> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/landingPageAssets/Images/Facebook.svg"
                     alt="Facebook Icon"
                     className={styles.socIcons}
                     width={28}
@@ -60,7 +55,7 @@ const Footer = () => {
                     height={28}
                   ></Image> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/landingPageAssets/Images/Instagram.svg"
                     alt="Instagram Icon"
                     className={styles.socIcons}
                     width={28}
@@ -76,7 +71,7 @@ const Footer = () => {
                     height={30}
                   ></Image> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/landingPageAssets/Images/Twitter.svg"
                     alt="Twitter Icon"
                     className={styles.socIcons}
                     width={30}
@@ -92,7 +87,7 @@ const Footer = () => {
                     height={30}
                   ></Image> */}
                   <img
-                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    src="/landingPageAssets/Images/Youtube.svg"
                     alt="Youtube Icon"
                     className={styles.socIcons}
                     width={30}

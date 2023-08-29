@@ -20,10 +20,17 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  <Image
+                  {/* <Image
                     src={focusImageURL}
                     alt="focus"
                     className={styles.img}
+                    width={80}
+                    height={80}
+                  /> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="My Image"
+                    className={`img-fluid ${styles.img}`}
                     width={80}
                     height={80}
                   />
@@ -45,10 +52,17 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  <Image
+                  {/* <Image
                     src={fasterImageURL}
                     alt="mfp"
                     className={styles.img}
+                    width={80}
+                    height={80}
+                  /> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="My Image"
+                    className={`img-fluid ${styles.img}`}
                     width={80}
                     height={80}
                   />
@@ -75,10 +89,17 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  <Image
+                  {/* <Image
                     src={upImageURL}
                     alt="check ins"
                     className={styles.img}
+                    width={80}
+                    height={80}
+                  /> */}
+                  <img
+                    src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
+                    alt="My Image"
+                    className={`img-fluid ${styles.img}`}
                     width={80}
                     height={80}
                   />

@@ -89,7 +89,6 @@ const About = () => {
                   your target to
                   <br />
                   <br />
-                  It&apos;s like talking or voice noting your best friend on
                   <br />
                   keep those pounds dropping!
                 </p>

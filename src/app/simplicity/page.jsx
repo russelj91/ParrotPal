@@ -9,8 +9,9 @@ const Simplicity = () => {
         <div className={styles.gridContainer}>
           <div className={styles.content}>
             <h2 className={`display-6 ${styles.title}`}>
-              &quot;"The Fastest Fat Loss Tool&quot;"
+              "The Fastest Fat Loss Tool"
             </h2>
+
             <p className="fw-bold text-light">
               All the features you need, nothing you don&apos;t. <br />
               Say hello to a healthier, more condident you!
@@ -22,7 +23,7 @@ const Simplicity = () => {
             </button>
           </div>
           <div className={styles.imageContainer}>
-            <img
+            <Image
               src="/LandingPageAssets/Images/meal.png"
               alt="My Image"
               className={`img-fluid ${styles.img}`}

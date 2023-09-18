@@ -1,34 +1,35 @@
-.benefitsBg{
+.benefitsBg {
   background-color: #3e3c5f;
 }
 
-
-
-.img2{
-  color: #d7ebb6
+.pal {
+  color: rgb(250, 111, 61);
 }
 
-.content{
-    font-size: 13px;
-    color: rgba(247, 240, 240, 0.349);
+.img2 {
+  color: #d7ebb6;
 }
 
-.title1{
+.content {
+  font-size: 13px;
+  color: rgba(247, 240, 240, 0.349);
+}
+
+.title1 {
   color: #fff;
+  font-weight: 600;
 }
-
 
 .squareBackground {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    background-color: rgba(196, 196, 196, 0.349);
-    width: 50px; 
-    height: 50px; 
-  }
-  
-  .contentWrapper {
-    padding-left: 15px; 
-  }
-  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(196, 196, 196, 0.349);
+  width: 50px;
+  height: 50px;
+}
+
+.contentWrapper {
+  padding-left: 15px;
+}

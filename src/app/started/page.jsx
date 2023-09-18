@@ -11,16 +11,25 @@ const Started = () => {
             How to get started
           </h2>
           <div className="col-md">
+            <h2
+              className={`fw-bold  py-3 text-light text-lg-start text-center ${styles.title}`}
+            >
+              <span className={styles.vid}>Video:</span>
+              <br />
+              How to create a recipes & meals and use our 16,000 strong recipes
+              database
+              <br /> and a weekend day when you forget.
+            </h2>
             <img
-              src="/LandingPageAssets/Images/ImageHowToGetStarted.png"
-              alt="My Image"
-              className="img-fluid"
+              src="/LandingPageAssets/Images/phone1Hero.png"
+              alt="Phone 1"
+              className={`img-fluid ${styles.img} `}
               width={550}
               height={550}
             />
           </div>
           <div className="col-md">
-            <div className="row align-items-center py-3">
+            <div className="row align-items-center py-3 pt-5">
               <div className="col-3 col-md-2 text-center">
                 <img
                   src="/LandingPageAssets/Images/one.png"

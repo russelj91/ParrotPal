@@ -1,13 +1,10 @@
-.title1{
+.title1 {
   color: #d7ebb6;
- 
 }
 
-.title2{
+.title2 {
   font-weight: 800;
 }
-
-
 
 .hero {
   background-image: url("/heroBg.png");
@@ -18,36 +15,37 @@
   background-attachment: fixed;
 }
 
-
-.download{
+.download {
   font-size: 10px;
-  color: #615e9b;
+  color: #fff;
 }
 
-.download:hover{
+.download:hover {
   color: #d7ebb6;
   transition: all 0.5s ease-out;
 }
 
-
-.appleApp{
+.appleApp {
   font-size: 15px;
 }
 
-
-.button{
+.button {
+  border: 1px solid white;
   color: green;
 }
-.button:hover{
+.button:hover {
   background-color: #615e9b;
   transition: all 0.5s ease-out;
 }
-
 
 .buttonContent {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.trial {
+  font-size: 12px;
 }
 
 .imageAndText {
@@ -64,12 +62,10 @@
   flex-direction: column;
 }
 
-.textContainer:hover{
+.textContainer:hover {
   color: #d7ebb6;
 }
 
 .download {
-  font-weight: bold; 
+  font-weight: bold;
 }
-
-

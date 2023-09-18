@@ -1,6 +1,6 @@
 .title {
   color: #d7ebb6;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .simpBg {
@@ -8,7 +8,7 @@
 }
 
 .simp {
-  background-image: url("/Landing%20Page%20Assets/Images/hero%20bg.png");
+  background-image: url("/heroBg.png");
   background-color: #615e9b;
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@
   border-radius: 20px;
 }
 
-.content{
+.content {
   margin-left: 50px;
 }
 .gridContainer {
@@ -28,26 +28,22 @@
   height: 100%;
 }
 
-
 .imageContainer {
   position: relative;
-
-
 }
 
 .img {
   position: absolute;
   width: 400px;
   bottom: -50px;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 
-
-.button{
+.button {
   color: rgb(3, 143, 3);
 }
 
-.button:hover{
+.button:hover {
   color: #d7ebb6;
   background-color: #3e3c5f;
   transition: all 0.5s ease-out;
@@ -67,16 +63,9 @@
   position: relative;
 }
 
-.img {
-  position: absolute;
-  width: 400px;
-  bottom: -50px;
-  margin-left: 300px;
-}
-
 @media (max-width: 767px) {
   .gridContainer {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   .content {
@@ -84,10 +73,10 @@
   }
 
   .img {
-    position: static; 
+    position: static;
     width: 100%;
-    margin: 0 auto; 
-    max-width: 400px; 
+    margin: 0 auto;
+    max-width: 400px;
   }
 }
 
@@ -97,7 +86,7 @@
     width: 300px;
     bottom: -50px;
     margin-left: 200px;
-  } 
+  }
 }
 @media (max-width: 774px) {
   .img {
@@ -106,18 +95,12 @@
     bottom: -50px;
     margin-left: 80px;
   }
-  
-  .content{
+
+  .content {
     padding-left: 10px;
     padding-right: 10px;
-
   }
 }
-
-
-
-
-
 
 @media (max-width: 767px) {
   .simp {
@@ -131,18 +114,18 @@
     overflow: hidden;
     border-radius: 20px;
   }
-  
-.img {
-  position: absolute;
-  width: 300px;
-  bottom: -90px;
-  margin-left: 80px;
-}
 
-.content{
-  padding-left: 10px;
-  padding-right: 10px;
-}
+  .img {
+    position: absolute;
+    width: 300px;
+    bottom: -90px;
+    margin-left: 80px;
+  }
+
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media (max-width: 766px) {
@@ -152,11 +135,10 @@
     bottom: -50px;
     margin-left: 250px;
   }
-  
-  .content{
+
+  .content {
     padding-left: 20%;
     padding-right: 30px;
-
   }
 }
 
@@ -167,16 +149,9 @@
     bottom: -70px;
     margin-left: 20px;
   }
-  
-  .content{
+
+  .content {
     padding-left: 20%;
     padding-right: 30px;
-
   }
 }
-
-
-
-
-
-

@@ -7,7 +7,9 @@ const Faq = () => {
       <div className="container">
         <div className="row">
           <div className="col-md">
-            <h2 className={`fw-bold display-5 ${styles.title}`}>
+            <h2
+              className={`fw-bold display-5 text-lg-start text-center ${styles.title}`}
+            >
               Frequenty Asked
               <br />
               Questions

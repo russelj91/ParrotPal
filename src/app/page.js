@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./page.module.css";
 import About from "./about/page";
 import Benefits from "./benefits/page";
+import TrackVideo from "./trackVideo/page";
 import Tracking from "./tracking/page";
 import Started from "./started/page";
 import Simplicity from "./simplicity/page";
@@ -16,7 +17,7 @@ export default function Home() {
           <div className="row  pt-5  ">
             <div className="col-md">
               <h1
-                className={`display-4  mt-5 text-start text-light ${styles.title2}`}
+                className={`display-4  mt-5 text-center text-lg-start text-light ${styles.title2}`}
               >
                 <span className={styles.title1}>Revolutionising </span>
                 <br />
@@ -25,24 +26,24 @@ export default function Home() {
                 Logging
               </h1>
               <div className="text-center text-lg-start text-light">
-                <p className="fw-bold py-3">
-                  Talk to Us Like You Talk to Your Best Friend!
+                <p className=" py-2 fw-bold">
+                  No more time wasted counting calories.
                 </p>
-                <p className="py-2">
-                  <span className="d-none d-lg-inline d-md-block d-block d-md-none">
-                    No fuss, no countless taps.{" "}
-                  </span>
-                  Just say or type what
-                  <br /> you ate, and we handle the rest.
+                <p className=" py-5 d-none d-lg-inline d-md-block d-block d-md-none">
+                  Using AI powered technology, It&apos;s never been
+                  <br /> quicker to log your food.
                 </p>
-                <button
-                  className={`btn btn-light rounded-pill px-4 ${styles.button}`}
-                >
+                <p className="py-3">
+                  <span className="fw-bold ">No fuss, no countless taps. </span>
+                  Just say, type or scan
+                  <br /> what you ate, and we handle the rest.
+                </p>
+                <button className={`btn btn-dark  px-4  ${styles.button}`}>
                   <div className={styles.buttonContent}>
                     <div className={styles.imageAndText}>
                       <div className={styles.imageContainer}>
                         <img
-                          src="/LandingPageAssets/Images/apple.png"
+                          src="/LandingPageAssets/Images/whiteapple.png"
                           alt="Apple Icon"
                           className={`img-fluid ${styles.img}`}
                           width={30}
@@ -61,7 +62,9 @@ export default function Home() {
                 </button>
 
                 <p className="text-center ">
-                  <small className="d-block d-md-none">3-day Trial</small>
+                  <small className={`d-block d-md-none mt-2 ${styles.trial}`}>
+                    3-day Free Trial
+                  </small>
                 </p>
               </div>
             </div>
@@ -95,6 +98,7 @@ export default function Home() {
       </section>
       <About />
       <Benefits />
+      <TrackVideo />
       <Tracking />
       <Started />
       <Simplicity />

@@ -1,4 +1,4 @@
-.start {
+.trackBg {
   background-color: #3e3c5f;
 }
 
@@ -6,20 +6,12 @@
   color: rgb(250, 111, 61);
 }
 
-.img {
-  width: 520px;
-}
-
-.title1 {
-  color: #fff;
-  font-weight: 600;
-}
-
 .content {
   font-size: 13px;
   color: rgba(247, 240, 240, 0.349);
 }
 
-.contentWrapper {
-  padding-left: 15px;
+.title1 {
+  color: #fff;
+  font-weight: 600;
 }

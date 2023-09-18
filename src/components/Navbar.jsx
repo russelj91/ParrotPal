@@ -34,25 +34,28 @@ const Navbar = () => {
             className={`collapse navbar-collapse ${styles.navbarCollapse}`}
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav mx-auto">
+            <ul className="navbar-nav mx-auto ">
               <li className={`nav-item ${styles.dropLink}`}>
-                <a className={`nav-link ${styles.archor}`} href="#about">
+                <a
+                  className={`nav-link fw-bold ${styles.archor}`}
+                  href="#about"
+                >
                   How it works
                 </a>
               </li>
               <li className={`nav-item ${styles.dropLink}`}>
-                <a className={`nav-link  ${styles.archor}`} href="#">
+                <a className={`nav-link fw-bold ${styles.archor}`} href="#">
                   Pricing
                 </a>
               </li>
               <li className={`nav-item ${styles.dropLink}`}>
-                <a className={`nav-link  ${styles.archor}`} href="#">
+                <a className={`nav-link  fw-bold ${styles.archor}`} href="#">
                   About Us
                 </a>
               </li>
             </ul>
             <button
-              className={`btn btn-light rounded-pill px-4 py-2 ${styles.downloadButton} ${styles.fullWidthButton}`}
+              className={`btn btn-light rounded-pill px-4 py-2 fw-bold ${styles.downloadButton} ${styles.fullWidthButton}`}
               type="button"
             >
               Download App

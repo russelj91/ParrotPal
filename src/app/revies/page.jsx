@@ -15,12 +15,13 @@ const Review = () => {
               width={60}
               height={60}
             />
-            <h2 className="fw-bold display-5 text-light">
+            <h2 className="fw-bold display-5 text-light text-lg-start text-center">
               What our users
               <br />
               say about
               <br />
-              <span className={styles.title}>ParrotPal</span>
+              Parrot
+              <span className={styles.title}>Pal</span>
             </h2>
           </div>
           <div className={`col-md py-5 ${styles.reviewCol}`}>
@@ -46,7 +47,9 @@ const Review = () => {
                       </div>
                     </div>
                     <div className="col-md">
-                      <div className={` ${styles.reviewContent}`}>
+                      <div
+                        className={` text-center text-lg-start${styles.reviewContent}`}
+                      >
                         <h4 className={styles.person}>Ariel William</h4>
                         <p className={styles.personTitle}>Fitness Enthusiast</p>
                       </div>
@@ -56,15 +59,10 @@ const Review = () => {
                     <div className="col pt-5 px-5">
                       <p className={`text-light ${styles.paragraph}`}>
                         As a busy professional, ParrotPal has been a lifesaver.
-                        The app&apos;s
-                        <br />
-                        personalized meal plans and live coaching keep me on
-                        track even on the
-                        <br />
-                        busiest days. Watching my progress unfold through the
-                        tracking tools has
-                        <br />
-                        been incredibly rewarding
+                        The app&apos;s personalized meal plans and live coaching
+                        keep me on track even on the busiest days. Watching my
+                        progress unfold through the tracking tools has been
+                        incredibly rewarding
                       </p>
                     </div>
                   </div>
@@ -82,25 +80,23 @@ const Review = () => {
                       />
                     </div>
                     <div className="col-md">
-                      <div className={` ${styles.reviewContent}`}>
-                        <h4 className={styles.person}>Ariel William</h4>
-                        <p className={styles.personTitle}>Fitness Enthusiast</p>
+                      <div
+                        className={`text-center text-lg-start ${styles.reviewContent}`}
+                      >
+                        <h4 className={styles.person}>Ioan Jones</h4>
+                        <p className={styles.personTitle}>Coach</p>
                       </div>
                     </div>
                   </div>
                   <div className="row">
                     <div className="col pt-5 px-5">
                       <p className={`text-light ${styles.paragraph}`}>
-                        As a busy professional, ParrotPal has been a lifesaver.
-                        The app&apos;s
-                        <br />
-                        personalized meal plans and live coaching keep me on
-                        track even on the
-                        <br />
-                        busiest days. Watching my progress unfold through the
-                        tracking tools has
-                        <br />
-                        been incredibly rewarding
+                        I can&apos;t believe how easy this app is to track your
+                        food. It understands Context, It makes it fun to track.
+                        I&apos;ve use all the tracking apps and my clients have
+                        too. I&apos;m switching all my clients to ParrotPal to
+                        track their calories and check-ins from now on.
+                        It&apos;s no brainer this is the future.
                       </p>
                     </div>
                   </div>

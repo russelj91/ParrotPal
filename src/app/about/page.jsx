@@ -7,8 +7,8 @@ const About = () => {
     <section className={` ${styles.aboutSection}`}>
       <div className="container py-5">
         <div className="row text-center d-flex align-items-center justify-content-center">
-          <h2 className="fw-bold display-5 py-3 text-light" id="about">
-            Simplify to Amplify
+          <h2 className="fw-bold display-4 py-3 text-light" id="about">
+            Less effort, Bigger Results
           </h2>
           <div className="col-md-3 mb-4">
             <div className={`card ${styles.transparentCard} mt-3`}>
@@ -24,18 +24,23 @@ const About = () => {
                     height={80}
                   />
                 </div>
-                <h5 className={`card-title py-4 ${styles.cardTitle}`}>
+                <h5 className={`card-title py-4 fw-bold ${styles.cardTitle}`}>
                   Focus on What Matters
                 </h5>
-                <p className={`card-text text-light pb-5 ${styles.content}`}>
-                  Chat or voice note your food, like texting a friend.
+                <p className={`card-text text-light fw-bold ${styles.content}`}>
+                  No hours wasted individually tracking
                   <br />
-                  Focus on the big 3 of fat loss: calories, protein, steps.
+                  each ingredient and movement.
+                </p>
+                <p className={`card-text text-light fw-bold ${styles.content}`}>
+                  We only focus on the 3 main goals at fat loss:
+                  <br />
+                  calories, protein and steps
                 </p>
               </div>
             </div>
           </div>
-          {/* Repeat the above structure for the other cards */}
+
           <div className="col-md-3 mb-4 mx-5">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div
@@ -50,18 +55,18 @@ const About = () => {
                     height={80}
                   />
                 </div>
-                <h5 className={`card-title py-4 ${styles.cardTitle}`}>
+                <h5 className={`card-title py-4 fw-bold ${styles.cardTitle}`}>
                   260% faster than MFP
                 </h5>
-                <p className={`card-text text-light pb-3 ${styles.content}`}>
-                  Log your food 260% faster than other leading apps!
+                <p className={`card-text text-light fw-bold ${styles.content}`}>
+                  Log your food 260% quicker
                   <br />
-                  (And it&apos;s way more fun)
+                  than on my Fitness Pal!
+                </p>
+                <p className={`card-text text-light fw-bold ${styles.content}`}>
+                  Its like voice noting your best friend
                   <br />
-                  <br />
-                  It&apos;s like talking or voice noting your best friend on
-                  <br />
-                  WhatsApp. That easy!
+                  on WhatsApp. That quick!
                 </p>
               </div>
             </div>
@@ -80,15 +85,16 @@ const About = () => {
                     height={80}
                   />
                 </div>
-                <h5 className={`card-title py-4 ${styles.cardTitle}`}>
+                <h5 className={`card-title py-4 fw-bold ${styles.cardTitle}`}>
                   Personalized Check-ins
                 </h5>
-                <p className={`card-text text-light pb-3 ${styles.content}`}>
-                  Stay on track. Simple weekly check-ins to tweak
+                <p className={`card-text text-light fw-bold ${styles.content}`}>
+                  Stay on track with your fat loss
                   <br />
-                  your target to
-                  <br />
-                  <br />
+                  with simple weekly check-ins.
+                </p>
+                <p className={`card-text text-light fw-bold ${styles.content}`}>
+                  Tweak your targets and
                   <br />
                   keep those pounds dropping!
                 </p>

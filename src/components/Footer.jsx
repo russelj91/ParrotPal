@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className={`${styles.list}`}>
-                  Testimonial
+                  Testimonials
                 </a>
               </li>
             </ul>

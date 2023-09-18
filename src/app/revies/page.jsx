@@ -48,7 +48,7 @@ const Review = () => {
                     </div>
                     <div className="col-md">
                       <div
-                        className={` text-center text-lg-start${styles.reviewContent}`}
+                        className={`text-center text-lg-start ${styles.reviewContent}`}
                       >
                         <h4 className={styles.person}>Ariel William</h4>
                         <p className={styles.personTitle}>Fitness Enthusiast</p>

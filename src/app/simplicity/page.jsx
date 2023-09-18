@@ -9,7 +9,7 @@ const Simplicity = () => {
         <div className={styles.gridContainer}>
           <div className={styles.content}>
             <h2 className={`display-6 ${styles.title}`}>
-              "The Fastest Fat Loss Tool"
+              &quot;"The Fastest Fat Loss Tool&quot;"
             </h2>
             <p className="fw-bold text-light">
               All the features you need, nothing you don&apos;t. <br />

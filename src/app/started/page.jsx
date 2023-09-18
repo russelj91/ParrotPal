@@ -16,9 +16,11 @@ const Started = () => {
             >
               <span className={styles.vid}>Video:</span>
               <br />
-              How to create a recipes & meals and use our 16,000 strong recipes
-              database
-              <br /> and a weekend day when you forget.
+              <span className={styles.second}>
+                How to create a recipes & meals and use our <br />
+                16,000 strong recipes database and a weekend
+                <br /> day when you forget.
+              </span>
             </h2>
             <img
               src="/LandingPageAssets/Images/phone1Hero.png"

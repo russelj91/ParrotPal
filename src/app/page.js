@@ -16,15 +16,17 @@ export default function Home() {
         <div className="container">
           <div className="row  pt-3  ">
             <div className="col-md">
-              <h1
-                className={`display-4  mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block d-md-none${styles.title2}`}
-              >
-                <span className={styles.title1}>Revolutionising </span>
-                <br />
-                Fat Loss & Food
-                <br />
-                Logging
-              </h1>
+              <div className="py-5">
+                <h1
+                  className={`mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block d-md-none ${styles.title2}`}
+                >
+                  <span className={styles.title1}>Revolutionising </span>
+                  <br />
+                  Fat Loss & Food
+                  <br />
+                  Tracking
+                </h1>
+              </div>
 
               <h1
                 className={` d-block pt-2 d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
@@ -36,17 +38,24 @@ export default function Home() {
                 Tracking
               </h1>
               <div className="text-center text-lg-start text-light">
-                <p className=" py-2 fw-bold mt-5 d-none d-lg-inline d-md-block d-block d-md-none">
-                  No more time wasted counting calories.
+                <p
+                  className={`mt-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub}`}
+                >
+                  No more time wasted counting calories. <br />
                 </p>
-                <p className=" py-5 d-none d-lg-inline d-md-block d-block d-md-none">
-                  Using AI powered technology, It&apos;s never been
-                  <br /> quicker to log your food.
-                </p>
+                <div className="py-3">
+                  <p
+                    className={`py-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub1}`}
+                  >
+                    Using AI powered technology, It&apos;s never been
+                    <br /> quicker to log your food.
+                  </p>
+                </div>
+
                 <p className={`d-block d-md-none mt-4 ${styles.secondary}`}>
                   No more time wasted counting calories the old way.
                 </p>
-                <p className={`pb-3 ${styles.noFuss}`}>
+                <p className={`py-3 ${styles.noFuss}`}>
                   <span className={`${styles.noFuss1}`}>
                     No fuss, no countless taps.{" "}
                   </span>

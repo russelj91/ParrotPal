@@ -3,10 +3,19 @@
 }
 
 .title2 {
-  font-size: 28;
+  font-size: 68px;
   font-weight: 700;
 }
 
+.desktopSub {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.desktopSub1 {
+  font-size: 16px;
+  font-weight: 400;
+}
 .title2Mobile {
   font-size: 28;
   font-weight: 700;
@@ -25,10 +34,11 @@
   font-weight: 400;
 }
 .noFuss {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
 }
 .noFuss1 {
+  font-size: 20;
   font-weight: 700;
 }
 .download {

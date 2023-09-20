@@ -2,6 +2,11 @@
   background-color: #3e3c5f;
 }
 
+.desktopTitle {
+  font-size: 54px;
+  font-weight: 700;
+}
+
 .amplify {
   font-size: 30px;
   font-weight: 700;

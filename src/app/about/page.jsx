@@ -13,12 +13,12 @@ const About = () => {
           >
             Simplify to Amplify
           </h2>
-          <h2
-            className="fw-bold display-4 py-3 text-light d-none d-lg-inline d-md-block d-block d-md-none"
+          <span
+            className={`py-3 text-light d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopTitle}`}
             id="about"
           >
             Less effort, Bigger Results
-          </h2>
+          </span>
           <div className="col-md-3 mb-4">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div

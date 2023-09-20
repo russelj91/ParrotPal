@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="container">
           <a className="navbar-brand" href="#">
             <img
-              src="/LandingPageAssets/Images/ParrotPal.png"
+              src="/LandingPageAssets/Images/ParrotPalLogo.png"
               alt="ParrotPal Logo"
               className={`img-fluid text-center ${styles.img1}`}
               width={65}
@@ -55,7 +55,7 @@ const Navbar = () => {
               </li>
             </ul>
             <button
-              className={`btn btn-light rounded-pill px-4 py-2 fw-bold ${styles.downloadButton} ${styles.fullWidthButton}`}
+              className={`btn btn-light rounded-pill px-4 fw-bold ${styles.downloadButton} ${styles.fullWidthButton}`}
               type="button"
             >
               Download App

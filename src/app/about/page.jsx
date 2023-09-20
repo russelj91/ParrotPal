@@ -46,9 +46,8 @@ const About = () => {
                 <p
                   className={`card-text text-light   d-block d-md-none${styles.contentMobile}`}
                 >
-                  We only focus on the 3 main goals at fat loss:
-                  <br />
-                  calories, protein and steps
+                  We only focus on the 3 main goals at fat loss: calories,
+                  protein and steps
                 </p>
                 <p
                   className={`card-text text-light fw-bold d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}

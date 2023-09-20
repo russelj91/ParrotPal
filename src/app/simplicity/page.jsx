@@ -12,15 +12,15 @@ const Simplicity = () => {
               <div className={styles.gridContainer}>
                 <div className={styles.content}>
                   <p
-                    className={`text-center text-lg-start pt-5 ${styles.title}`}
+                    className={`text-center text-lg-start tex pt-5 ${styles.title}`}
                   >
                     {'"The Fastest Fat Loss Tool"'}
                   </p>
 
                   <p
-                    className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                    className={`text-lg-start d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
                   >
-                    All the features you need, nothing you don&apos;t. <br />
+                    All the features you need, nothing you don&apos;t. <br />a
                     Say hello to a healthier, more condident you!
                   </p>
                   <p

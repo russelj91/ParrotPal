@@ -44,7 +44,7 @@ const Faq = () => {
                       ParrotPal is the embodiment of two powerful concepts: the
                       Pareto Principle and the symbolism of the parrot.
                     </p>
-                    <div className="container py-3">
+                    <div className=" py-3">
                       <span className={`${styles.accordionTitle}`}>
                         Understanding The Pareto Principle
                       </span>
@@ -65,6 +65,43 @@ const Faq = () => {
                       Referred to as the {'"law of the vital few"'}, this idea
                       highlights that zeroing in on 20% of actions will produce
                       the highest results.
+                    </p>
+                    <div className=" py-3">
+                      <span className={`${styles.accordionTitle}`}>
+                        The Nature of the Parrot
+                      </span>
+                    </div>
+                    <p className={`${styles.accordionContent}`}>
+                      Parrots are friendly, attentive and known for their
+                      mimicry. After absorbing the main parts of a coversation,
+                      thet communicate only key information back to their owner.
+                      Just as a parrot selectively chooses which phrases to
+                      mimic, ParrotPal empowers users to focus only on the
+                      crucial aspects of their health journey, reflecting what
+                      truly matters.
+                    </p>
+                    <div className=" py-3">
+                      <span className={`${styles.accordionTitle}`}>
+                        How This Shapes ParrotPal&apos;s Approach to Fat Loss
+                      </span>
+                    </div>
+                    <p className={`${styles.accordionContent}`}>
+                      In the realm if fat loss, you could be swamped by
+                      countless considerations. But, impactful results rest
+                      mainly on three pillas: calories, protein and steps. This
+                      trio, if adhered to, can lead to transformative fat loss
+                      outcomes.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      ParrotPal, embracing both the 80/20 rule and the
+                      parrot&apos;s selective mimicry, focuses only on these
+                      three elements. Our app is designed to champion essential
+                      trio, and eliminate distractions to further drive fat loss
+                      results. While other platforms may offer myriad tracking
+                      metrics, our philosophy is aobut focusing on what
+                      genuinely counts, ensuring you spend less time on the app
+                      and more time living vibrantly, just like our feathery
+                      mascot.
                     </p>
                   </div>
                 </div>

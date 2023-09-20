@@ -73,9 +73,9 @@ const Review = () => {
                     <div className="row">
                       <div className="col-md-7">
                         <img
-                          src="/LandingPageAssets/Images/Profile.png"
+                          src="/LandingPageAssets/Images/person7.png"
                           alt="Client Profile"
-                          className={`img-fluid ${styles.img}`}
+                          className={`img-fluid rounded-3 ${styles.img}`}
                           width={250}
                           height={250}
                         />

@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="container">
           <a className="navbar-brand" href="#">
             <img
-              src="/LandingPageAssets/Images/ParrotPalLogo.png"
+              src="/LandingPageAssets/Images/NewLogo.png"
               alt="ParrotPal Logo"
               className={`img-fluid text-center ${styles.img1}`}
               width={65}

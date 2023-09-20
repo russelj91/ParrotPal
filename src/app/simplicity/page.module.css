@@ -109,10 +109,10 @@
 
 @media (max-width: 767px) {
   .simp {
-    background-image: url("/Landing%20Page%20Assets/Images/hero%20bg.png");
+    background-image: url("/ellipsebg.png");
     background-color: #615e9b;
     background-size: cover;
-    background-position: center;
+    background-position: inherit;
     display: flex;
     margin: 0 auto;
     height: 420px;
@@ -140,7 +140,7 @@
     position: absolute;
     width: 300px;
     bottom: -50px;
-    margin-left: 150px;
+    margin-left: 100px;
   }
   .button {
     font-size: 20px;

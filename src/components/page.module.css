@@ -84,13 +84,13 @@
 @media (max-width: 767px) {
   .navbarCollapse {
     position: absolute;
-    top: 80px;
+    top: 75px;
     left: 0;
     z-index: 9999;
     width: 100%;
     background-color: #7977ac;
     /* Add the desired height */
-    height: 480px; /* Adjust the height value as needed */
+    height: 450px; /* Adjust the height value as needed */
   }
 }
 

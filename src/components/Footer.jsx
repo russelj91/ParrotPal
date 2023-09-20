@@ -103,8 +103,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md d-flex ">
-            {/* justify-content-center justify-content-md-start */}
+          <div className="col-md d-flex justify-content-center justify-content-md-center ">
             {/* <a href="#" className="mx-2 mx-md-3">
                   <img
                     src="/Facebook.svg"

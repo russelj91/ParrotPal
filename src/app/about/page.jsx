@@ -44,7 +44,7 @@ const About = () => {
                   fat loss, most don&apos;t matter.
                 </p>
                 <p
-                  className={`card-text text-light   d-block d-md-none${styles.contentMobile}`}
+                  className={`card-text text-light   d-block d-md-none ${styles.contentMobile}`}
                 >
                   We only focus on the 3 main goals at fat loss: calories,
                   protein and steps

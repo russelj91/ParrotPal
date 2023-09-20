@@ -8,10 +8,12 @@ const Benefits = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-md">
-            <h2 className="fw-bold display-5 py-3 text-light text-lg-start text-center">
+            <p
+              className={`fw-bold display-5 py-3 text-light text-lg-start text-center ${styles.benefitsTitle}`}
+            >
               The Benefits of <br />
               Parrot<span className={styles.pal}>Pal</span> At A Glance
-            </h2>
+            </p>
           </div>
         </div>
         <div className="row">
@@ -19,7 +21,7 @@ const Benefits = () => {
             <img
               src="/LandingPageAssets/Images/Image23.png"
               alt="Analytics"
-              className={`img-fluid mb-5 ${styles.img}`}
+              className={`img-fluid mb-5  d-none d-lg-inline d-md-block d-block d-md-none ${styles.img}`}
               width={550}
               height={550}
             />
@@ -39,9 +41,18 @@ const Benefits = () => {
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
                     <h6 className={`my-3 ${styles.title1}`}>
-                      Swift and Simple
+                      Swift and Simple to Use
                     </h6>
-                    <p className={styles.content}>
+                    <p className={`  d-block d-md-none ${styles.content}`}>
+                      Log your food 260% faster than other
+                      <br />
+                      leading apps. It&apos;s like talking or voice <br />
+                      noting your best friend on WhatsApp. <br />
+                      That easy!
+                    </p>
+                    <p
+                      className={` d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                    >
                       Log your food 260% faster than other leading apps.
                       It&apos;s like talking or voice noting your best friend on
                       WhatsApp. That easy!
@@ -67,7 +78,16 @@ const Benefits = () => {
                     <h6 className={`mb-3 ${styles.title1}`}>
                       Focus on What Matters
                     </h6>
-                    <p className={styles.content}>
+                    <p className={` d-block d-md-none ${styles.content}`}>
+                      Concentrate only on the essential
+                      <br />
+                      goals for weight loss:
+                      <br />
+                      calories, protein and steps.
+                    </p>
+                    <p
+                      className={` d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                    >
                       Concentrate on the essential trio for weight loss -
                       Protein, Calories, Steps.
                     </p>
@@ -88,13 +108,33 @@ const Benefits = () => {
               <div className="col-9 col-md-10">
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
-                    <h6 className={`mb-3 ${styles.title1}`}>
-                      Culinary Inspiration
+                    <h6 className={`mb-3  d-block d-md-none ${styles.title1}`}>
+                      Weekly Check-ins
                     </h6>
-                    <p className={styles.content}>
-                      Wondering what to eat? Let our bespoke meal plans guide
-                      you, and you&apos;ll get your custom plan and food ideas
-                      in seconds.
+                    <h6
+                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.title1}`}
+                    >
+                      Lose Fat Effectively
+                    </h6>
+
+                    <p className={` d-block d-md-none ${styles.content}`}>
+                      Stay consistent on your fat loss journey,
+                      <br />
+                      with simple weekly check-ins. Your
+                      <br />
+                      targets will be tweaked based on
+                      <br />
+                      changes to your metabolism to keep
+                      <br />
+                      those pounds dropping!
+                    </p>
+                    <p
+                      className={` d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                    >
+                      Stay consistent on your fat loss journey, with simple
+                      weekly check-ins.
+                      <br />
+                      Tweak your targets and keep those pounds dropping!
                     </p>
                   </div>
                 </div>
@@ -116,7 +156,19 @@ const Benefits = () => {
                     <h6 className={`mb-3 ${styles.title1}`}>
                       Generate Custom Meal Plans
                     </h6>
-                    <p className={styles.content}>
+                    <p className={` d-block d-md-none ${styles.content}`}>
+                      Fill out a short questionaire and get
+                      <br />
+                      your own custom meal plan tailored to
+                      <br />
+                      your calorie and protein targets in <br />
+                      seconds! (And if you don&apos;t like it you
+                      <br />
+                      can generate more variations) .
+                    </p>
+                    <p
+                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                    >
                       Fill out a short questionaire and get your own custom meal
                       plan tailored to your calories and protein target in
                       seconds.
@@ -139,7 +191,24 @@ const Benefits = () => {
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
                     <h6 className={`mb-3 ${styles.title1}`}>16,000 Recipes</h6>
-                    <p className={styles.content}>
+                    <p className={` d-block d-md-none ${styles.content}`}>
+                      Wondering what to eat? Get inspired by
+                      <br />
+                      our database of 16,000 recipe with
+                      <br />
+                      ingredient lists & methods. Got
+                      <br />
+                      chicken? Search {'"chicken"'} and we will
+                      <br />
+                      return a list of recipes based on
+                      <br />
+                      chicken in order of lowest calories per
+                      <br />
+                      portion to higher. So easy!
+                    </p>
+                    <p
+                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                    >
                       If you need recipe inspiration, search our 16,000 verified
                       recipies databases.
                     </p>

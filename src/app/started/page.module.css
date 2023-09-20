@@ -3,7 +3,7 @@
 }
 
 .vid {
-  color: rgb(250, 111, 61);
+  color: #ff6f2d;
 }
 .second {
   font-size: 20px;
@@ -17,9 +17,20 @@
   font-weight: 600;
 }
 
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.startedTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
 .content {
-  font-size: 13px;
-  color: rgba(247, 240, 240, 0.349);
+  font-size: 15px;
+  color: #8c99b2;
 }
 
 .contentWrapper {

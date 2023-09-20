@@ -4,8 +4,8 @@ import styles from "./page.module.css";
 
 const Tracking = () => {
   return (
-    <section className={styles.tracking}>
-      <div className="container py-5">
+    <section className={`${styles.tracking}`}>
+      <div className="container py-5 ">
         <div class="row ">
           <div className="col-md-6 order-2 order-md-1">
             <div className="row align-items-center py-3">

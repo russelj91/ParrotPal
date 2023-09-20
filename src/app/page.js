@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import About from "./about/page";
 import Benefits from "./benefits/page";
 import TrackVideo from "./trackVideo/page";
-import Tracking from "./tracking/page";
+// import Tracking from "./tracking/page";
 import Started from "./started/page";
 import Simplicity from "./simplicity/page";
 import Faq from "./faq/page";
@@ -14,10 +14,10 @@ export default function Home() {
     <div>
       <section className={styles.hero}>
         <div className="container">
-          <div className="row  pt-5  ">
+          <div className="row  pt-3  ">
             <div className="col-md">
               <h1
-                className={`display-4  mt-5 text-center text-lg-start text-light ${styles.title2}`}
+                className={`display-4  mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block d-md-none${styles.title2}`}
               >
                 <span className={styles.title1}>Revolutionising </span>
                 <br />
@@ -25,20 +25,35 @@ export default function Home() {
                 <br />
                 Logging
               </h1>
+
+              <h1
+                className={` d-block pt-2 d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
+              >
+                <span className={styles.title1}>The Revolution in</span>
+                <br />
+                Fat Loss & Food
+                <br />
+                Tracking
+              </h1>
               <div className="text-center text-lg-start text-light">
-                <p className=" py-2 fw-bold">
+                <p className=" py-2 fw-bold mt-5 d-none d-lg-inline d-md-block d-block d-md-none">
                   No more time wasted counting calories.
                 </p>
                 <p className=" py-5 d-none d-lg-inline d-md-block d-block d-md-none">
                   Using AI powered technology, It&apos;s never been
                   <br /> quicker to log your food.
                 </p>
-                <p className="py-3">
-                  <span className="fw-bold ">No fuss, no countless taps. </span>
+                <p className={`d-block d-md-none mt-4 ${styles.secondary}`}>
+                  No more time wasted counting calories the old way.
+                </p>
+                <p className={`pb-3 ${styles.noFuss}`}>
+                  <span className={`${styles.noFuss1}`}>
+                    No fuss, no countless taps.{" "}
+                  </span>
                   Just say, type or scan
                   <br /> what you ate, and we handle the rest.
                 </p>
-                <button className={`btn btn-dark  px-4  ${styles.button}`}>
+                <button className={`btn btn-dark  ${styles.button}`}>
                   <div className={styles.buttonContent}>
                     <div className={styles.imageAndText}>
                       <div className={styles.imageContainer}>
@@ -46,8 +61,8 @@ export default function Home() {
                           src="/LandingPageAssets/Images/whiteapple.png"
                           alt="Apple Icon"
                           className={`img-fluid ${styles.img}`}
-                          width={30}
-                          height={30}
+                          width={35}
+                          height={35}
                         />
                       </div>
                       <div className={styles.textContainer}>
@@ -69,6 +84,13 @@ export default function Home() {
               </div>
             </div>
             <div className="col-md text-end">
+              <p
+                className={`d-block d-md-none mt-3 text-light  text-center ${styles.magic}`}
+              >
+                Look at the magic and ease of tracking
+                <br />
+                with ParrotPal by watching this short video.
+              </p>
               <img
                 src="/LandingPageAssets/Images/phoneHero.png"
                 alt="Phone Hero "
@@ -99,7 +121,7 @@ export default function Home() {
       <About />
       <Benefits />
       <TrackVideo />
-      <Tracking />
+      {/* <Tracking /> */}
       <Started />
       <Simplicity />
       <Faq />

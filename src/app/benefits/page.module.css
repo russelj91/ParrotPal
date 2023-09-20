@@ -2,8 +2,12 @@
   background-color: #3e3c5f;
 }
 
+.benefitsTitle {
+  font-size: 30px;
+  font-weight: 700;
+}
 .pal {
-  color: rgb(250, 111, 61);
+  color: #ff6f2d;
 }
 
 .img2 {
@@ -11,11 +15,13 @@
 }
 
 .content {
-  font-size: 13px;
-  color: rgba(247, 240, 240, 0.349);
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .title1 {
+  font-size: 16px;
   color: #fff;
   font-weight: 600;
 }

@@ -3,15 +3,23 @@
 }
 
 .vid {
-  color: rgb(250, 111, 61);
+  color: #ff6f2d;
 }
 
 .content {
-  font-size: 13px;
-  color: rgba(247, 240, 240, 0.349);
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .title1 {
-  color: #fff;
+  color: #ffffff;
+  font-size: 16px;
   font-weight: 600;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: ffffff;
 }

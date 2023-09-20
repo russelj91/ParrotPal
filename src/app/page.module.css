@@ -3,7 +3,13 @@
 }
 
 .title2 {
-  font-weight: 800;
+  font-size: 28;
+  font-weight: 700;
+}
+
+.title2Mobile {
+  font-size: 28;
+  font-weight: 700;
 }
 
 .hero {
@@ -14,7 +20,17 @@
   background-position: center;
   background-attachment: fixed;
 }
-
+.secondary {
+  font-size: 12px;
+  font-weight: 400;
+}
+.noFuss {
+  font-size: 12px;
+  font-weight: 400;
+}
+.noFuss1 {
+  font-weight: 700;
+}
 .download {
   font-size: 10px;
   color: #fff;
@@ -26,7 +42,8 @@
 }
 
 .appleApp {
-  font-size: 15px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .button {
@@ -45,7 +62,13 @@
 }
 
 .trial {
-  font-size: 12px;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.magic {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .imageAndText {
@@ -66,6 +89,10 @@
   color: #d7ebb6;
 }
 
-.download {
-  font-weight: bold;
+/* For mobile screen sizes */
+@media (max-width: 767px) {
+  .hero {
+    background-color: #474583;
+    background-image: none; /* Optionally, you can remove the background image for mobile screens if you don't want it. */
+  }
 }

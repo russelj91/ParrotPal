@@ -1,71 +1,68 @@
-
-.aboutSection{
+.aboutSection {
   background-color: #3e3c5f;
-  
 }
 
-
-
+.amplify {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffff;
+}
 .circleContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; 
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
+.circleBackground {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(196, 196, 196, 0.349);
+  width: 70px;
+  height: 70px;
+}
 
-  
-  .circleBackground {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: rgba(196, 196, 196, 0.349); 
-    width: 70px; 
-    height: 70px;
-  }
+.circleBackground {
+  transition: background-color 0.3s ease;
+  background-color: initial;
+}
 
+.circleBackground:hover {
+  background-color: #3e3c5f;
+}
 
-  .circleBackground {
-    transition: background-color 0.3s ease; 
-    background-color: initial;
-  }
-  
-  .circleBackground:hover {
-    background-color: #3e3c5f; 
-  }
-  
-  
-  .transparentCard {
-    background: linear-gradient(to right, #63609e, #595694);
-    border: none; 
-    border-radius: 10px;
-    box-shadow: none; 
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
+.transparentCard {
+  background: linear-gradient(to right, #63609e, #595694);
+  border: none;
+  border-radius: 20px;
+  box-shadow: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
 .transparentCard:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.5s ease-out;
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-out;
 }
 
-  
-  .cardTitle{
-    color: #d7ebb6;
-  }
+.cardTitle {
+  color: #d7ebb6;
+  font-weight: 600;
+  font-size: 20px;
+}
 
-  .content{
-    font-size: 12px;
-    font-weight: 500;
-  }
+.content {
+  font-size: 14px;
+  font-weight: 400;
+}
 
-
-
+.contentMobile {
+  font-size: 14px;
+}
 .customCard {
-  width: 100%; 
-  height: 380px; 
+  width: 100%;
+  height: 380px;
 }
-
-

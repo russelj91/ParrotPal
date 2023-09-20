@@ -1,74 +1,71 @@
-.navbar{
-    background-color: #7977ac;
+.navbar {
+  background-color: #7977ac;
 }
 
-.archor{
+.archor {
   color: #fff;
   font-weight: 500;
 }
 
-.archor:hover{
+.archor:hover {
   color: #d7ebb6;
   background-color: #3e3c5f;
   border-radius: 5px;
   transition: all 0.5s ease-out;
-  
 }
 
-
-.downloadButton{
-    font-size: 12px;
-    font-weight: 500;
-    color: rgb(4, 105, 4);
+.downloadButton {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(4, 105, 4);
 }
 
-.downloadButton:hover{
+.downloadButton:hover {
   background-color: #3e3c5f;
   color: #d7ebb6;
   transition: all 0.5s ease-out;
 }
 
 .footerBg {
-    background-color: #373650;
-  }
-
-  .list{
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .list:hover{
-    color:#d7ebb6
-  }
-
-
-  .socIcons:hover{
-    opacity: 0.5;
-  }
-
-  .navbarCollapse {
-    position: absolute;
-    top: 80px;
-    left: 0;
-    z-index: 9999;
-    width: 100%;
-    background-color: #7977ac;
+  background-color: #373650;
 }
 
-.dropLink{
+.list {
+  text-decoration: none;
+  color: #fff;
+}
+
+.list:hover {
+  color: #d7ebb6;
+}
+
+.socIcons:hover {
+  opacity: 0.5;
+}
+
+.navbarCollapse {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #7977ac;
+}
+
+.dropLink {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 @media (min-width: 992px) {
-    .navbarCollapse {
-        position: unset;
-        top: unset;
-        left: unset;
-        z-index: unset;
-        width: unset;
-        background-color: unset;
-    }
+  .navbarCollapse {
+    position: unset;
+    top: unset;
+    left: unset;
+    z-index: unset;
+    width: unset;
+    background-color: unset;
+  }
 }
 
 /* Apply specific styles to the dropdown on small screens */
@@ -81,7 +78,7 @@
     width: 100%;
     background-color: #7977ac;
     /* Add the desired height */
-    height: 520px; /* Adjust the height value as needed */
+    height: 480px; /* Adjust the height value as needed */
   }
 }
 
@@ -105,9 +102,19 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .text-start {
     text-align: center;
   }
 }
+
+/* Center the logo on mobile screens */
+/*@media (max-width: 767px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important; /* Important to override existing styles */
+/* margin: 0 auto !important; /* Center horizontally */
+/* }
+} */

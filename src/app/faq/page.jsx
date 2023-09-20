@@ -38,11 +38,34 @@ const Faq = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div
-                    className={`accordion-body text-light fw-bold py-5 ${styles.accordionBody}`}
+                    className={`accordion-body text-light py-5 ${styles.accordionBody}`}
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dicta minus, dolore dolor laborum ad est id libero. Aliquid,
-                    iste in!
+                    <p className={`${styles.accordionContent}`}>
+                      ParrotPal is the embodiment of two powerful concepts: the
+                      Pareto Principle and the symbolism of the parrot.
+                    </p>
+                    <div className="container py-3">
+                      <span className={`${styles.accordionTitle}`}>
+                        Understanding The Pareto Principle
+                      </span>
+                    </div>
+
+                    <p className={`${styles.accordionContent}`}>
+                      Often dubbed the {'"80/20 rule"'}, the Pareto Principle
+                      proposes that 20% of our actions lead to 80% of the
+                      outcomes. For Instance: -20% of your wardrobe is won 80%
+                      of the time.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      -20% of your friends provide 80% of the joy in your life.
+                      <br />
+                      -20% of your ideas lead to 80% of your success.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Referred to as the {'"law of the vital few"'}, this idea
+                      highlights that zeroing in on 20% of actions will produce
+                      the highest results.
+                    </p>
                   </div>
                 </div>
               </div>

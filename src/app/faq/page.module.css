@@ -17,3 +17,14 @@
 .accordionBody {
   background-color: #3e3c5f;
 }
+
+.accordionContent {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.accordionTitle {
+  font-size: 16px;
+  font-weight: 600;
+}

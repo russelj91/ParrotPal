@@ -7,9 +7,7 @@ const Faq = () => {
       <div className="container">
         <div className="row">
           <div className="col-md">
-            <h2
-              className={`fw-bold display-5 text-lg-start text-center ${styles.title}`}
-            >
+            <h2 className={`text-lg-start text-center ${styles.title}`}>
               Frequenty Asked
               <br />
               Questions
@@ -23,7 +21,7 @@ const Faq = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button
-                    className={`accordion-button collapsed fw-bold text-light py-4 ${styles.myAccordion}`}
+                    className={`accordion-button collapsed  text-light py-4 ${styles.myAccordion}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
@@ -51,7 +49,7 @@ const Faq = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingTwo">
                   <button
-                    className={`accordion-button collapsed fw-bold text-light py-4 ${styles.myAccordion}`}
+                    className={`accordion-button collapsed  text-light py-4 ${styles.myAccordion}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
@@ -79,7 +77,7 @@ const Faq = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingThree">
                   <button
-                    className={`accordion-button collapsed fw-bold text-light py-4 ${styles.myAccordion}`}
+                    className={`accordion-button collapsed  text-light py-4 ${styles.myAccordion}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree"
@@ -107,7 +105,7 @@ const Faq = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingFour">
                   <button
-                    className={`accordion-button collapsed fw-bold text-light py-4 ${styles.myAccordion}`}
+                    className={`accordion-button collapsed  text-light py-4 ${styles.myAccordion}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFour"
@@ -135,7 +133,7 @@ const Faq = () => {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingFive">
                   <button
-                    className={`accordion-button collapsed fw-bold text-light py-4 ${styles.myAccordion}`}
+                    className={`accordion-button collapsed text-light py-4 ${styles.myAccordion}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFive"

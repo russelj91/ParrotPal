@@ -118,7 +118,7 @@ const Benefits = () => {
                     </h6>
 
                     <p className={` d-block d-md-none ${styles.content}`}>
-                      Stay consistent on your fat loss journey,
+                      Stay consistent on your fat loss journey
                       <br />
                       with simple weekly check-ins. Your
                       <br />
@@ -159,9 +159,9 @@ const Benefits = () => {
                     <p className={` d-block d-md-none ${styles.content}`}>
                       Fill out a short questionaire and get
                       <br />
-                      your own custom meal plan tailored to
+                      your own custom meal plan tailored
                       <br />
-                      your calorie and protein targets in <br />
+                      to your calorie and protein targets in <br />
                       seconds! (And if you don&apos;t like it you
                       <br />
                       can generate more variations) .

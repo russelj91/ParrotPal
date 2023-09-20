@@ -7,12 +7,25 @@
   background-position: center;
 }
 
+.reviewTitle {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 .title {
   color: rgb(250, 111, 61);
 }
 
 .person {
+  font-size: 24px;
+  font-weight: 600;
   margin-top: 80px;
+}
+
+.personTitle {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .person,
@@ -21,11 +34,10 @@
 }
 
 .paragraph {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
 }
-.personTitle {
-  font-size: 18px;
-}
+
 .reviewCol {
   position: relative;
   background: linear-gradient(to right, #63609e, #595694);

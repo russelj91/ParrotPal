@@ -7,7 +7,7 @@ const Simplicity = () => {
     <section className={`py-5 ${styles.simpBg}`}>
       <div className={`container py-5  `}>
         <div className="row">
-          <div className="col-md ">
+          <div className="col-md">
             <div className={`card  ${styles.simp}`}>
               <div className={styles.gridContainer}>
                 <div className={styles.content}>

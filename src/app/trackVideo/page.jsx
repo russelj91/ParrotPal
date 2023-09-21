@@ -172,7 +172,7 @@ const TrackVideo = () => {
               </h2>
             </div>
             <p
-              className={`fw-bold  text-light text-lg-start text-center d-block d-md-none  ${styles.title}`}
+              className={`fw-bold  text-light text-lg-start text-center d-block d-md-none  ${styles.titleMobile}`}
             >
               <span className={styles.vid}>Video:</span>
               <br />

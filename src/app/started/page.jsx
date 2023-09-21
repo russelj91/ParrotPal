@@ -168,8 +168,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/four.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={60}
-                  height={60}
+                  width={62}
+                  height={62}
                 />
               </div>
               <div className="col-9 col-md-10">

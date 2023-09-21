@@ -180,7 +180,10 @@
   }
 
   .content {
-    padding-left: 20%;
-    padding-right: 30px;
+    padding-left: 5%;
+  }
+
+  .buttonMobile {
+    font-size: 13px;
   }
 }

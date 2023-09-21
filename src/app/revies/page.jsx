@@ -8,7 +8,7 @@ const Review = () => {
       <div className="container">
         <div className="row py-5 my-5">
           <div className="col-md">
-            <img
+            <Image
               src="/LandingPageAssets/Images/quote.png"
               alt="Quotation Mark"
               className={`img-fluid pb-5 ${styles.img1}`}

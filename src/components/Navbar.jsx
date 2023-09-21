@@ -9,7 +9,7 @@ const Navbar = () => {
         className={`navbar navbar-expand-lg navbar-dark text-center shadow-sm ${styles.navbar}`}
       >
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="https://www.parrotpal.com/">
             <Image
               src="/LandingPageAssets/Images/NewLogo.png"
               alt="ParrotPal Logo"

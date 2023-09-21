@@ -10,7 +10,11 @@ const Footer = () => {
           <div className="col-md ">
             <div className="row pb-5 text-center">
               <div className="col-md pt-5">
-                <a href="#">
+                <a
+                  href="https://www.parrotpal.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {/* <Image
                     src={Logo}
                     alt="ParrotPal Logo"
@@ -104,8 +108,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="row py-5">
+          <p className="text-center text-light">
+            Follow us on our Social Media Acounts
+          </p>
           <div className="col-md d-flex justify-content-center justify-content-md-center ">
-            <a href="#" className="mx-2 mx-md-3">
+            <a
+              href="#"
+              className="mx-2 mx-md-3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="/Facebook.svg"
                 alt="Facebook Icon"
@@ -114,7 +126,12 @@ const Footer = () => {
                 height={28}
               />
             </a>
-            <a href="#" className="mx-2 mx-md-3">
+            <a
+              href="https://www.instagram.com/parrot.pal/?igshid=MzMyNGUyNmU2YQ=="
+              className="mx-2 mx-md-3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="/Instagram.svg"
                 alt="Instagram Icon"
@@ -123,7 +140,12 @@ const Footer = () => {
                 height={28}
               />
             </a>
-            <a href="#" className="mx-2 mx-md-3">
+            <a
+              href="#"
+              className="mx-2 mx-md-3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="/Twitter.svg"
                 alt="Twitter Icon"
@@ -132,7 +154,27 @@ const Footer = () => {
                 height={30}
               />
             </a>
-            <a href="#" className="mx-2 mx-md-3">
+            <a
+              href="https://www.tiktok.com/@parrot.pal?_t=8fsKgj8JceH&_r=1"
+              className="mx-2 mx-md-3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/LandingPageAssets/Images/tiktok.svg"
+                alt="Tiktok Icon"
+                className={styles.socIcons}
+                width={30}
+                height={30}
+              />
+            </a>
+
+            <a
+              href="#"
+              className="mx-2 mx-md-3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="/Youtube.svg"
                 alt="Youtube Icon"

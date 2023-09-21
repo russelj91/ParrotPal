@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container">
           <div className="row  pt-3  ">
             <div className="col-md">
-              <div className="py-5">
+              <div className="">
                 <h1
                   className={`mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block  ${styles.title2}`}
                 >
@@ -30,7 +30,7 @@ export default function Home() {
               </div>
 
               <h1
-                className={` d-block pt-2 d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
+                className={` d-block d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
               >
                 <span className={styles.title1}>The Revolution in</span>
                 <br />

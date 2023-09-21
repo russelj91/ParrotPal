@@ -116,7 +116,7 @@ const Faq = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    Do I need workout?
+                    Do I need to go to the gym for this to work?
                   </button>
                 </h2>
                 <div
@@ -128,9 +128,66 @@ const Faq = () => {
                   <div
                     className={`accordion-body text-light fw-bold py-5 ${styles.accordionBody}`}
                   >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptate quidem necessitatibus mollitia cumque aliquid
-                    consequuntur omnis repellat eum quaerat doloribus.
+                    <p className={`${styles.accordionContent}`}>
+                      Absolutely not. If fat loss is your main concern, you
+                      don&apos;t need to worry about workouts.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Let me show you why workouts are not that powerful for fat
+                      loss when we look at a full week view.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      You have 168 hours per week in total.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      56 hours per week you&apos;ll be asleep (roughly) and 112
+                      hours awake.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      If you did 5 x 1 hour workouts, that&apos;s 5 hours per
+                      week of workout time.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      If you did 5 x 1 hour workouts, that&apos;s 5 hours per
+                      week of workout time.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      As a percentage, that&apos;s just 4.4% of your hours
+                      awake, and 2.9% of total hours per week.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      What you do during the other 95.6% of your hours awake is
+                      far more important than the hour at the gym for fat loss.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      That&apos;s why with ParrotPal we&apos;re focusing on
+                      daily movement as a lifestyle.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Hit your step target, take the stairs, stand up more, take
+                      the long way home, pick up things, tidy up, embrace all of
+                      these little movements as they add up to create the
+                      biggest results.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      So for now, don&apos;t stress about workouts.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Hit your steps, protein and calories and watch the magic
+                      happen.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Note: we are not advocating for you to not workout.
+                      Working out with weights has many health benefits. But you
+                      should not workout just to burn calories. You should do it
+                      to become stronger, faster and more resilient. However, we
+                      are realistic and for many of you time is limited so we
+                      want to focus on what really matters for fat loss. You can
+                      use ParrotPal alongside a workout plan but if your main
+                      goal is fat loss and you&apos;re stressed about the 100
+                      things you can do, just focus on the ParrotPal big 3:
+                      calories, protein and steps.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -156,9 +213,41 @@ const Faq = () => {
                   <div
                     className={`accordion-body text-light fw-bold py-5 ${styles.accordionBody}`}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consectetur eum possimus commodi dolores illum quo
-                    doloremque dignissimos assumenda asperiores sint?
+                    <p className={`${styles.accordionContent}`}>
+                      ParrotPal is designed with precision in mind. We leverage
+                      extensive, verified food databases—akin to those used by
+                      platforms like Nutracheck. On top of this, we harness the
+                      power of AI technology.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      When you log complex or unique foods, especially from
+                      dining out experiences, ParrotPal doesn&apos;t merely
+                      guess. Recognizing the variability in restaurant dishes
+                      due to different chefs, ingredients, and preparations,
+                      ParrotPal calculates an average based on similar items and
+                      meals. This method offers a more realistic estimate
+                      compared to relying on a single data point, as restaurant
+                      calorie count can often be inconsistent.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      If we have verified information for a food item,
+                      that&apos;s what you&apos;ll see. If not, our system
+                      provides averages, ensuring you get the best possible
+                      estimate. Additionally, our expansive barcode scanning
+                      database facilitates quick and accurate logging.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      If we have verified information for a food item,
+                      that&apos;s what you&apos;ll see. If not, our system
+                      provides averages, ensuring you get the best possible
+                      estimate. Additionally, our expansive barcode scanning
+                      database facilitates quick and accurate logging.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      So overall, not only does ParrotPal rival the bigger apps
+                      with verified foods databases, it uses a completely new
+                      way of finding and tracking food for you which is instant.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -172,7 +261,7 @@ const Faq = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFour"
                   >
-                    How are you 260% quicker than the market leader?
+                    How are you quicker than MFP by 260%?
                   </button>
                 </h2>
                 <div
@@ -184,9 +273,34 @@ const Faq = () => {
                   <div
                     className={`accordion-body text-light fw-bold py-5 ${styles.accordionBody}`}
                   >
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio officiis quidem error. Earum harum quidem veritatis ad
-                    quasi? Modi, aperiam.
+                    <p className={`${styles.accordionContent}`}>
+                      We&apos;ve conducted side-by-side tests comparing the
+                      speed of meal logging in ParrotPal versus MFP &
+                      Nutracheck, utilising experienced users of each platform.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Our results revealed that, even among seasoned MFP and
+                      Nutracheck users, ParrotPal outpaced them, logging
+                      individual foods and comprehensive meals a whopping 260%
+                      faster.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      For newcomers to the realm of food tracking,
+                      ParrotPal&apos;s interface is refreshingly straightforward
+                      - providing the same action as sending a text message. In
+                      contrast, other apps are laden with multiple screens and a
+                      plethora of items to sift through, select, and edit, and
+                      can be very daunting to use. We believe ParrotPal offers a
+                      speedier, easier and more intuitive experience, especially
+                      for those who aren't familiar with typical food tracking
+                      apps.
+                    </p>
+                    <p className={`${styles.accordionContent}`}>
+                      Now that we&apos;ve shared the secret to fat loss and
+                      built you the best tool possible to help you implement it
+                      (you&apos;re welcome), we&apos;ll answer your next
+                      question…
+                    </p>
                   </div>
                 </div>
               </div>
@@ -200,7 +314,7 @@ const Faq = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseFive"
                   >
-                    How much is it?
+                    How much does it cost?
                   </button>
                 </h2>
                 <div
@@ -212,9 +326,29 @@ const Faq = () => {
                   <div
                     className={`accordion-body text-light fw-bold py-5 ${styles.accordionBody}`}
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Inventore ratione maiores quod aliquid praesentium possimus
-                    placeat ut repellat illum dignissimos!
+                    <p className={`${styles.accordionContent}`}>
+                      You start with a 3-day free trial and then onto
+                      straightforward pricing.
+                    </p>
+                    <div className=" py-3">
+                      <span className={`${styles.accordionTitle}`}>
+                        Choose between:
+                      </span>
+                    </div>
+                    <ul className="list-unstyled">
+                      <li>
+                        {" "}
+                        <p className={`${styles.accordionContent}`}>
+                          Monthly £9.99
+                        </p>
+                      </li>
+                      <li>
+                        {" "}
+                        <p className={`${styles.accordionContent}`}>
+                          Annually £99 (Saving £21)
+                        </p>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>

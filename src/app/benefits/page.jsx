@@ -108,13 +108,8 @@ const Benefits = () => {
               <div className="col-9 col-md-10">
                 <div className="row">
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
-                    <h6 className={`mb-3  d-block d-md-none ${styles.title1}`}>
+                    <h6 className={`mb-3 ${styles.title1}`}>
                       Weekly Check-ins
-                    </h6>
-                    <h6
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.title1}`}
-                    >
-                      Lose Fat Effectively
                     </h6>
 
                     <p className={` d-block d-md-none ${styles.content}`}>
@@ -170,8 +165,9 @@ const Benefits = () => {
                       className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
                     >
                       Fill out a short questionaire and get your own custom meal
-                      plan tailored to your calories and protein target in
-                      seconds.
+                      plan tailored to your calorie and protein targets in
+                      seconds! (And if you don&apos;t like it you can generate
+                      more variations) .
                     </p>
                   </div>
                 </div>
@@ -179,7 +175,7 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <Image
+                <img
                   src="/LandingPageAssets/Images/Icon2.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
@@ -209,8 +205,11 @@ const Benefits = () => {
                     <p
                       className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
                     >
-                      If you need recipe inspiration, search our 16,000 verified
-                      recipies databases.
+                      Wondering what to eat? Get inspired by our database of
+                      16,000 recipe with ingredient lists & methods. Got
+                      chicken? Search &apos;chicken&apos; and we will return a
+                      list of recipes based on chicken in order of lowest
+                      calories per portion to higher. So easy!
                     </p>
                   </div>
                 </div>

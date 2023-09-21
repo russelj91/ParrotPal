@@ -42,7 +42,7 @@ export default function Home() {
                 <p
                   className={`mt-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub}`}
                 >
-                  No more time wasted counting calories. <br />
+                  No more time wasted counting calories the old way. <br />
                 </p>
                 <div className="py-3">
                   <p

@@ -19,7 +19,7 @@ const About = () => {
           >
             Less effort, Bigger Results
           </span>
-          <div className="col-md-3 mb-4">
+          <div className="col-md mb-4">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
@@ -33,9 +33,9 @@ const About = () => {
                     height={80}
                   />
                 </div>
-                <p className={`card-title py-2  ${styles.cardTitle}`}>
+                <span className={`card-title py-2  ${styles.cardTitle}`}>
                   Focus on What Matters
-                </p>
+                </span>
                 <p
                   className={`card-text text-light  d-block d-md-none ${styles.contentMobile}`}
                 >
@@ -50,24 +50,22 @@ const About = () => {
                   protein and steps
                 </p>
                 <p
-                  className={`card-text text-light fw-bold d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                  className={`card-text text-light  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
-                  No hours wasted individually tracking
-                  <br />
-                  each ingredient and movement.
+                  There&apos;s 100s of things you could track for fat loss, most
+                  don&apos;t matter.
                 </p>
                 <p
-                  className={`card-text text-light fw-bold d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                  className={`card-text text-light  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
-                  We only focus on the 3 main goals at fat loss:
-                  <br />
-                  calories, protein and steps
+                  We only focus on the 3 main goals at fat loss: calories,
+                  protein and steps.
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="col-md-3 mb-4 mx-5">
+          <div className="col-md mb-4 ">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
@@ -81,9 +79,9 @@ const About = () => {
                     height={80}
                   />
                 </div>
-                <h5 className={`card-title py-2  ${styles.cardTitle}`}>
-                  260% faster than MFP
-                </h5>
+                <span className={`card-title py-2  ${styles.cardTitle}`}>
+                  260% Faster than MFP
+                </span>
                 <p
                   className={`card-text text-light  d-block d-md-none ${styles.contentMobile}`}
                 >
@@ -96,23 +94,22 @@ const About = () => {
                   That quick & easy!
                 </p>
                 <p
-                  className={`card-text text-light fw-bold d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
+                  className={`card-text text-light  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
                   Log your food 260% quicker
                   <br />
                   than on my Fitness Pal!
                 </p>
                 <p
-                  className={`card-text text-light fw-bold  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
+                  className={`card-text text-light   d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
-                  Its like voice noting your best friend
-                  <br />
-                  on WhatsApp. That quick!
+                  Its like voice noting your best friend on WhatsApp. That
+                  quick!
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-4">
+          <div className="col-md mb-4">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
@@ -146,14 +143,14 @@ const About = () => {
                   on changes to your metabolism.
                 </p>
                 <p
-                  className={`card-text text-light fw-bold  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
+                  className={`card-text text-light   d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
                   Stay on track with your fat loss
                   <br />
                   with simple weekly check-ins.
                 </p>
                 <p
-                  className={`card-text text-light fw-bold  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
+                  className={`card-text text-light   d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
                   Tweak your targets and
                   <br />

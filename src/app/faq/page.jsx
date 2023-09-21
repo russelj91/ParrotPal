@@ -51,10 +51,10 @@ const Faq = () => {
                     </div>
 
                     <p className={`${styles.accordionContent}`}>
-                      Often dubbed the {'"80/20 rule"'}, the Pareto Principle
-                      proposes that 20% of our actions lead to 80% of the
-                      outcomes. For Instance: -20% of your wardrobe is won 80%
-                      of the time.
+                      Often dubbed the &apos;80/20 rule&apos;, the Pareto
+                      Principle proposes that 20% of our actions lead to 80% of
+                      the outcomes. For Instance: -20% of your wardrobe is won
+                      80% of the time.
                     </p>
                     <p className={`${styles.accordionContent}`}>
                       -20% of your friends provide 80% of the joy in your life.
@@ -62,9 +62,9 @@ const Faq = () => {
                       -20% of your ideas lead to 80% of your success.
                     </p>
                     <p className={`${styles.accordionContent}`}>
-                      Referred to as the {'"law of the vital few"'}, this idea
-                      highlights that zeroing in on 20% of actions will produce
-                      the highest results.
+                      Referred to as the &apos;law of the vital few&apos;, this
+                      idea highlights that zeroing in on 20% of actions will
+                      produce the highest results.
                     </p>
                     <div className=" py-3">
                       <span className={`${styles.accordionTitle}`}>

@@ -18,7 +18,7 @@
 }
 
 .simp {
-  background-image: url("/heroBg.png");
+  background-image: url("/ellipsebg.png");
   background-color: #615e9b;
   background-size: cover;
   background-position: center;
@@ -48,8 +48,8 @@
 .img {
   position: absolute;
   width: 400px;
-  bottom: -50px;
-  margin-left: 350px;
+  bottom: -5px;
+  margin-left: 250px;
 }
 
 .buttonDesktop {

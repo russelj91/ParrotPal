@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container">
           <div className="row  pt-3  ">
             <div className="col-md">
-              <div className="">
+              <div className="mt-5">
                 <h1
                   className={`mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block  ${styles.title2}`}
                 >

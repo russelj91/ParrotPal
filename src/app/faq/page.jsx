@@ -292,8 +292,8 @@ const Faq = () => {
                       plethora of items to sift through, select, and edit, and
                       can be very daunting to use. We believe ParrotPal offers a
                       speedier, easier and more intuitive experience, especially
-                      for those who aren't familiar with typical food tracking
-                      apps.
+                      for those who aren&apos;t familiar with typical food
+                      tracking apps.
                     </p>
                     <p className={`${styles.accordionContent}`}>
                       Now that we&apos;ve shared the secret to fat loss and

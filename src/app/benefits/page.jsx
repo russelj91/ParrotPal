@@ -18,7 +18,7 @@ const Benefits = () => {
         </div>
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
-            <img
+            <Image
               src="/LandingPageAssets/Images/Image23.png"
               alt="Analytics"
               className={`img-fluid mb-5  d-none d-lg-inline d-md-block d-block d-md-none ${styles.img}`}
@@ -29,7 +29,7 @@ const Benefits = () => {
           <div className="col-md">
             <div className="row align-items-center">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon1.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
@@ -64,7 +64,7 @@ const Benefits = () => {
 
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon2.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
@@ -97,7 +97,7 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon3.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
@@ -142,7 +142,7 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon4.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}
@@ -179,7 +179,7 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center py-2">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon2.png"
                   alt="Analytics"
                   className={`img-fluid ${styles.img}`}

@@ -25,7 +25,7 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/focus.png"
                     alt="My Image"
                     className={`img-fluid ${styles.img}`}
@@ -73,7 +73,7 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/speed.png"
                     alt="My Image"
                     className={`img-fluid ${styles.img}`}
@@ -118,7 +118,7 @@ const About = () => {
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}
               >
                 <div className={styles.circleBackground}>
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/PersonalisedCheckIns.png"
                     alt="My Image"
                     className={`img-fluid ${styles.img}`}

@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import About from "./about/page";
 import Benefits from "./benefits/page";
 import TrackVideo from "./trackVideo/page";
+import Image from "next/image";
 // import Tracking from "./tracking/page";
 import Started from "./started/page";
 import Simplicity from "./simplicity/page";

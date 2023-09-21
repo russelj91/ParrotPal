@@ -66,7 +66,7 @@ export default function Home() {
                   <div className={styles.buttonContent}>
                     <div className={styles.imageAndText}>
                       <div className={styles.imageContainer}>
-                        <img
+                        <Image
                           src="/LandingPageAssets/Images/whiteapple.png"
                           alt="Apple Icon"
                           className={`img-fluid ${styles.img}`}
@@ -100,14 +100,14 @@ export default function Home() {
                 <br />
                 with ParrotPal by watching this short video.
               </p>
-              <img
+              <Image
                 src="/LandingPageAssets/Images/phoneHero.png"
                 alt="Phone Hero "
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
                 height={550}
               />
-              <img
+              <Image
                 src="/LandingPageAssets/Images/phone1Hero.png"
                 alt="Phone 1"
                 className={`img-fluid ${styles.img} d-block d-md-none`}
@@ -118,7 +118,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.arc}>
-          <img
+          <Image
             src="/LandingPageAssets/Images/arc1.png"
             alt="My Image"
             className={`img-fluid ${styles.imgArc} `}

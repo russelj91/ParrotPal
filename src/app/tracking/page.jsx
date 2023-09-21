@@ -10,7 +10,7 @@ const Tracking = () => {
           <div className="col-md-6 order-2 order-md-1">
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon6.png"
                   alt="Analytics"
                   className="img-fluid"
@@ -34,7 +34,7 @@ const Tracking = () => {
 
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon7.png"
                   alt="Analytics"
                   className="img-fluid"
@@ -58,7 +58,7 @@ const Tracking = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon8.png"
                   alt="Analytics"
                   className="img-fluid"
@@ -83,7 +83,7 @@ const Tracking = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon9.png"
                   alt="Analytics"
                   className="img-fluid"
@@ -109,7 +109,7 @@ const Tracking = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/Icon10.png"
                   alt="Analytics"
                   className="img-fluid"
@@ -135,7 +135,7 @@ const Tracking = () => {
             </div>
           </div>
           <div className="col-md order-1 order-md-2">
-            <img
+            <Image
               src="/LandingPageAssets/Images/Analytics.png"
               alt="Analytics"
               className="img-fluid mb-5"

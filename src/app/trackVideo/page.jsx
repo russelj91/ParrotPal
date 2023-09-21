@@ -26,7 +26,7 @@ const TrackVideo = () => {
               <br />
               forget
             </p>
-            <img
+            <Image
               src="/LandingPageAssets/Images/phone1Hero.png"
               alt="Phone 1"
               className={`img-fluid ${styles.img} `}
@@ -38,7 +38,7 @@ const TrackVideo = () => {
             <div className="col-md">
               <div className="row align-items-center">
                 <div className="col-3 col-md-2 text-center">
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/Icon6.png"
                     alt="Analytics"
                     className={`img-fluid ${styles.img}`}
@@ -68,7 +68,7 @@ const TrackVideo = () => {
 
               <div className="row align-items-center py-2">
                 <div className="col-3 col-md-2 text-center">
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/Icon7.png"
                     alt="Analytics"
                     className={`img-fluid ${styles.img}`}
@@ -95,7 +95,7 @@ const TrackVideo = () => {
               </div>
               <div className="row align-items-center py-2">
                 <div className="col-3 col-md-2 text-center">
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/Icon9.png"
                     alt="Analytics"
                     className={`img-fluid ${styles.img}`}
@@ -126,7 +126,7 @@ const TrackVideo = () => {
               </div>
               <div className="row align-items-center py-2">
                 <div className="col-3 col-md-2 text-center">
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/Icon10.png"
                     alt="Analytics"
                     className={`img-fluid ${styles.img}`}

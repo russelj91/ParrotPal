@@ -18,7 +18,7 @@ const Footer = () => {
                     width={150}
                     height={30}
                   /> */}
-                  <img
+                  <Image
                     src="/LandingPageAssets/Images/FooterLogo.png"
                     alt="ParrotPal Logo"
                     className={`img-fluid ${styles.img1}`}
@@ -114,7 +114,7 @@ const Footer = () => {
                   />
                 </a> */}
             <a href="#" className="mx-2 mx-md-3">
-              <img
+              <Image
                 src="/Instagram.svg"
                 alt="Instagram Icon"
                 className={styles.socIcons}

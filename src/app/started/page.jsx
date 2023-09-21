@@ -38,7 +38,7 @@ const Started = () => {
               </span>
             </p>
 
-            <img
+            <Image
               src="/LandingPageAssets/Images/phone1Hero.png"
               alt="Phone 1"
               className={`img-fluid ${styles.img} `}
@@ -54,7 +54,7 @@ const Started = () => {
           <div className="col-md">
             <div className="row align-items-center py-3 pt-5">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/one.png"
                   alt="My Image"
                   className="img-fluid"
@@ -86,7 +86,7 @@ const Started = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/two.png"
                   alt="My Image"
                   className="img-fluid"
@@ -128,7 +128,7 @@ const Started = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/three.png"
                   alt="My Image"
                   className="img-fluid"
@@ -164,7 +164,7 @@ const Started = () => {
             </div>
             <div className="row align-items-center py-3">
               <div className="col-3 col-md-2 text-center">
-                <img
+                <Image
                   src="/LandingPageAssets/Images/four.png"
                   alt="My Image"
                   className="img-fluid"

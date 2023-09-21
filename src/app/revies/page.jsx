@@ -36,7 +36,7 @@ const Review = () => {
                         <div
                           className={`d-flex flex-column align-items-center ${styles.imgContainer}`}
                         >
-                          <img
+                          <Image
                             src="/LandingPageAssets/Images/Profile.png"
                             alt="Client Profile"
                             className={`img-fluid ${styles.img}`}
@@ -72,7 +72,7 @@ const Review = () => {
                   <div className="carousel-item">
                     <div className="row">
                       <div className="col-md-7">
-                        <img
+                        <Image
                           src="/LandingPageAssets/Images/person7.png"
                           alt="Client Profile"
                           className={`img-fluid rounded-3 ${styles.img}`}

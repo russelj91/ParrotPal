@@ -53,7 +53,7 @@ export default function Home() {
                   </p>
                 </div>
 
-                <p className={`d-block d-md-none mt-4 ${styles.secondary}`}>
+                <p className={`d-block d-md-none ${styles.secondary}`}>
                   No more time wasted counting calories the old way.
                 </p>
                 <p className={`py-3 ${styles.noFuss}`}>

@@ -34,13 +34,13 @@
   font-weight: 400;
 }
 .noFuss {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
-.noFuss1 {
+/* .noFuss1 {
   font-size: 20;
   font-weight: 700;
-}
+} */
 .download {
   font-size: 10px;
   color: #fff;

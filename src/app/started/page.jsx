@@ -7,12 +7,7 @@ const Started = () => {
     <section className={styles.start}>
       <div className="container">
         <div className="row">
-          <p
-            className={`display-5 py-5 text-center text-light d-none d-lg-inline d-md-block d-block  ${styles.startedTitle}`}
-          >
-            How to get started
-          </p>
-          <div className="col-md">
+          <div className="col-md d-flex justify-content-center">
             <p
               className={`  py-3 text-light text-lg-start text-center  d-none d-lg-inline d-md-block d-block  ${styles.title}`}
             >
@@ -37,21 +32,35 @@ const Started = () => {
                 datasbase
               </span>
             </p>
-
-            <Image
-              src="/LandingPageAssets/Images/phone1Hero.png"
-              alt="Phone 1"
-              className={`img-fluid ${styles.img} `}
-              width={550}
-              height={550}
-            />
+          </div>
+          <div className="row">
+            <div className="col-md d-flex justify-content-center">
+              <Image
+                src="/LandingPageAssets/Images/phone1Hero.png"
+                alt="Phone 1"
+                className={`img-fluid ${styles.img} `}
+                width={550}
+                height={550}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md text-center">
+            <p
+              className={`display-5 py-5 text-center text-light d-none d-lg-inline d-md-block d-block  ${styles.startedTitle}`}
+            >
+              How to get started
+            </p>
             <p
               className={`display-5  text-center text-light d-block d-block d-md-none  ${styles.startedTitle}`}
             >
               How to get started
             </p>
           </div>
-          <div className="col-md">
+        </div>
+        <div className="row d-flex justify-content-center">
+          <div className="col-md-5">
             <div className="row align-items-center py-3 pt-5">
               <div className="col-3 col-md-2 text-center">
                 <Image
@@ -64,7 +73,7 @@ const Started = () => {
               </div>
               <div className="col-9 col-md-10">
                 <div className="row">
-                  <div className={`col-md-12 ${styles.contentWrapper}`}>
+                  <div className={`col-md-12  ${styles.contentWrapper}`}>
                     <h4 className={`mb-3 ${styles.title1}`}>
                       Setup in Seconds
                     </h4>

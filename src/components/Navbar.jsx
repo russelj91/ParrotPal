@@ -9,13 +9,16 @@ const Navbar = () => {
         className={`navbar navbar-expand-lg navbar-dark text-center shadow-sm ${styles.navbar}`}
       >
         <div className="container">
-          <Image
-            src="/LandingPageAssets/Images/gift2.png"
-            alt="Analytics"
-            className={`img-fluid d-block d-md-none ${styles.img}`}
-            width={55}
-            height={55}
-          />
+          <div className="mx-3">
+            {" "}
+            <Image
+              src="/LandingPageAssets/Images/gift2.png"
+              alt="Analytics"
+              className={`img-fluid d-block d-md-none ${styles.imgGift}`}
+              width={30}
+              height={30}
+            />
+          </div>
           <a className="navbar-brand mx-auto" href="https://www.parrotpal.com/">
             <Image
               src="/LandingPageAssets/Images/NewLogo.png"

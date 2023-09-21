@@ -30,7 +30,7 @@ export default function Home() {
               </div>
 
               <h1
-                className={` d-block d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
+                className={`mt-5 d-block d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
               >
                 <span className={styles.title1}>The Revolution in</span>
                 <br />

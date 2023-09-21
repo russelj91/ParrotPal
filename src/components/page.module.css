@@ -12,6 +12,10 @@
   color: #d7ebb6;
 }
 
+.imgGift:hover {
+  opacity: 0.5;
+}
+
 .archor:hover {
   color: #d7ebb6;
   background-color: #3e3c5f;

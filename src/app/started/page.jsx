@@ -8,13 +8,13 @@ const Started = () => {
       <div className="container">
         <div className="row">
           <p
-            className={`display-5 py-5 text-center text-light d-none d-lg-inline d-md-block d-block d-md-none ${styles.startedTitle}`}
+            className={`display-5 py-5 text-center text-light d-none d-lg-inline d-md-block d-block  ${styles.startedTitle}`}
           >
             How to get started
           </p>
           <div className="col-md">
             <p
-              className={`  py-3 text-light text-lg-start text-center  d-none d-lg-inline d-md-block d-block d-md-none ${styles.title}`}
+              className={`  py-3 text-light text-lg-start text-center  d-none d-lg-inline d-md-block d-block  ${styles.title}`}
             >
               <span className={styles.vid}>Video:</span>
               <br />
@@ -46,7 +46,7 @@ const Started = () => {
               height={550}
             />
             <p
-              className={`display-5  text-center text-light d-block d-md-none ${styles.startedTitle}`}
+              className={`display-5  text-center text-light d-block d-block d-md-none  ${styles.startedTitle}`}
             >
               How to get started
             </p>
@@ -69,7 +69,7 @@ const Started = () => {
                       Setup in Seconds
                     </h4>
                     <p
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Download ParrotPal, complete a brief questionaire, and get
                       your personalised health targets.
@@ -101,7 +101,7 @@ const Started = () => {
                       Hassle-Free Logging
                     </h4>
                     <p
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Eat out or enjoy home-cooked meal - just speak, type or
                       scan. No second-guessing, just accurate, easy tracking.
@@ -141,7 +141,7 @@ const Started = () => {
                   <div className={`col-md-12 ${styles.contentWrapper}`}>
                     <h6 className={`mb-3 ${styles.title1}`}>Weekly Insights</h6>
                     <p
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Get a broader view of your habits with weekly summaries.
                       As your metabolism changes, ParrotPal adapts, ensuring
@@ -179,7 +179,7 @@ const Started = () => {
                       Custom meal plans
                     </h6>
                     <p
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Dive into tailored meal plans or get inspired with our
                       unique food idea generator.

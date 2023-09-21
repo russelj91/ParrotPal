@@ -7,7 +7,16 @@ const Faq = () => {
       <div className="container">
         <div className="row">
           <div className="col-md">
-            <h2 className={`text-lg-start text-center ${styles.title}`}>
+            <h2
+              className={`text-lg-start text-center d-none d-lg-inline d-md-block d-block ${styles.title}`}
+            >
+              Frequenty Asked
+              <br />
+              Questions
+            </h2>
+            <h2
+              className={`text-lg-start text-center d-block d-md-none ${styles.titleMobile}`}
+            >
               Frequenty Asked
               <br />
               Questions

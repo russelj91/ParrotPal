@@ -3,6 +3,11 @@
 }
 
 .benefitsTitle {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.benefitsTitleMobile {
   font-size: 30px;
   font-weight: 700;
 }

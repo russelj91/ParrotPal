@@ -19,7 +19,7 @@ export default function Home() {
             <div className="col-md">
               <div className="py-5">
                 <h1
-                  className={`mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block d-md-none ${styles.title2}`}
+                  className={`mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block  ${styles.title2}`}
                 >
                   <span className={styles.title1}>Revolutionising </span>
                   <br />

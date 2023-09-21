@@ -1,9 +1,18 @@
 .title {
-  font-size: 24px;
+  font-size: 30px;
   color: #d7ebb6;
   font-weight: 600;
 }
 
+.mobileTitle {
+  font-size: 20px;
+  color: #d7ebb6;
+  font-weight: 600;
+}
+
+.mobileContent {
+  font-size: 13px;
+}
 .simpBg {
   background-color: #3e3c5f;
 }
@@ -43,7 +52,12 @@
   margin-left: 350px;
 }
 
-.button {
+.buttonDesktop {
+  color: rgb(3, 143, 3);
+  margin-top: 20px;
+}
+
+.buttonMobile {
   color: rgb(3, 143, 3);
 }
 
@@ -115,7 +129,7 @@
     background-position: inherit;
     display: flex;
     margin: 0 auto;
-    height: 420px;
+    height: 500px;
     overflow: hidden;
     border-radius: 20px;
   }
@@ -140,11 +154,20 @@
     position: absolute;
     width: 300px;
     bottom: -50px;
-    margin-left: 100px;
+    margin-left: 220px;
   }
   .button {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 393px) {
+  .img {
+    position: absolute;
+    width: 300px;
+    bottom: -70px;
+    margin-left: 70px;
   }
 }
 

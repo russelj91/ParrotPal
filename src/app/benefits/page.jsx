@@ -9,7 +9,13 @@ const Benefits = () => {
         <div className="row">
           <div className="col-md">
             <p
-              className={`fw-bold display-5 py-3 text-light text-lg-start text-center ${styles.benefitsTitle}`}
+              className={`fw-bold display-5 py-3 text-light text-lg-start text-center d-none d-lg-inline d-md-block d-block  ${styles.benefitsTitle}`}
+            >
+              The Benefits of <br />
+              Parrot<span className={styles.pal}>Pal</span> At A Glance
+            </p>
+            <p
+              className={`fw-bold display-5 py-3 text-light text-lg-start text-center  d-block d-md-none  ${styles.benefitsTitleMobile}`}
             >
               The Benefits of <br />
               Parrot<span className={styles.pal}>Pal</span> At A Glance
@@ -21,7 +27,7 @@ const Benefits = () => {
             <Image
               src="/LandingPageAssets/Images/Image23.png"
               alt="Analytics"
-              className={`img-fluid mb-5  d-none d-lg-inline d-md-block d-block d-md-none ${styles.img}`}
+              className={`img-fluid mb-5  d-none d-lg-inline d-md-block d-block  ${styles.img}`}
               width={550}
               height={550}
             />
@@ -51,7 +57,7 @@ const Benefits = () => {
                       That easy!
                     </p>
                     <p
-                      className={` d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={` d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Log your food 260% faster than other leading apps.
                       It&apos;s like talking or voice noting your best friend on
@@ -86,7 +92,7 @@ const Benefits = () => {
                       calories, protein and steps.
                     </p>
                     <p
-                      className={` d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={` d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Concentrate on the essential trio for weight loss -
                       Protein, Calories, Steps.
@@ -124,7 +130,7 @@ const Benefits = () => {
                       those pounds dropping!
                     </p>
                     <p
-                      className={` d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={` d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Stay consistent on your fat loss journey, with simple
                       weekly check-ins.
@@ -162,7 +168,7 @@ const Benefits = () => {
                       can generate more variations) .
                     </p>
                     <p
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Fill out a short questionaire and get your own custom meal
                       plan tailored to your calorie and protein targets in
@@ -203,7 +209,7 @@ const Benefits = () => {
                       portion to higher. So easy!
                     </p>
                     <p
-                      className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                      className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                     >
                       Wondering what to eat? Get inspired by our database of
                       16,000 recipe with ingredient lists & methods. Got

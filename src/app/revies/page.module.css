@@ -8,13 +8,22 @@
 }
 
 .reviewTitle {
+  font-size: 54px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.reviewTitleMobile {
   font-size: 32px;
   color: #ffffff;
   font-weight: 600;
 }
 
+.titleOrange {
+  color: #ff6f2d;
+}
 .title {
-  color: rgb(250, 111, 61);
+  color: #d7ebb6;
 }
 
 .person {

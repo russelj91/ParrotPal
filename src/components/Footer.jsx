@@ -27,10 +27,11 @@ const Footer = () => {
                   />
                 </a>
               </div>
+              <div className="col-md"></div>
             </div>
           </div>
           {/* <div className="col-md"></div> */}
-          <div className="col-md-6 col-sm-12 pt-5">
+          <div className="col-md col-sm-12 pt-5">
             <ul
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
@@ -102,17 +103,17 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="row">
+        <div className="row py-5">
           <div className="col-md d-flex justify-content-center justify-content-md-center ">
-            {/* <a href="#" className="mx-2 mx-md-3">
-                  <img
-                    src="/Facebook.svg"
-                    alt="Facebook Icon"
-                    className={styles.socIcons}
-                    width={28}
-                    height={28}
-                  />
-                </a> */}
+            <a href="#" className="mx-2 mx-md-3">
+              <Image
+                src="/Facebook.svg"
+                alt="Facebook Icon"
+                className={styles.socIcons}
+                width={28}
+                height={28}
+              />
+            </a>
             <a href="#" className="mx-2 mx-md-3">
               <Image
                 src="/Instagram.svg"
@@ -122,24 +123,24 @@ const Footer = () => {
                 height={28}
               />
             </a>
-            {/* <a href="#" className="mx-2 mx-md-3">
-                  <img
-                    src="/Twitter.svg"
-                    alt="Twitter Icon"
-                    className={styles.socIcons}
-                    width={30}
-                    height={30}
-                  />
-                </a> */}
-            {/* <a href="#" className="mx-2 mx-md-3">
-                  <img
-                    src="/Youtube.svg"
-                    alt="Youtube Icon"
-                    className={styles.socIcons}
-                    width={30}
-                    height={30}
-                  />
-                </a> */}
+            <a href="#" className="mx-2 mx-md-3">
+              <Image
+                src="/Twitter.svg"
+                alt="Twitter Icon"
+                className={styles.socIcons}
+                width={30}
+                height={30}
+              />
+            </a>
+            <a href="#" className="mx-2 mx-md-3">
+              <Image
+                src="/Youtube.svg"
+                alt="Youtube Icon"
+                className={styles.socIcons}
+                width={30}
+                height={30}
+              />
+            </a>
           </div>
         </div>
       </div>

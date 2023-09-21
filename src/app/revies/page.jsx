@@ -15,11 +15,22 @@ const Review = () => {
               width={60}
               height={60}
             />
-            <h2 className={`text-start pb-2 ${styles.reviewTitle}`}>
+            <br />
+            <h2
+              className={`text-start pb-2 d-none d-lg-inline d-md-block d-block ${styles.reviewTitle}`}
+            >
               What our users say
               <br />
               about Parrot
-              <span className={styles.title}>Pal</span>
+              <span className={styles.titleOrange}>Pal</span>
+            </h2>
+            <h2
+              className={`text-start pb-2 d-block d-md-none ${styles.reviewTitleMobile}`}
+            >
+              What our users say
+              <br />
+              about
+              <span className={styles.title}> ParrotPal</span>
             </h2>
           </div>
           <div className={`col-md py-5 }`}>

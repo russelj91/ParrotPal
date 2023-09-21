@@ -7,14 +7,6 @@ const TrackVideo = () => {
     <section className={styles.trackBg}>
       <div className="container">
         <div className="row">
-          <h2
-            className={`fw-bold py-3 text-light text-center fw-bold d-none d-lg-inline d-md-block d-block d-md-none ${styles.title}`}
-          >
-            <span className={styles.vid}>Video:</span>
-            <br />
-            How to track a brunch/dinner out and a weekend <br />
-            day when you forget.
-          </h2>
           <div className="col-md pt-5">
             <div className="col-md">
               <div className="row align-items-center">
@@ -34,7 +26,7 @@ const TrackVideo = () => {
                         Fat Loss Experts&#129309;AI Technology
                       </h6>
                       <p
-                        className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                        className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                       >
                         With the combined might of 10 years of fat loss &
                         nutrition experts with advanced AI, ParrotPal is the
@@ -71,7 +63,7 @@ const TrackVideo = () => {
                         Daily Podcasts
                       </h6>
                       <p
-                        className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                        className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                       >
                         10 minute motivational and educational podcasts to start
                         your day. Optional but powerful.
@@ -106,7 +98,7 @@ const TrackVideo = () => {
                         know what to eat?
                       </h6>
                       <p
-                        className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                        className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                       >
                         Use our food ideas generator. It will give you a list of
                         8 food items to chose from to hit your remaining calorie
@@ -142,7 +134,7 @@ const TrackVideo = () => {
                         Support Eating Out
                       </h6>
                       <p
-                        className={`d-none d-lg-inline d-md-block d-block d-md-none ${styles.content}`}
+                        className={`d-none d-lg-inline d-md-block d-block  ${styles.content}`}
                       >
                         Most people stop food logging when they eat out and take
                         weeks to get back on track. Not here! Just tell
@@ -169,6 +161,16 @@ const TrackVideo = () => {
             </div>
           </div>
           <div className="col-md">
+            <div className="container">
+              <h2
+                className={`fw-bold py-3 text-light text-center fw-bold d-none d-lg-inline d-md-block d-block  ${styles.title}`}
+              >
+                <span className={styles.vid}>Video:</span>
+                <br />
+                How to track a brunch/dinner out and a weekend <br />
+                day when you forget.
+              </h2>
+            </div>
             <p
               className={`fw-bold  text-light text-lg-start text-center d-block d-md-none  ${styles.title}`}
             >

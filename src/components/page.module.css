@@ -8,6 +8,10 @@
   font-weight: 600;
 }
 
+.parrot {
+  color: #d7ebb6;
+}
+
 .archor:hover {
   color: #d7ebb6;
   background-color: #3e3c5f;

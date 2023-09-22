@@ -80,7 +80,7 @@ const Review = () => {
                   </div>
 
                   <div className="carousel-item">
-                    <div className="row">
+                    <div className="row  px-lg-5">
                       <div className="col-md-7">
                         <Image
                           src="/LandingPageAssets/Images/person7.png"

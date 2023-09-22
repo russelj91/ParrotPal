@@ -8,7 +8,7 @@ const Benefits = () => {
       <div className="container py-5">
         <div className="row">
           <p
-            className={`fw-bold display-5  text-center py-3 text-light  text-center d-none d-lg-inline d-md-block d-block  ${styles.benefitsTitle}`}
+            className={`fw-bold display-5  text-center py-3 pb-5 text-light  text-center d-none d-lg-inline d-md-block d-block  ${styles.benefitsTitle}`}
           >
             The Benefits of <br />
             Parrot<span className={styles.pal}>Pal</span> At A Glance

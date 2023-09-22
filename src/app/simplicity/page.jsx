@@ -4,14 +4,14 @@ import styles from "./page.module.css";
 
 const Simplicity = () => {
   return (
-    <section className={`py-5 ${styles.simpBg}`}>
-      <div className={`container py-5  `}>
+    <section className={`py-3 ${styles.simpBg}`}>
+      <div className={`container  `}>
         <div className="row">
           <div className="col-md">
             <div className={`card  ${styles.simp}`}>
               <div className={styles.gridContainer}>
                 <div className={styles.content}>
-                  <div className="container">
+                  <div className="container mx-lg-5 px-lg-5">
                     <div className="text-start">
                       <p
                         className={`text-start   pt-5 d-none  d-md-block d-block ${styles.title}`}
@@ -74,7 +74,6 @@ const Simplicity = () => {
           </div>
         </div>
       </div>
-      <div className="container"></div>
     </section>
   );
 };

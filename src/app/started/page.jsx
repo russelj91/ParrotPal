@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 const Started = () => {
   return (
     <section className={styles.start}>
-      <div className="container">
+      <div className="container py-3">
         <div className="row">
           <div className="col-md text-center">
             <p

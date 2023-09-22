@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 const TrackVideo = () => {
   return (
     <section className={styles.trackBg}>
-      <div className="container">
+      <div className="py-3 container">
         <div className="row">
           <div className="col-md text-center">
             <div className="container">

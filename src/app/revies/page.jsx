@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 const Review = () => {
   return (
-    <section className={`py-5 ${styles.reviewBg}`}>
+    <section className={`py-1 ${styles.reviewBg}`}>
       <div className="container">
         <div className="row py-5 my-5">
           <div className="col-md">

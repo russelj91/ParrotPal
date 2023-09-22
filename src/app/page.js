@@ -41,7 +41,9 @@ export default function Home() {
                 Tracking
               </h1>
               <div className="text-center text-lg-start text-light">
-                <div className={` mx-lg-4 ${styles.desktopWasted} pt-lg-5`}>
+                <div
+                  className={`mb-lg-4 mx-lg-4 ${styles.desktopWasted} pt-lg-5`}
+                >
                   <p
                     className={`mt-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub}`}
                   >
@@ -54,14 +56,23 @@ export default function Home() {
                   No more time wasted counting calories the old way.
                 </p>
                 <div className=" mx-lg-4">
-                  <p className={`py-3 ${styles.noFuss}`}>
+                  <p
+                    className={`py-3 d-none  d-lg-inline d-md-block d-block d-md-none ${styles.noFussDesktop}`}
+                  >
+                    <span className={`${styles.noFuss1Desktop}`}>
+                      No fuss, no countless taps.{" "}
+                    </span>
+                    Just say, type or scan
+                    <br /> what you ate, and we handle the rest.
+                  </p>
+                  <p className={`py-3  d-block d-md-none ${styles.noFuss}`}>
                     <span className={`${styles.noFuss1}`}>
                       No fuss, no countless taps.{" "}
                     </span>
                     Just say, type or scan
                     <br /> what you ate, and we handle the rest.
                   </p>
-                  <div className="mx-lg-5 px-lg-5">
+                  <div className="mx-lg-5 px-lg-5 mt-lg-5">
                     <button className={`btn btn-dark   ${styles.button}`}>
                       <div className={styles.buttonContent}>
                         <div className={styles.imageAndText}>

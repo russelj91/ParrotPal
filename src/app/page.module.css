@@ -38,6 +38,15 @@
   font-size: 12px;
   font-weight: 400;
 }
+.noFussDesktop {
+  font-size: 20px;
+  font-weight: 400;
+}
+.noFuss1Desktop {
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .noFuss {
   font-size: 14px;
   font-weight: 400;

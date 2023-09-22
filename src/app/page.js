@@ -62,34 +62,28 @@ export default function Home() {
                     <br /> what you ate, and we handle the rest.
                   </p>
                   <div className="mx-lg-5 px-lg-5">
-                    <div className="px-lg-5 mx-lg-3">
-                      <button
-                        className={`btn btn-light text-dark rounded-pill px-3  ${styles.button}`}
-                      >
-                        <div className={styles.buttonContent}>
-                          <div className={`px-3 ${styles.imageAndText}`}>
-                            <div className={styles.imageContainer}>
-                              <Image
-                                src="/LandingPageAssets/Images/apple.png"
-                                alt="Apple Icon"
-                                className={`img-fluid ${styles.img}`}
-                                width={35}
-                                height={35}
-                              />
-                            </div>
-                            <div className={styles.textContainer}>
-                              <span className={styles.download}>
-                                Download on the
-                                <br />
-                                <span className={styles.appleApp}>
-                                  App Store
-                                </span>
-                              </span>
-                            </div>
+                    <button className={`btn btn-dark   ${styles.button}`}>
+                      <div className={styles.buttonContent}>
+                        <div className={styles.imageAndText}>
+                          <div className={styles.imageContainer}>
+                            <Image
+                              src="/LandingPageAssets/Images/whiteapple.png"
+                              alt="Apple Icon"
+                              className={`img-fluid ${styles.img}`}
+                              width={35}
+                              height={35}
+                            />
+                          </div>
+                          <div className={styles.textContainer}>
+                            <span className={styles.download}>
+                              Download on the
+                              <br />
+                              <span className={styles.appleApp}>App Store</span>
+                            </span>
                           </div>
                         </div>
-                      </button>
-                    </div>
+                      </div>
+                    </button>
                   </div>
                 </div>
 

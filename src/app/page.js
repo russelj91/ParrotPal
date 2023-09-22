@@ -14,19 +14,21 @@ export default function Home() {
   return (
     <div>
       <section className={styles.hero}>
-        <div className="container">
+        <div className="container pt-lg-5">
           <div className="row  pt-3  ">
             <div className="col-md">
               <div className="mt-5">
-                <h1
-                  className={`mt-5 text-center text-lg-start text-light d-none d-lg-inline d-md-block d-block  ${styles.title2}`}
-                >
-                  <span className={styles.title1}>Revolutionising </span>
-                  <br />
-                  Fat Loss & Food
-                  <br />
-                  Tracking
-                </h1>
+                <div className=" px-lg-3 mx-lg-5">
+                  <h1
+                    className={`mt-5  text-light d-none d-lg-inline d-md-block d-block  ${styles.title2}`}
+                  >
+                    <span className={styles.title1}>The Revolution in</span>
+                    <br />
+                    <span className="mx-lg-5 px-lg-3">Fat Loss &</span>
+                    <br />
+                    <span className="px-lg-4">Food Tracking</span>
+                  </h1>
+                </div>
               </div>
 
               <h1
@@ -39,52 +41,55 @@ export default function Home() {
                 Tracking
               </h1>
               <div className="text-center text-lg-start text-light">
-                <p
-                  className={`mt-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub}`}
-                >
-                  No more time wasted counting calories the old way. <br />
-                </p>
-                <div className="py-3">
+                <div className={` mx-lg-4 ${styles.desktopWasted} pt-lg-5`}>
                   <p
-                    className={`py-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub1}`}
+                    className={`mt-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub}`}
                   >
-                    Using AI powered technology, It&apos;s never been
-                    <br /> quicker to log your food.
+                    No more time wasted counting calories the old <br />
+                    way.
                   </p>
                 </div>
 
-                <p className={`d-block d-md-none ${styles.secondary}`}>
+                <p className={`d-block pt-3 d-md-none  ${styles.secondary}`}>
                   No more time wasted counting calories the old way.
                 </p>
-                <p className={`py-3 ${styles.noFuss}`}>
-                  <span className={`${styles.noFuss1}`}>
-                    No fuss, no countless taps.{" "}
-                  </span>
-                  Just say, type or scan
-                  <br /> what you ate, and we handle the rest.
-                </p>
-                <button className={`btn btn-dark  ${styles.button}`}>
-                  <div className={styles.buttonContent}>
-                    <div className={styles.imageAndText}>
-                      <div className={styles.imageContainer}>
-                        <Image
-                          src="/LandingPageAssets/Images/whiteapple.png"
-                          alt="Apple Icon"
-                          className={`img-fluid ${styles.img}`}
-                          width={35}
-                          height={35}
-                        />
-                      </div>
-                      <div className={styles.textContainer}>
-                        <span className={styles.download}>
-                          Download on the
-                          <br />
-                          <span className={styles.appleApp}>App Store</span>
-                        </span>
-                      </div>
+                <div className=" mx-lg-4">
+                  <p className={`py-3 ${styles.noFuss}`}>
+                    <span className={`${styles.noFuss1}`}>
+                      No fuss, no countless taps.{" "}
+                    </span>
+                    Just say, type or scan
+                    <br /> what you ate, and we handle the rest.
+                  </p>
+                  <div className="mx-lg-5 px-lg-5">
+                    <div className="px-lg-5 mx-lg-3">
+                      <button className={`btn btn-dark   ${styles.button}`}>
+                        <div className={styles.buttonContent}>
+                          <div className={styles.imageAndText}>
+                            <div className={styles.imageContainer}>
+                              <Image
+                                src="/LandingPageAssets/Images/whiteapple.png"
+                                alt="Apple Icon"
+                                className={`img-fluid ${styles.img}`}
+                                width={35}
+                                height={35}
+                              />
+                            </div>
+                            <div className={styles.textContainer}>
+                              <span className={styles.download}>
+                                Download on the
+                                <br />
+                                <span className={styles.appleApp}>
+                                  App Store
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </button>
                     </div>
                   </div>
-                </button>
+                </div>
 
                 <p className="text-center ">
                   <small className={`d-block d-md-none mt-2 ${styles.trial}`}>

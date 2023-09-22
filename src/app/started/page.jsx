@@ -7,53 +7,14 @@ const Started = () => {
     <section className={styles.start}>
       <div className="container">
         <div className="row">
-          <div className="col-md d-flex justify-content-center">
-            <p
-              className={`  py-3 text-light text-lg-start text-center  d-none d-lg-inline d-md-block d-block  ${styles.title}`}
-            >
-              <span className={styles.vid}>Video:</span>
-              <br />
-              <span className={styles.second}>
-                How to create a recipes & meals and use our <br />
-                16,000 strong recipes database and a weekend
-                <br /> day when you forget.
-              </span>
-            </p>
-            <p
-              className={`  py-3 text-light text-lg-start text-center d-block d-md-none ${styles.title}`}
-            >
-              <span className={styles.vid}>Video:</span>
-              <br />
-              <span className={styles.second}>
-                How to create recipes & meals
-                <br />
-                and use our 16,000 strong recipes
-                <br />
-                datasbase
-              </span>
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-md d-flex justify-content-center">
-              <Image
-                src="/LandingPageAssets/Images/phone1Hero.png"
-                alt="Phone 1"
-                className={`img-fluid ${styles.img} `}
-                width={550}
-                height={550}
-              />
-            </div>
-          </div>
-        </div>
-        <div className="row">
           <div className="col-md text-center">
             <p
-              className={`display-5 py-5 text-center text-light d-none d-lg-inline d-md-block d-block  ${styles.startedTitle}`}
+              className={` text-center text-light d-none d-lg-inline d-md-block d-block  ${styles.startedTitleDesktop}`}
             >
               How to get started
             </p>
             <p
-              className={`display-5  text-center text-light d-block d-block d-md-none  ${styles.startedTitle}`}
+              className={` text-center text-light d-block d-block d-md-none  ${styles.startedTitleMobile}`}
             >
               How to get started
             </p>
@@ -99,8 +60,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/two.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={60}
-                  height={60}
+                  width={55}
+                  height={55}
                 />
               </div>
               <div className="col-9 col-md-10">

@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 const About = () => {
   return (
     <section className={` ${styles.aboutSection}`}>
-      <div className="container py-5">
+      <div className="container pt-5">
         <div className="row text-center d-flex align-items-center justify-content-center">
           <h2
             className={`py-3  d-block d-md-none ${styles.amplify}`}
@@ -17,7 +17,7 @@ const About = () => {
             className={`py-3 text-light d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopTitle}`}
             id="about"
           >
-            Less effort, Bigger Results
+            Simplify to Amplify
           </span>
           <div className="col-md mb-4">
             <div className={`card ${styles.transparentCard} mt-3`}>

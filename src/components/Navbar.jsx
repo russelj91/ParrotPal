@@ -53,7 +53,7 @@ const Navbar = () => {
                   How it works
                 </a>
               </li>
-              <li className={`nav-item ${styles.dropLink}`}>
+              <li className={`nav-item px-lg-3 ${styles.dropLink}`}>
                 <a className={`nav-link fw-bold ${styles.archor}`} href="#">
                   Pricing
                 </a>
@@ -63,20 +63,15 @@ const Navbar = () => {
                   About Us
                 </a>
               </li>
-              <li
-                className={`nav-item d-none d-lg-inline d-md-block d-block ${styles.dropLink}`}
-              >
-                <a className={`nav-link  fw-bold ${styles.archor}`} href="#">
-                  Gift Parrot<span className={styles.parrot}>Pal</span>
-                </a>
-              </li>
             </ul>
-            <button
-              className={`btn btn-light rounded-pill px-4 fw-bold ${styles.downloadButton} ${styles.fullWidthButton}`}
-              type="button"
-            >
-              Download App
-            </button>
+
+            <Image
+              src="/LandingPageAssets/Images/gift2.png"
+              alt="Analytics"
+              className={`img-fluid d-none d-lg-inline d-md-block d-block  ${styles.imgGift}`}
+              width={50}
+              height={50}
+            />
           </div>
         </div>
       </nav>

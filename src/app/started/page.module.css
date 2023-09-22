@@ -24,9 +24,15 @@
   color: #ffffff;
 }
 
-.startedTitle {
+.startedTitleDesktop {
+  font-size: 54px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.startedTitleMobile {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   color: #ffffff;
 }
 .content {

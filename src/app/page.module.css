@@ -7,6 +7,11 @@
   font-weight: 700;
 }
 
+/* .desktopWasted {
+  margin-left: 55px;
+  margin-top: 20px;
+} */
+
 .desktopSub {
   font-size: 20px;
   font-weight: 700;
@@ -34,7 +39,7 @@
   font-weight: 400;
 }
 .noFuss {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
 }
 .noFuss1 {
@@ -98,7 +103,17 @@
   color: #d7ebb6;
 }
 
-/* For mobile screen sizes */
+@media (max-width: 768px) {
+  .desktopSub {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .desktopWasted {
+    text-align: center;
+  }
+}
+
 @media (max-width: 767px) {
   .hero {
     background-color: #474583;

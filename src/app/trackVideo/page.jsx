@@ -6,7 +6,7 @@ const TrackVideo = () => {
   return (
     <section className={styles.trackBg}>
       <div className="py-3 py-lg-5 container">
-        <div className="row">
+        <div className="row px-lg-5">
           <div className="col-md text-center">
             <div className="container">
               <h2

@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 const Faq = () => {
   return (
-    <section className={`py-5 ${styles.faqBg}`}>
+    <section className={`pt-3 ${styles.faqBg}`}>
       <div className="container">
         <div className="row">
           <div className="col-md">

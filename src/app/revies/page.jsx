@@ -42,10 +42,10 @@ const Review = () => {
               >
                 <div className="carousel-inner py-5">
                   <div className="carousel-item active">
-                    <div className="row">
+                    <div className="row px-lg-5">
                       <div className="col-md-7">
                         <div
-                          className={`d-flex flex-column align-items-center ${styles.imgContainer}`}
+                          className={`d-flex flex-column align-items-center  ${styles.imgContainer}`}
                         >
                           <Image
                             src="/LandingPageAssets/Images/person7.png"

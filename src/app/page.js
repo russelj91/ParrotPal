@@ -74,12 +74,14 @@ export default function Home() {
                   </p>
                   <div className="mx-lg-5 px-lg-5 mt-lg-5">
                     <div className="container px-lg-5">
-                      <button className={`btn btn-dark   ${styles.button}`}>
+                      <button
+                        className={`btn btn-light rounded-pill px-lg-5  ${styles.button}`}
+                      >
                         <div className={styles.buttonContent}>
                           <div className={styles.imageAndText}>
                             <div className={styles.imageContainer}>
                               <Image
-                                src="/LandingPageAssets/Images/whiteapple.png"
+                                src="/LandingPageAssets/Images/apple.png"
                                 alt="Apple Icon"
                                 className={`img-fluid ${styles.img}`}
                                 width={35}

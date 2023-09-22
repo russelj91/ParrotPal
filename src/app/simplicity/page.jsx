@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 const Simplicity = () => {
   return (
-    <section className={`py-3 ${styles.simpBg}`}>
+    <section className={`py-3 py-lg-5 ${styles.simpBg}`}>
       <div className={`container  `}>
         <div className="row">
           <div className="col-md">

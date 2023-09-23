@@ -21,13 +21,11 @@ const TrackVideo = () => {
             <p
               className={`fw-bold  text-light text-lg-start text-center d-block d-md-none  ${styles.titleMobile}`}
             >
-              <span className={styles.vid}>Video:</span>
+              <span className={styles.vid}>Video #1</span>
               <br />
-              How to track a brunch/dinner out
+              Here&apos;s how easy it is to track
               <br />
-              and a weekend day when you
-              <br />
-              forget
+              dinner out with ParrotPal.
             </p>
             <Image
               src="/LandingPageAssets/Images/phone1Hero.png"
@@ -51,13 +49,11 @@ const TrackVideo = () => {
             <p
               className={`fw-bold  text-light text-lg-start text-center d-block d-md-none  ${styles.titleMobile}`}
             >
-              <span className={styles.vid}>Video:</span>
+              <span className={styles.vid}>Video #2</span>
               <br />
-              How to track a brunch/dinner out
+              Here&apos;s how easy it is to find
               <br />
-              and a weekend day when you
-              <br />
-              forget
+              recipes and create your own
             </p>
             <Image
               src="/LandingPageAssets/Images/phone1Hero.png"

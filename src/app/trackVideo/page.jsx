@@ -51,9 +51,9 @@ const TrackVideo = () => {
             >
               <span className={styles.vid}>Video #2</span>
               <br />
-              Here&apos;s how easy it is to find
+              Here&apos;s how easy it is to find recipes
               <br />
-              recipes and create your own
+              and create your own
             </p>
             <Image
               src="/LandingPageAssets/Images/phone1Hero.png"

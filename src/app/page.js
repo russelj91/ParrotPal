@@ -75,7 +75,7 @@ export default function Home() {
                   <div className="mx-lg-5 px-lg-5 mt-lg-5">
                     <div className="container px-lg-5">
                       <button
-                        className={`btn btn-light rounded-pill px-lg-5  ${styles.button}`}
+                        className={`btn btn-light rounded-pill px-lg-4 d-none  d-lg-inline d-md-block d-block d-md-none  ${styles.button}`}
                       >
                         <div className={styles.buttonContent}>
                           <div className={styles.imageAndText}>
@@ -99,7 +99,35 @@ export default function Home() {
                             </div>
                           </div>
                         </div>
-                      </button>
+                      </button>{" "}
+                      <div className="d-flex justify-content-center">
+                        <button
+                          className={`btn btn-dark px-lg-5 d-block d-md-none  ${styles.button}`}
+                        >
+                          <div className={styles.buttonContent}>
+                            <div className={styles.imageAndText}>
+                              <div className={styles.imageContainer}>
+                                <Image
+                                  src="/LandingPageAssets/Images/whiteapple.png"
+                                  alt="Apple Icon"
+                                  className={`img-fluid ${styles.img}`}
+                                  width={35}
+                                  height={35}
+                                />
+                              </div>
+                              <div className={styles.textContainer}>
+                                <span className={styles.downloadMobile}>
+                                  Download on the
+                                  <br />
+                                  <span className={styles.appleAppMobile}>
+                                    App Store
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>

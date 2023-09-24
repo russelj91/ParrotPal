@@ -14,25 +14,23 @@ const Simplicity = () => {
                   <div className="container mx-lg-5 px-lg-5">
                     <div className="text-start">
                       <p
-                        className={`text-start   pt-5 d-none  d-md-block d-block ${styles.title}`}
+                        className={`text-start   pt-4 pt-lg-5 d-none  d-md-block d-block ${styles.title}`}
                       >
                         {'"The Fastest Fat Loss Tool"'}
                       </p>
                       <p
-                        className={`text-center   pt-5 d-block d-md-none ${styles.mobileTitle}`}
+                        className={`text-center   pt-4 pt-lg-5 d-block d-md-none ${styles.mobileTitle}`}
                       >
                         {'"The Fastest Fat Loss Tool"'}
                       </p>
 
-                      <p
-                        className={` d-none d-lg-inline d-md-block d-block mb-5`}
-                      >
+                      <p className={` d-none d-lg-inline d-md-block d-block `}>
                         All the features you need, nothing you don&apos;t.{" "}
                         <br />
                         Say hello to a healthier, more condident you!
                       </p>
                       <p
-                        className={`d-block d-md-none pb-3 text-center ${styles.mobileContent}`}
+                        className={`d-block d-md-none pb-3 text-start mx-4 ${styles.mobileContent}`}
                       >
                         All the features you need, nothing
                         <br />
@@ -40,21 +38,41 @@ const Simplicity = () => {
                         <br />
                         more condident you!
                       </p>
+                      <br />
                       <div
-                        className={`d-none d-lg-inline d-md-block d-block mb-5 ${styles.desktopButton}`}
+                        className={`d-none d-lg-inline  d-md-block d-block ${styles.desktopButton}`}
                       >
-                        <button
+                        {/* <button
                           className={`btn btn-light py-2 px-5  rounded-pill fw-bold ${styles.buttonDesktop}`}
                         >
-                          Start free 3 days trial
-                        </button>
+                          Download on the App Store
+                        </button> */}
+                        <div className="pt-lg-5 mt-lg-3">
+                          <button className="btn btn-light rounded-pill px-4 d-flex align-items-center">
+                            <Image
+                              src="/LandingPageAssets/Images/apple.png"
+                              alt="Apple Icon"
+                              className={`img-fluid mx-2 ${styles.appleImg}`}
+                              width={30}
+                              height={30}
+                            />
+                            <div className="d-flex flex-column ml-2">
+                              <span className={`${styles.desktopDownload}`}>
+                                Download on the
+                              </span>
+                              <span className={`${styles.desktopApp}`}>
+                                App Store
+                              </span>
+                            </div>
+                          </button>
+                        </div>
                       </div>
 
                       <div className="text-center d-block d-md-none">
                         <button
-                          className={`btn btn-light py-2 px-5  rounded-pill fw-bold ${styles.buttonMobile}`}
+                          className={`btn btn-light py-3 px-3  rounded-pill fw-bold ${styles.buttonMobile}`}
                         >
-                          Download on the App Store
+                          Start a FREE 3 day trial
                         </button>
                       </div>
                     </div>

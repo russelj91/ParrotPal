@@ -59,12 +59,22 @@
   color: rgba(97, 94, 155, 1);
 }
 
+.downloadMobile {
+  font-size: 10px;
+  color: #ffffff;
+}
+
 .download:hover {
   color: #d7ebb6;
   transition: all 0.5s ease-out;
 }
 
 .appleApp {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.appleAppMobile {
   font-size: 1rem;
   font-weight: 600;
 }

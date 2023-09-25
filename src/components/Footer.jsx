@@ -175,7 +175,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              a<Image
+              <Image
                 src="/Youtube.svg"
                 alt="Youtube Icon"
                 className={styles.socIcons}

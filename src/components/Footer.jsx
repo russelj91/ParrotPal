@@ -39,11 +39,11 @@ const Footer = () => {
             <ul
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
-              <li>
-                <a href="#" className={`${styles.list}`}>
-                  <span className={`${styles.primaryLink}`}>About</span>
-                </a>
-              </li>
+                 <li>
+               
+               <span className={`text-light fw-bold ${styles.footerTitle}`}>About</span>
+            
+           </li>
               <li className="py-3">
                 <a href="#" className={`${styles.list}`}>
                   <span className={`${styles.secondaryLink}`}>
@@ -65,9 +65,9 @@ const Footer = () => {
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
               <li>
-                <a href="#" className={`fw-bold ${styles.list}`}>
-                  <span className={`${styles.footerTitle}`}>Support</span>
-                </a>
+               
+                  <span className={`text-light fw-bold ${styles.footerTitle}`}>Support</span>
+               
               </li>
               <li className="py-3">
                 <a href="#" className={` ${styles.list}`}>
@@ -86,9 +86,9 @@ const Footer = () => {
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
               <li>
-                <a href="#" className={`fw-bold ${styles.list}`}>
-                  <span className={`${styles.footerTitle}`}>Legal</span>
-                </a>
+               
+                  <span className={`text-light fw-bold   ${styles.footerTitle}`}>Legal</span>
+           
               </li>
               <li className="py-3">
                 <a href="#" className={`${styles.list}`}>

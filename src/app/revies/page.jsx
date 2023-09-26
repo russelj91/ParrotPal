@@ -19,9 +19,10 @@ const Review = () => {
             <h2
               className={`text-start pb-2 d-none d-lg-inline d-md-block d-block ${styles.reviewTitle}`}
             >
-              What our users say
+              What our users 
               <br />
-              about Parrot
+              say  about <br/>
+              Parrot
               <span className={styles.titleOrange}>Pal</span>
             </h2>
             <h2

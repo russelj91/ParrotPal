@@ -65,7 +65,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="col-md mb-4 ">
+          <div className="col-md mx-lg-3 mb-4 ">
             <div className={`card ${styles.transparentCard} mt-3`}>
               <div
                 className={`card-body d-flex flex-column align-items-center justify-content-center ${styles.customCard}`}

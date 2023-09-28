@@ -18,13 +18,6 @@
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  margin-left: 20px;
-}
-
-.appContainer {
-  display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
 }
 
 .ul {

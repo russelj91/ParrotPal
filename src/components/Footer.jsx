@@ -93,14 +93,14 @@ const Footer = () => {
               </li>
               <li className="py-3">
                 <span className={`${styles.secondaryLink}`}>
-                  <Link href="pages/appTerms" className={styles.list}>
+                  <Link href="/appTerm  " className={styles.list}>
                     ParrotPal App Terms & Conditions
                   </Link>
                 </span>
               </li>
               <li>
                 <span className={`${styles.secondaryLink}`}>
-                  <Link href="pages/appTerms" className={styles.list}>
+                  <Link href="/appTerm" className={styles.list}>
                     ParrotPal App Privacy Policy
                   </Link>
                 </span>

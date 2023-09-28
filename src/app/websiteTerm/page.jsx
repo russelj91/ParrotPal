@@ -121,7 +121,7 @@ const websiteTerm = () => {
               content.
             </p>
             <p className={`fw-bold ${styles.content}`}>Privacy Policy</p>
-            <p className={styles.content}>
+            <p className={`pb-5 ${styles.content}`}>
               We value your privacy and protect your personal information. We
               may collect personal and non-personal data, use cookies, and share
               data with third-party service providers. We adhere to

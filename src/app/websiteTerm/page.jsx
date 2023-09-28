@@ -106,26 +106,28 @@ const websiteTerm = () => {
             <p className={`fw-bold ${styles.content}`}>Refund Policy</p>
             <p className={styles.content}>
               All orders are final. Refunds are not typically issued for annual
-              subscriptions. For memberships, a 7-day 'cooling-off' period is
-              available, during which you can cancel for a full refund, unless
-              you've accessed member-only information or benefits. Physical
-              product returns depend on the product type and condition.
+              subscriptions. For memberships, a 7-day &apos;cooling-off&apos;
+              period is available, during which you can cancel for a full
+              refund, unless you&apos;ve accessed member-only information or
+              benefits. Physical product returns depend on the product type and
+              condition.
             </p>
             <p className={`fw-bold ${styles.content}`}>Medical Disclaimer</p>
             <p className={styles.content}>
               The website may have health-related information, but it is not a
               substitute for professional medical advice. Consult with a
               healthcare provider for medical concerns. ParrotPal is not
-              responsible for any actions taken based on the website's content.
+              responsible for any actions taken based on the website&apos;s
+              content.
             </p>
             <p className={`fw-bold ${styles.content}`}>Privacy Policy</p>
             <p className={styles.content}>
               We value your privacy and protect your personal information. We
               may collect personal and non-personal data, use cookies, and share
-              data with third-party service providers. We adhere to children's
-              online privacy protection laws and will update this policy as
-              needed. By using our site, you agree to this policy. For
-              inquiries, contact us.
+              data with third-party service providers. We adhere to
+              children&apos;s online privacy protection laws and will update
+              this policy as needed. By using our site, you agree to this
+              policy. For inquiries, contact us.
             </p>
           </div>
         </div>

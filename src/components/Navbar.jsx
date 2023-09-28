@@ -54,7 +54,7 @@ const Navbar = () => {
                   Home
                 </a>
               </li>
-              <li className={`nav-item ${styles.dropLink}`}>
+              <li className={`nav-item px-lg-3 ${styles.dropLink}`}>
                 <a
                   className={`nav-link fw-bold ${styles.archor}`}
                   href="#about"

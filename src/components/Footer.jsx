@@ -107,16 +107,14 @@ const Footer = () => {
               </li>
               <li className="py-3">
                 <span className={`${styles.secondaryLink}`}>
-                  <Link href="/" className={styles.list}>
-                    {" "}
+                  <Link href="/websiteTerm" className={styles.list}>
                     Website Terms & Conditions
                   </Link>
                 </span>
               </li>
               <li className="">
                 <span className={`${styles.secondaryLink}`}>
-                  <Link href="/" className={styles.list}>
-                    {" "}
+                  <Link href="/websiteTerm" className={styles.list}>
                     Website Privacy Policy
                   </Link>
                 </span>

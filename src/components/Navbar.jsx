@@ -49,6 +49,14 @@ const Navbar = () => {
               <li className={`nav-item ${styles.dropLink}`}>
                 <a
                   className={`nav-link fw-bold ${styles.archor}`}
+                  href="https://www.parrotpal.com/"
+                >
+                  Home
+                </a>
+              </li>
+              <li className={`nav-item ${styles.dropLink}`}>
+                <a
+                  className={`nav-link fw-bold ${styles.archor}`}
                   href="#about"
                 >
                   How it works

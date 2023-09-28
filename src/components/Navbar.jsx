@@ -73,14 +73,15 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-
-            <Image
-              src="/LandingPageAssets/Images/gift2.png"
-              alt="Analytics"
-              className={`img-fluid d-none d-lg-inline d-md-block d-block  ${styles.imgGift}`}
-              width={50}
-              height={50}
-            />
+            <a href="#">
+              <Image
+                src="/LandingPageAssets/Images/gift2.png"
+                alt="Analytics"
+                className={`img-fluid d-none d-lg-inline d-md-block d-block  ${styles.imgGift}`}
+                width={50}
+                height={50}
+              />
+            </a>
           </div>
         </div>
       </nav>

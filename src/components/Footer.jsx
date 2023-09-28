@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 const Footer = () => {
@@ -39,11 +40,11 @@ const Footer = () => {
             <ul
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
-                 <li>
-               
-               <span className={`text-light fw-bold ${styles.footerTitle}`}>About</span>
-            
-           </li>
+              <li>
+                <span className={`text-light fw-bold ${styles.footerTitle}`}>
+                  About
+                </span>
+              </li>
               <li className="py-3">
                 <a href="#" className={`${styles.list}`}>
                   <span className={`${styles.secondaryLink}`}>
@@ -65,9 +66,9 @@ const Footer = () => {
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
               <li>
-               
-                  <span className={`text-light fw-bold ${styles.footerTitle}`}>Support</span>
-               
+                <span className={`text-light fw-bold ${styles.footerTitle}`}>
+                  Support
+                </span>
               </li>
               <li className="py-3">
                 <a href="#" className={` ${styles.list}`}>
@@ -86,30 +87,46 @@ const Footer = () => {
               className={`list-unstyled text-lg-start text-center ${styles.customList}`}
             >
               <li>
-               
-                  <span className={`text-light fw-bold   ${styles.footerTitle}`}>Legal</span>
-           
+                <span className={`text-light fw-bold   ${styles.footerTitle}`}>
+                  Legal
+                </span>
               </li>
               <li className="py-3">
-                <a href="#" className={`${styles.list}`}>
-                  <span className={`${styles.secondaryLink}`}>
-                    Terms of Use
-                  </span>
-                </a>
+                <span className={`${styles.secondaryLink}`}>
+                  <Link href="pages/appTerms" className={styles.list}>
+                    ParrotPal App Terms & Conditions
+                  </Link>
+                </span>
               </li>
               <li>
-                <a href="#" className={` ${styles.list}`}>
-                  <span className={`${styles.secondaryLink}`}>
-                    Privacy Policy
-                  </span>
-                </a>
+                <span className={`${styles.secondaryLink}`}>
+                  <Link href="pages/appTerms" className={styles.list}>
+                    ParrotPal App Privacy Policy
+                  </Link>
+                </span>
+              </li>
+              <li className="py-3">
+                <span className={`${styles.secondaryLink}`}>
+                  <Link href="/" className={styles.list}>
+                    {" "}
+                    Website Terms & Conditions
+                  </Link>
+                </span>
+              </li>
+              <li className="">
+                <span className={`${styles.secondaryLink}`}>
+                  <Link href="/" className={styles.list}>
+                    {" "}
+                    Website Privacy Policy
+                  </Link>
+                </span>
               </li>
             </ul>
           </div>
         </div>
         <div className="row py-5">
           <p className="text-center text-light">
-            Follow us on our Social Media Acounts
+            Follow us on our Social Media Accounts
           </p>
           <div className="col-md d-flex justify-content-center justify-content-md-center ">
             <a

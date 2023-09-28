@@ -1,0 +1,39 @@
+.app {
+  background-color: #3e3c5f;
+}
+
+.title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.subTitle {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.content {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.appContainer {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+.ul {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+.list {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}

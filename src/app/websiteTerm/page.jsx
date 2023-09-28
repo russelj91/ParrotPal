@@ -98,8 +98,8 @@ const websiteTerm = () => {
             </p>
             <p className={`fw-bold ${styles.content}`}>Disclaimer</p>
             <p className={styles.content}>
-              The Service is provided "AS IS" without warranties of any kind.
-              ParrotPal does not guarantee that the Service will be
+              The Service is provided &apos;AS IS&apos; without warranties of
+              any kind. ParrotPal does not guarantee that the Service will be
               uninterrupted, secure, error-free, or meet your specific
               requirements.
             </p>

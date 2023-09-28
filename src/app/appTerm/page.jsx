@@ -887,7 +887,7 @@ const AppTerms = () => {
               <Image
                 src="/LandingPageAssets/Images/form.png"
                 alt="Tiktok Icon"
-                className="rounded"
+                className="rounded img-fluid py-3"
                 width={700}
                 height={700}
               />

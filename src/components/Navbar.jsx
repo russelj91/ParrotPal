@@ -46,7 +46,7 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto">
-              <li className={`nav-item ${styles.dropLink}`}>
+              <li className={`nav-item px-lg-3  ${styles.dropLink}`}>
                 <a
                   className={`nav-link fw-bold ${styles.archor}`}
                   href="https://www.parrotpal.com/"
@@ -67,7 +67,7 @@ const Navbar = () => {
                   Pricing
                 </a>
               </li>
-              <li className={`nav-item ${styles.dropLink}`}>
+              <li className={`nav-item px-lg-3  ${styles.dropLink}`}>
                 <a className={`nav-link  fw-bold ${styles.archor}`} href="#">
                   About Us
                 </a>

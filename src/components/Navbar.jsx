@@ -75,7 +75,7 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Faq
+                    FAQ
                   </button>
                   <ul className={`dropdown-menu ${styles.dropdownMenu}`}>
                     <li>

@@ -76,7 +76,7 @@ const Simplicity = () => {
                         <button
                           className={`btn btn-light py-3 px-3  rounded-pill fw-bold ${styles.buttonMobile}`}
                         >
-                          Start a FREE 3 day trial
+                          Start a FREE 7 days trial
                         </button>
                       </div>
                     </div>

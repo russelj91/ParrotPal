@@ -136,7 +136,7 @@ export default function Home() {
 
                 <p className="text-center ">
                   <small className={`d-block d-md-none mt-2 ${styles.trial}`}>
-                    3-day Free Trial
+                    7-day Free Trial
                   </small>
                 </p>
               </div>

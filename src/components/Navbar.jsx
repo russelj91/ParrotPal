@@ -68,6 +68,44 @@ const Navbar = () => {
                 </a>
               </li>
               <li className={`nav-item px-lg-3  ${styles.dropLink}`}>
+                <div className={`dropdown ${styles.dropdownDiv}`}>
+                  <button
+                    class={`btn  dropdown-toggle fw-bold ${styles.archor}`}
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Faq
+                  </button>
+                  <ul className={`dropdown-menu ${styles.dropdownMenu}`}>
+                    <li>
+                      <a
+                        className={`dropdown-item ${styles.dropdownItem}`}
+                        href="#"
+                      >
+                        Menu 1
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className={`dropdown-item ${styles.dropdownItem}`}
+                        href="#"
+                      >
+                        Menu 2
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className={`dropdown-item ${styles.dropdownItem}`}
+                        href="#"
+                      >
+                        Menu 3
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li className={`nav-item px-lg-3  ${styles.dropLink}`}>
                 <a className={`nav-link  fw-bold ${styles.archor}`} href="#">
                   About Us
                 </a>

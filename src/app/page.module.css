@@ -74,6 +74,9 @@
   font-weight: 600;
 }
 
+.hero a {
+  text-decoration: none;
+}
 .appleAppMobile {
   font-size: 1rem;
   font-weight: 600;

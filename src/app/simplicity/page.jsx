@@ -48,23 +48,27 @@ const Simplicity = () => {
                           Download on the App Store
                         </button> */}
                         <div className="pt-lg-5 mt-lg-3">
-                          <button className="btn btn-light rounded-pill px-4 d-flex align-items-center">
-                            <Image
-                              src="/LandingPageAssets/Images/apple.png"
-                              alt="Apple Icon"
-                              className={`img-fluid mx-2 ${styles.appleImg}`}
-                              width={30}
-                              height={30}
-                            />
-                            <div className="d-flex flex-column ml-2">
-                              <span className={`${styles.desktopDownload}`}>
-                                Download on the
-                              </span>
-                              <span className={`${styles.desktopApp}`}>
-                                App Store
-                              </span>
-                            </div>
-                          </button>
+                          <a href="https://apps.apple.com/app/parrotpal-calorie-tracker/id6462694790">
+                            <button
+                              className={`btn btn-light rounded-pill px-4 d-flex align-items-center ${styles.button}`}
+                            >
+                              <Image
+                                src="/LandingPageAssets/Images/apple.png"
+                                alt="Apple Icon"
+                                className={`img-fluid mx-2 ${styles.appleImg}`}
+                                width={30}
+                                height={30}
+                              />
+                              <div className="d-flex flex-column ml-2">
+                                <span className={`${styles.desktopDownload}`}>
+                                  Download on the
+                                </span>
+                                <span className={`${styles.desktopApp}`}>
+                                  App Store
+                                </span>
+                              </div>
+                            </button>
+                          </a>
                         </div>
                       </div>
 

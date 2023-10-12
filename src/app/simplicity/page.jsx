@@ -73,11 +73,13 @@ const Simplicity = () => {
                       </div>
 
                       <div className="text-center d-block d-md-none">
-                        <button
-                          className={`btn btn-light py-3 px-3  rounded-pill fw-bold ${styles.buttonMobile}`}
-                        >
-                          Start a FREE 7 days trial
-                        </button>
+                        <a href="https://apps.apple.com/app/parrotpal-calorie-tracker/id6462694790">
+                          <button
+                            className={`btn btn-light py-3 px-3  rounded-pill fw-bold ${styles.buttonMobile}`}
+                          >
+                            Start a FREE 7 days trial
+                          </button>
+                        </a>
                       </div>
                     </div>
                   </div>

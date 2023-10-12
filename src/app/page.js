@@ -103,32 +103,34 @@ export default function Home() {
                         </button>
                       </a>
                       <div className="d-flex justify-content-center">
-                        <button
-                          className={`btn btn-dark px-lg-5 d-block d-md-none  ${styles.button}`}
-                        >
-                          <div className={styles.buttonContent}>
-                            <div className={styles.imageAndText}>
-                              <div className={styles.imageContainer}>
-                                <Image
-                                  src="/LandingPageAssets/Images/whiteapple.png"
-                                  alt="Apple Icon"
-                                  className={`img-fluid ${styles.img}`}
-                                  width={35}
-                                  height={35}
-                                />
-                              </div>
-                              <div className={styles.textContainer}>
-                                <span className={styles.downloadMobile}>
-                                  Download on the
-                                  <br />
-                                  <span className={styles.appleAppMobile}>
-                                    App Store
+                        <a href="https://apps.apple.com/app/parrotpal-calorie-tracker/id6462694790">
+                          <button
+                            className={`btn btn-dark px-lg-5 d-block d-md-none  ${styles.button}`}
+                          >
+                            <div className={styles.buttonContent}>
+                              <div className={styles.imageAndText}>
+                                <div className={styles.imageContainer}>
+                                  <Image
+                                    src="/LandingPageAssets/Images/whiteapple.png"
+                                    alt="Apple Icon"
+                                    className={`img-fluid ${styles.img}`}
+                                    width={35}
+                                    height={35}
+                                  />
+                                </div>
+                                <div className={styles.textContainer}>
+                                  <span className={styles.downloadMobile}>
+                                    Download on the
+                                    <br />
+                                    <span className={styles.appleAppMobile}>
+                                      App Store
+                                    </span>
                                   </span>
-                                </span>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </button>
+                          </button>
+                        </a>
                       </div>
                     </div>
                   </div>

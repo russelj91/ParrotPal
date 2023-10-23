@@ -30,6 +30,12 @@ export default function Home() {
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coach
                     </span>
                   </h1>
+                  <a
+                    className={` btn btn-outline-info text-light px-lg-3 rounded-full mt-5  d-none  d-md-block d-block ${styles.button}`}
+                    href="#video"
+                  >
+                    Look at this revolutionary app below
+                  </a>
                 </div>
               </div>
 
@@ -42,9 +48,15 @@ export default function Home() {
                 <br />
                 Coach
               </h1>
+              <a
+                className={` btn btn-outline-info text-light d-block d-md-none  ${styles.button}`}
+                href="#video"
+              >
+                Look at this revolutionary app below
+              </a>
               <div className="text-center text-lg-start text-light">
                 <div
-                  className={`mb-lg-4 mx-lg-4 ${styles.desktopWasted} pt-lg-5`}
+                  className={`mb-lg-4 mx-lg-5 ${styles.desktopWasted} pt-lg-5`}
                 >
                   <p
                     className={`mt-5 d-none d-lg-inline d-md-block d-block d-md-none ${styles.desktopSub}`}
@@ -57,7 +69,7 @@ export default function Home() {
                 <p className={`d-block pt-3 d-md-none  ${styles.secondary}`}>
                   No more time wasted counting calories the old way.
                 </p>
-                <div className=" mx-lg-4">
+                <div className=" mx-lg-5">
                   <p
                     className={`py-3 d-none  d-lg-inline d-md-block d-block d-md-none ${styles.noFussDesktop}`}
                   >
@@ -78,7 +90,7 @@ export default function Home() {
                     <div className="container px-lg-5">
                       <a href="https://apps.apple.com/app/parrotpal-calorie-tracker/id6462694790">
                         <button
-                          className={`btn btn-light rounded-pill px-lg-4 d-none  d-lg-inline d-md-block d-block d-md-none  ${styles.button}`}
+                          className={`btn btn-light rounded-pill px-lg-5 d-none  d-lg-inline d-md-block d-block d-md-none  ${styles.button}`}
                         >
                           <div className={styles.buttonContent}>
                             <div className={styles.imageAndText}>

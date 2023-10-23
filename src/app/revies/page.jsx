@@ -59,7 +59,7 @@ const Review = () => {
                       </div>
                       <div className="col-md">
                         <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
+                          className={`text-center  ${styles.reviewContent}`}
                         >
                           <h4 className={styles.person}>Ioan Jones</h4>
                           <p className={styles.personTitle}>Coach</p>
@@ -92,9 +92,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Bellabella1742</h4>
                           <p className={styles.personTitle}>Revolutionary!</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
@@ -130,9 +128,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>LewMojo</h4>
                           <p className={styles.personTitle}>Brilliant!</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
@@ -164,9 +160,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Ciz1</h4>
                           <p className={styles.personTitle}>Unbelievable app</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
@@ -195,9 +189,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Salini</h4>
                           <p className={styles.personTitle}>Leaps ahead</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
@@ -231,9 +223,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Liza L215</h4>
                           <p className={styles.personTitle}>Faulous app!</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
@@ -264,9 +254,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Cunliffe94</h4>
                           <p className={styles.personTitle}>
                             Amazing App, lifesaver!
@@ -300,9 +288,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Shredded sick Kent</h4>
                           <p className={styles.personTitle}>
                             {" "}
@@ -342,9 +328,7 @@ const Review = () => {
                         />
                       </div>
                       <div className="col-md">
-                        <div
-                          className={`text-center text-lg-start ${styles.reviewContent}`}
-                        >
+                        <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@deanjl22</h4>
                           <p className={styles.personTitle}>
                             Finally, a simple and brilliant weight loss tracker!

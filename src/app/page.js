@@ -9,6 +9,7 @@ import Started from "./started/page";
 import Simplicity from "./simplicity/page";
 import Faq from "./faq/page";
 import Review from "./revies/page";
+import Video from "@/components/Video";
 
 export default function Home() {
   return (
@@ -166,13 +167,14 @@ export default function Home() {
                 <br />
                 with ParrotPal by watching this short video.
               </p>
-              <Image
+              {/* <Image
                 src="/LandingPageAssets/Images/phoneHero.png"
                 alt="Phone Hero "
                 className={`img-fluid ${styles.img} d-none d-md-block`}
                 width={550}
                 height={550}
-              />
+              /> */}
+              <Video />
               {/* <Image
                 src="/LandingPageAssets/Images/phone1Hero.png"
                 alt="Phone 1"
@@ -193,7 +195,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <TrackVideo />
+      {/* <TrackVideo /> */}
       <About />
       <Benefits />
       {/* <TrackVideo /> */}

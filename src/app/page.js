@@ -30,12 +30,12 @@ export default function Home() {
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coach
                     </span>
                   </h1>
-                  <a
-                    className={` btn btn-outline-info text-light px-lg-3 rounded-full mt-5  d-none  d-md-block d-block ${styles.button}`}
+                  <span
+                    className={`  px-lg-5 mx-lg-5 text-light rounded-full mt-2  d-none  d-md-block d-block `}
                     href="#video"
                   >
                     Look at this revolutionary app below
-                  </a>
+                  </span>
                 </div>
               </div>
 
@@ -48,12 +48,13 @@ export default function Home() {
                 <br />
                 Coach
               </h1>
-              <a
-                className={` btn btn-outline-info text-light d-block d-md-none  ${styles.button}`}
+              <span
+                className={`  text-center text-light rounded-full mt-2  d-block  d-md-none `}
                 href="#video"
               >
                 Look at this revolutionary app below
-              </a>
+              </span>
+
               <div className="text-center text-lg-start text-light">
                 <div
                   className={`mb-lg-4 mx-lg-5 ${styles.desktopWasted} pt-lg-5`}
@@ -172,13 +173,13 @@ export default function Home() {
                 width={550}
                 height={550}
               />
-              <Image
+              {/* <Image
                 src="/LandingPageAssets/Images/phone1Hero.png"
                 alt="Phone 1"
                 className={`img-fluid ${styles.img} d-block d-md-none`}
                 width={550}
                 height={550}
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -192,9 +193,10 @@ export default function Home() {
           />
         </div>
       </section>
+      <TrackVideo />
       <About />
       <Benefits />
-      <TrackVideo />
+      {/* <TrackVideo /> */}
       {/* <Tracking /> */}
       <Started />
       {/* <Simplicity /> */}

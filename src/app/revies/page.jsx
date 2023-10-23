@@ -186,12 +186,9 @@ const Review = () => {
                       <div className="col pt-5 px-5">
                         <p className={`text-light ${styles.paragraph}`}>
                           This app makes calorie tracking a breeze. No need for
-                          scanning, looking up meals or ingredients.
-                          <br />
-                          <br />
-                          Just tell it! You literally talk to the app and say
-                          exactly what you had, and it&apo;s all taken care of
-                          for you.
+                          scanning, looking up meals or ingredients. Just tell
+                          it! You literally talk to the app and say exactly what
+                          you had, and it&apo;s all taken care of for you.
                           <br />
                           <br />
                           Best calorie tracker out there.
@@ -318,21 +315,15 @@ const Review = () => {
                         <p className={`text-light ${styles.paragraph}`}>
                           I&apos;ve used countless trackers and I&apos;ve found
                           many of them to be overly-complicated and requires too
-                          many clicks.
-                          <br />
-                          <br />
-                          I also know that many of the foods/meals in your
-                          typical calorie counter app can be massively
+                          many clicks. I also know that many of the foods/meals
+                          in your typical calorie counter app can be massively
                           inacurrate.
                           <br />
                           <br />
                           The brialliance of Parrot Pal is that mitigates
                           inaccuracies to support a more accurate calculations
-                          of calories.
-                          <br />
-                          <br />
-                          And the best bit is it does it in seconds throught
-                          text or audio!
+                          of calories. And the best bit is it does it in seconds
+                          throught text or audio!
                           <br />
                           <br />
                           Brilliant solution. Also - with it being AI - excited

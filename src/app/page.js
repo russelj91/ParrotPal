@@ -49,12 +49,12 @@ export default function Home() {
                 <br />
                 Coach
               </h1>
-              <span
+              {/* <span
                 className={`  text-center text-light rounded-full mt-2  d-block  d-md-none `}
                 href="#video"
               >
                 Look at this revolutionary app below
-              </span>
+              </span> */}
 
               <div className="text-center text-lg-start text-light">
                 <div

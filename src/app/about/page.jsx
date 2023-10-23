@@ -39,28 +39,28 @@ const About = () => {
                 <p
                   className={`card-text text-light  d-block d-md-none ${styles.contentMobile}`}
                 >
-                  There&apos;s 100s of things you could track for
+                  We focus on the 3 most important things:
                   <br />
-                  fat loss, most don&apos;t matter.
+                  Calories, protein & steps
                 </p>
-                <p
+                {/* <p
                   className={`card-text text-light   d-block d-md-none ${styles.contentMobile}`}
                 >
                   We only focus on the 3 main goals at fat loss: calories,
                   protein and steps
-                </p>
+                </p> */}
                 <p
                   className={`card-text text-light  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
-                  There&apos;s 100s of things you could track for fat loss, most
-                  don&apos;t matter.
+                  We focus on the 3 most important things: Calories, protein &
+                  steps
                 </p>
-                <p
+                {/* <p
                   className={`card-text text-light  d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
                   We only focus on the 3 main goals at fat loss: calories,
                   protein and steps.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@ const About = () => {
                   <br />
                   with simple weekly check-ins.
                 </p>
-                <p
+                {/* <p
                   className={`card-text text-light  d-block d-md-none ${styles.contentMobile}`}
                 >
                   ParrotPal keeps you accountable and will,
@@ -141,7 +141,7 @@ const About = () => {
                   tweak your calories, protein & steps based
                   <br />
                   on changes to your metabolism.
-                </p>
+                </p> */}
                 <p
                   className={`card-text text-light   d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
@@ -149,13 +149,13 @@ const About = () => {
                   <br />
                   with simple weekly check-ins.
                 </p>
-                <p
+                {/* <p
                   className={`card-text text-light   d-none d-lg-inline d-md-block d-block d-md-none${styles.content}`}
                 >
                   Tweak your targets and
                   <br />
                   keep those pounds dropping!
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

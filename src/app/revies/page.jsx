@@ -259,7 +259,7 @@ const Review = () => {
                     <div className="row  px-lg-5">
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
-                          <h4 className={styles.person}>@Shredded sick Kent</h4>
+                          <h4 className={styles.person}>@royEvans91</h4>
                           <p className={styles.personTitle}>
                             {" "}
                             The solution to tracking for weight loss.

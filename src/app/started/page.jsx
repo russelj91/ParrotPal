@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 const Started = () => {
   return (
     <section className={styles.start}>
-      <div className="container py-3">
+      <div className="container py-5">
         <div className="row">
           <div className="col-md text-center">
             <p
@@ -28,8 +28,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/one.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={70}
-                  height={70}
+                  width={85}
+                  height={85}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -102,8 +102,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/three.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={60}
-                  height={60}
+                  width={55}
+                  height={55}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -136,8 +136,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/four.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={62}
-                  height={62}
+                  width={55}
+                  height={55}
                 />
               </div>
               <div className="col-9 col-md-10">

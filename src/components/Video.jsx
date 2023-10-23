@@ -1,7 +1,7 @@
 import React from "react";
 
 const Video = () => (
-  <div className="container pt-5 d-flex justify-content-center" id="video">
+  <div className="container pt-2 d-flex justify-content-center" id="video">
     <iframe
       src="https://player.vimeo.com/video/876892294?h=09a0587dc8&title=0&byline=0&portrait=0"
       width="390"
@@ -18,7 +18,7 @@ const Video = () => (
       frameborder="0"
       allow="autoplay; fullscreen; picture-in-picture"
       allowfullscreen
-      className="rounded video d-block d-md-none"
+      className="rounded video mb-3 d-block d-md-none"
     ></iframe>
   </div>
 );

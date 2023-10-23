@@ -1,3 +1,4 @@
+import { FaStar } from "react-icons/fa";
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -82,20 +83,16 @@ const Review = () => {
 
                   <div className="carousel-item active">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Bellabella1742</h4>
                           <p className={styles.personTitle}>Revolutionary!</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -118,20 +115,16 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>LewMojo</h4>
                           <p className={styles.personTitle}>Brilliant!</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -150,20 +143,16 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Ciz1</h4>
                           <p className={styles.personTitle}>Unbelievable app</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -179,20 +168,16 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Salini</h4>
                           <p className={styles.personTitle}>Leaps ahead</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -213,20 +198,16 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Liza L215</h4>
                           <p className={styles.personTitle}>Faulous app!</p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -244,15 +225,6 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Cunliffe94</h4>
@@ -260,6 +232,11 @@ const Review = () => {
                             Amazing App, lifesaver!
                           </p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -278,15 +255,6 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@Shredded sick Kent</h4>
@@ -295,6 +263,11 @@ const Review = () => {
                             The solution to tracking for weight loss.
                           </p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>
@@ -318,15 +291,6 @@ const Review = () => {
                   </div>
                   <div className="carousel-item">
                     <div className="row  px-lg-5">
-                      <div className="col-md-4">
-                        <Image
-                          src="/LandingPageAssets/Images/NewLogo.png"
-                          alt="Client Profile"
-                          className={`img-fluid rounded-3 pt-lg-5  mt-lg-3 ${styles.img}`}
-                          width={250}
-                          height={250}
-                        />
-                      </div>
                       <div className="col-md">
                         <div className={`text-center  ${styles.reviewContent}`}>
                           <h4 className={styles.person}>@deanjl22</h4>
@@ -334,6 +298,11 @@ const Review = () => {
                             Finally, a simple and brilliant weight loss tracker!
                           </p>
                           <p className={styles.personTitle1}>from: AppStore</p>
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
+                          <FaStar className="text-warning" />
                         </div>
                       </div>
                     </div>

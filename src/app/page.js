@@ -22,11 +22,13 @@ export default function Home() {
                   <h1
                     className={`mt-5  text-light d-none d-lg-inline d-md-block d-block  ${styles.title2}`}
                   >
-                    <span className={styles.title1}>The Revolution in</span>
+                    <span className={styles.title1}>Ai Powered Calorie</span>
                     <br />
-                    <span className="mx-lg-5 px-lg-3">Fat Loss &</span>
+                    <span className=" px-lg-2">Tracker & Nutrition</span>
                     <br />
-                    <span className="px-lg-4">Food Tracking</span>
+                    <span className="mx-lg-5 px-lg-5">
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coach
+                    </span>
                   </h1>
                 </div>
               </div>
@@ -34,11 +36,11 @@ export default function Home() {
               <h1
                 className={`mt-5 d-block d-md-none text-center  text-lg-start text-light ${styles.title2Mobile}`}
               >
-                <span className={styles.title1}>The Revolution in</span>
+                <span className={styles.title1}>Ai Powered Calorie</span>
                 <br />
-                Fat Loss & Food
+                Tracker & Nutrition
                 <br />
-                Tracking
+                Coach
               </h1>
               <div className="text-center text-lg-start text-light">
                 <div
@@ -183,7 +185,7 @@ export default function Home() {
       <TrackVideo />
       {/* <Tracking /> */}
       <Started />
-      <Simplicity />
+      {/* <Simplicity /> */}
       <Faq />
       <Review />
     </div>

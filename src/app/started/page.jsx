@@ -115,7 +115,7 @@ const Started = () => {
                     >
                       Get a broader view of your habits with weekly summaries.
                       As your metabolism changes, ParrotPal adapts, ensuring
-                      you&apos;re always on the right track for fat loss.
+                      you&apos;re always on the right track.
                     </p>
                     <p className={`d-block d-md-none ${styles.content}`}>
                       Get a broader view of your eating
@@ -124,9 +124,7 @@ const Started = () => {
                       <br />
                       ParrotPal adapts to you, ensuring
                       <br />
-                      you&apos;re always on the right track for
-                      <br />
-                      fat loss.
+                      you&apos;re always on the right track.
                     </p>
                   </div>
                 </div>

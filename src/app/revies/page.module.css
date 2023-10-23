@@ -1,5 +1,4 @@
 .reviewBg {
- 
   background-color: #3e3c5f;
 
   background-size: cover;
@@ -33,8 +32,14 @@
 }
 
 .personTitle {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
+}
+
+.personTitle1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
 }
 
 .person,

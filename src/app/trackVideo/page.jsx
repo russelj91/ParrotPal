@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
+import Video from "@/components/Video";
 
 const TrackVideo = () => {
   return (
@@ -12,7 +13,7 @@ const TrackVideo = () => {
               <h2
                 className={`fw-bold py-3 text-light text-center fw-bold d-none d-lg-inline d-md-block d-block  ${styles.title}`}
               >
-                <span className={styles.vid}>Video #1</span>
+                <span className={styles.vid}>Video</span>
                 <br />
                 Here&apos;s how easy it is to track <br />
                 dinner out with ParrotPal.
@@ -21,21 +22,22 @@ const TrackVideo = () => {
             <p
               className={`fw-bold  text-light text-lg-start text-center d-block d-md-none  ${styles.titleMobile}`}
             >
-              <span className={styles.vid}>Video #1</span>
+              <span className={styles.vid}>Video</span>
               <br />
               Here&apos;s how easy it is to track
               <br />
               dinner out with ParrotPal.
             </p>
-            <Image
+            {/* <Image
               src="/LandingPageAssets/Images/phone1Hero.png"
               alt="Phone 1"
               className={`img-fluid ${styles.img} `}
               width={550}
               height={550}
-            />
+            /> */}
+            <Video />
           </div>
-          <div className="col-md text-center">
+          {/* <div className="col-md text-center">
             <div className="container">
               <h2
                 className={`fw-bold py-3 text-light text-center fw-bold d-none d-lg-inline d-md-block d-block  ${styles.title}`}
@@ -62,7 +64,7 @@ const TrackVideo = () => {
               width={550}
               height={550}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -31,12 +31,12 @@ export default function Home() {
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coach
                     </span>
                   </h1>
-                  <span
+                  {/* <span
                     className={`  px-lg-5 mx-lg-5 text-light rounded-full mt-2  d-none  d-md-block d-block `}
                     href="#video"
                   >
                     Look at this revolutionary app below
-                  </span>
+                  </span> */}
                 </div>
               </div>
 

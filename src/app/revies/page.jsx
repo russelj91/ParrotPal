@@ -102,13 +102,14 @@ const Review = () => {
                           Finnaly Solving the frustration of food tracking apps
                           with huge data bases and endless scrolling. After a
                           short survey my calories and protein targets were
-                          calculated, on one easy to use screen I could see my
-                          progress and add the foods I have eaten during the
-                          day. Being able to go out for food with friends and
-                          easily voice note or text what you have eaten and it
-                          is logged immediately is a game changer! A daily
-                          podcast and the ultimate trio of steps, calories and
-                          protein is an easy way of fat loss!
+                          calculated, on one easy to use screen.
+                          <br /> <br />I could see my progress and add the foods
+                          I have eaten during the day. Being able to go out for
+                          food with friends and easily voice note or text what
+                          you have eaten and it is logged immediately is a game
+                          changer! A daily podcast and the ultimate trio of
+                          steps, calories and protein is an easy way of fat
+                          loss!
                         </p>
                       </div>
                     </div>
@@ -187,9 +188,11 @@ const Review = () => {
                           This app makes calorie tracking a breeze. No need for
                           scanning, looking up meals or ingredients.
                           <br />
+                          <br />
                           Just tell it! You literally talk to the app and say
                           exactly what you had, and it&apo;s all taken care of
                           for you.
+                          <br />
                           <br />
                           Best calorie tracker out there.
                         </p>
@@ -217,6 +220,7 @@ const Review = () => {
                           This app is so esy to set up and use. I really love
                           the voice notes and the way I can just log things so
                           easily when I&apos;m out and aout. Game changer!
+                          <br />
                           <br />
                           Dashoard is clear and stats are easy to view.
                         </p>
@@ -248,6 +252,7 @@ const Review = () => {
                           message your days meals and it works out all the magic
                           for you!,
                           <br />
+                          <br />
                           Class!
                         </p>
                       </div>
@@ -274,13 +279,15 @@ const Review = () => {
                     <div className="row">
                       <div className="col pt-5 px-5">
                         <p className={`text-light ${styles.paragraph}`}>
-                          What we are used to = type search scroll edit quantity
-                          confirm redo this for other food items.
+                          What we are used to = type / search / scroll / edit /
+                          quantity confirm / redo this for other food items.
+                          <br />
                           <br />
                           Parrotpl is just magic. You type in or voice note what
                           you&pos;ve eaten and it finds the nutritional info of
                           that for you AND tracks it. All from one screen and
                           one entry point.
+                          <br />
                           <br />
                           This app is just for weight loss so it&apos;s already
                           figured out the calories and protein I should eat
@@ -313,16 +320,20 @@ const Review = () => {
                           many of them to be overly-complicated and requires too
                           many clicks.
                           <br />
+                          <br />
                           I also know that many of the foods/meals in your
                           typical calorie counter app can be massively
                           inacurrate.
+                          <br />
                           <br />
                           The brialliance of Parrot Pal is that mitigates
                           inaccuracies to support a more accurate calculations
                           of calories.
                           <br />
+                          <br />
                           And the best bit is it does it in seconds throught
                           text or audio!
+                          <br />
                           <br />
                           Brilliant solution. Also - with it being AI - excited
                           for it to learn about me and my preferences to further

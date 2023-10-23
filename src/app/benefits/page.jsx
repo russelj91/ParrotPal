@@ -20,10 +20,10 @@ const Benefits = () => {
             Parrot<span className={styles.pal}>Pal</span> At A Glance
           </p>
         </div>
-        <div className="container mx-lg-5 px-lg-5">
+        <div className="container mx-lg-5 px-lg-5 my-container">
           <div className=" mx-lg-5 px-lg-5">
-            <div className="row px-lg-5 mx-lg-5 ">
-              <div className="col-md mx-auto ml-lg-auto mr-lg-auto">
+            <div className="row px-lg-5 mx-lg-5  ">
+              <div className="col-md ">
                 <div className="row align-items-center">
                   <div className="col text-center">
                     <Image

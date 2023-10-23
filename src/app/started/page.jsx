@@ -28,8 +28,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/one.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={85}
-                  height={85}
+                  width={60}
+                  height={60}
                 />
               </div>
               <div className="col-9 col-md-10">
@@ -60,8 +60,8 @@ const Started = () => {
                   src="/LandingPageAssets/Images/two.png"
                   alt="My Image"
                   className="img-fluid"
-                  width={55}
-                  height={55}
+                  width={50}
+                  height={50}
                 />
               </div>
               <div className="col-9 col-md-10">

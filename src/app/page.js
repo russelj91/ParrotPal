@@ -83,7 +83,7 @@ export default function Home() {
                   </p>
                   <p className={`py-3  d-block d-md-none ${styles.noFuss}`}>
                     <span className={`${styles.noFuss1}`}>
-                      No fuss, no countless taps.{" "}
+                      No fuss, no countless taps.
                     </span>
                     Just say, type or scan
                     <br /> what you ate, and we handle the rest.

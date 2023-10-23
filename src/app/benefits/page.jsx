@@ -30,8 +30,8 @@ const Benefits = () => {
                       src="/LandingPageAssets/Images/Icon1.png"
                       alt="Analytics"
                       className={`img-fluid ${styles.img}`}
-                      width={65}
-                      height={65}
+                      width={55}
+                      height={55}
                     />
                   </div>
                   <div className="col-7">
@@ -66,8 +66,8 @@ const Benefits = () => {
                       src="/LandingPageAssets/Images/Icon2.png"
                       alt="Analytics"
                       className={`img-fluid ${styles.img}`}
-                      width={65}
-                      height={65}
+                      width={55}
+                      height={55}
                     />
                   </div>
                   <div className="col-7">
@@ -98,8 +98,8 @@ const Benefits = () => {
                       src="/LandingPageAssets/Images/Icon3.png"
                       alt="Analytics"
                       className={`img-fluid ${styles.img}`}
-                      width={65}
-                      height={65}
+                      width={55}
+                      height={55}
                     />
                   </div>
                   <div className="col-7">
@@ -135,8 +135,8 @@ const Benefits = () => {
                       src="/LandingPageAssets/Images/Icon4.png"
                       alt="Analytics"
                       className={`img-fluid ${styles.img}`}
-                      width={65}
-                      height={65}
+                      width={55}
+                      height={55}
                     />
                   </div>
                   <div className="col-7">
@@ -172,8 +172,8 @@ const Benefits = () => {
                       src="/LandingPageAssets/Images/Icon2.png"
                       alt="Analytics"
                       className={`img-fluid ${styles.img}`}
-                      width={65}
-                      height={65}
+                      width={55}
+                      height={55}
                     />
                   </div>
                   <div className="col-7">

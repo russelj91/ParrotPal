@@ -60,7 +60,7 @@ const About = () => {
                 <p className={`card-text px-5 ${styles.content}`}>
                   Log your food 260% quicker than on My Fitness Pal!
                   <br /> <br />
-                  It's like voice noting your best friend on WhatsApp. That
+                  It&apos;s like voice noting your best friend on WhatsApp. That
                   quick & easy!
                 </p>
               </div>

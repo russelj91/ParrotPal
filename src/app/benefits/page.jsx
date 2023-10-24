@@ -186,7 +186,7 @@ const Benefits = () => {
                 </div>
                 <div className="row align-items-center py-2">
                   <div className="col text-center">
-                    <img
+                    <Image
                       src="/LandingPageAssets/Images/Icon2.png"
                       alt="Analytics"
                       className={`img-fluid ${styles.img}`}

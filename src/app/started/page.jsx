@@ -35,7 +35,7 @@ const Started = () => {
                 </div>
                 <div className="col-9 col-md-10">
                   <div className="row">
-                    <div className={`col-md-12  ${styles.contentWrapper}`}>
+                    <div className={`col-md-12 mb-2 ${styles.contentWrapper}`}>
                       <h4 className={`mb-3 ${styles.title1}`}>
                         Setup in Seconds
                       </h4>
@@ -67,7 +67,7 @@ const Started = () => {
                 </div>
                 <div className="col-9 col-md-10">
                   <div className="row">
-                    <div className={`col-md-12 ${styles.contentWrapper}`}>
+                    <div className={`col-md-12 mb-2 ${styles.contentWrapper}`}>
                       <h4 className={`mb-3 ${styles.title1}`}>
                         Hassle-Free Logging
                       </h4>
@@ -109,7 +109,7 @@ const Started = () => {
                 </div>
                 <div className="col-9 col-md-10">
                   <div className="row">
-                    <div className={`col-md-12 ${styles.contentWrapper}`}>
+                    <div className={`col-md-12 mb-2 ${styles.contentWrapper}`}>
                       <h6 className={`mb-3 ${styles.title1}`}>
                         Weekly Insights
                       </h6>

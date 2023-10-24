@@ -36,7 +36,9 @@ const Benefits = () => {
                   </div>
                   <div className="col-9">
                     <div className="row">
-                      <div className={`col-md-12 ${styles.contentWrapper}`}>
+                      <div
+                        className={`col-md-12 mb-4 ${styles.contentWrapper}`}
+                      >
                         <h6 className={`my-3 ${styles.title1}`}>
                           Swift and Simple to Use
                         </h6>
@@ -73,7 +75,9 @@ const Benefits = () => {
                   </div>
                   <div className="col-9">
                     <div className="row">
-                      <div className={`col-md-12 ${styles.contentWrapper}`}>
+                      <div
+                        className={`col-md-12 mb-4 ${styles.contentWrapper}`}
+                      >
                         <h6 className={`mb-3 ${styles.title1}`}>
                           Focus on What Matters
                         </h6>
@@ -107,7 +111,9 @@ const Benefits = () => {
                   </div>
                   <div className="col-9">
                     <div className="row">
-                      <div className={`col-md-12 ${styles.contentWrapper}`}>
+                      <div
+                        className={`col-md-12 mb-4 ${styles.contentWrapper}`}
+                      >
                         <h6 className={`mb-3 ${styles.title1}`}>
                           Weekly Check-ins
                         </h6>
@@ -145,7 +151,9 @@ const Benefits = () => {
                   </div>
                   <div className="col-9">
                     <div className="row">
-                      <div className={`col-md-12 ${styles.contentWrapper}`}>
+                      <div
+                        className={`col-md-12 mb-4 ${styles.contentWrapper}`}
+                      >
                         <h6 className={`mb-3 ${styles.title1}`}>
                           Generate Custom Meal Plans
                         </h6>
@@ -188,7 +196,9 @@ const Benefits = () => {
                   </div>
                   <div className="col-9">
                     <div className="row">
-                      <div className={`col-md-12 ${styles.contentWrapper}`}>
+                      <div
+                        className={`col-md-12 mb-4 ${styles.contentWrapper}`}
+                      >
                         <h6 className={`mb-3 ${styles.title1}`}>
                           16,000 Recipes
                         </h6>

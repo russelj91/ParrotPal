@@ -90,7 +90,7 @@ export default function Home() {
                   </p>
                   <div className="mx-lg-5 px-lg-5 mt-lg-5">
                     <div className="container px-lg-5">
-                      <a href="https://apps.apple.com/app/parrotpal-calorie-tracker/id6462694790">
+                      <a href="https://parrotpal.onelink.me/Jrhd/parrotpalwebsite">
                         <button
                           className={`btn btn-light rounded-pill px-lg-5 d-none  d-lg-inline d-md-block d-block d-md-none  ${styles.button}`}
                         >
@@ -119,7 +119,7 @@ export default function Home() {
                         </button>
                       </a>
                       <div className="d-flex justify-content-center">
-                        <a href="https://apps.apple.com/app/parrotpal-calorie-tracker/id6462694790">
+                        <a href="https://parrotpal.onelink.me/Jrhd/parrotpalwebsite">
                           <button
                             className={`btn btn-dark px-lg-5 d-block d-md-none  ${styles.button}`}
                           >
